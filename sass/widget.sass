@@ -2,15 +2,32 @@
 @import "compass/reset"
 @import "solarized"
 
+$row-color-odd: #eee
+$row-color-even: #fff
+
+@-webkit-keyframes blink
+  from
+    background-color: $yellow
+  to
+    background-color: transparent
+
+@keyframes blink
+  from
+    background-color: $yellow
+  to
+    background-color: transparent
+
 html *
   // @include box-shadow(0 0 0 1px darken(white, 75%))
   color-profile: sRGB
   rendering-intent: auto
 
+@include font-face("Fira Sans OT", font-files("FiraSansOT-Regular.woff", woff, "FiraSansOT-Regular.otf", opentype,  "FiraSansOT-Regular.ttf", truetype), "FiraSansOT-Regular.eot")
+
 body
-  background: $base02
-  color: $base00
-  font-family: "Helvetica", sans-serif
+  // background: $base02
+  // color: $base00
+  font-family: "Fira Sans OT", "XinGothic-Citicpress", "XinGothic Citicpress", "Lantinghei TC", "Hiragino Kaku Gothic Pro", "Apple LiGothic", "Heiti TC", "LiHei Pro", "Microsoft YaHei", "微軟正黑體", "文泉驿正黑", sans-serif
   a
     color: $blue
     text-decoration: none
@@ -18,60 +35,107 @@ body
       background: $blue
       color: $base03
 
+
+.wrapper
+  // width: 90%
+  margin: 0 auto
+
+
 .header
+  display: none
+  padding: 30px 0
   text-align: center
   h1
-    font-size: 18pt
+    @include inline-block
+    font-size: 32pt
     font-family: "Ropa Sans", sans-serif
     color: $base02
     font-weight: bold
     background: $green
-    padding: 10px 0
+    padding: 5px 20px
     text-transform: uppercase
-    .channel
-      font: bold 16pt/1 "Droid Sans Mono", monospace
-      letter-spacing: -1px
 
 
 .footer
-  padding: 10px 0
-  color: $base02
-  background: $green
   font-family: "Ropa Sans", sans-serif
-  text-transform: uppercase
+  padding: 10px 0 35px 0
   text-align: center
-  a
-    background: $blue
-    color: $base03
-    &:hover
-      background: transparent
+  text-transform: uppercase
 
 
 .body
+  .channel, .date, .scroll_switch
+    color: $cyan
+    font: 14pt/20px "Droid Sans Mono", monospace
+    @include inline-block
+    @include border-radius(5px)
+    cursor: pointer
+
+    &:hover
+      background-color: $base03
+  .channel
+    display: none
+    font-weight: bold
+    padding: 5px 10px
+  .date, .scroll_switch
+    border-radius: 0
+    color: #08c
+    font-size: 14px
+  .date
+    // background: transparent url('images/img_dropdown_violet.svg') no-repeat 6em 60%
+    @include background-size(10%)
+    border: none
+    // height: 30px
+    // letter-spacing: -2px
+    margin: 0
+    padding: 0 0 0 5px
+    outline: none
+    @include appearance(none)
+    width: 100px
+    &::after
+      content: '\25BE'
+
+  .scroll_switch
+    @include float-right
+    clear: both
+    // padding: 5px 10px
+  .scroll_switch_off
+    // color: darken($green, 15%)
+    text-decoration: line-through
+    
   .logs
     list-style-type: none
     font-family: "Droid Sans Mono", monospace
-    margin: 15px
+    // margin: 0 10px
     li
-      margin-top: 12px
+      border-top: 1px solid #ccc
       line-height: 1.33
+      // margin-top: 12px
+      padding: 5px 10px
+
+      &.new-arrival
+        -webkit-animation: blink 500ms ease-out
+        animation: blink 500ms ease-out
+
       .time, .nick
         float: left
       .time, .nick, .msg
         display: block
+        font-size: 14px
+        line-height: 20px
       .time
-        width: 70px
+        color: #888
         vertical-align: text-top
-        font-size: 10pt
+        width: 70px
       .nick
-        color: $yellow
+        color: #ec0000
+        width: 110px
         text-align: right
-        font-size: 10pt
+        margin-left: 5px
       .msg
-        color: $base1
-        margin-left: 0
-        clear: left
-        font-size: 12pt
+        color: #333
+        font-family: "Fira Sans OT","XinGothic-Citicpress","XinGothic Citicpress", "Lantinghei TC", "Hiragino Kaku Gothic Pro", "Apple LiGothic", "Heiti TC", "LiHei Pro", "Microsoft YaHei", "微軟正黑體", "文泉驿正黑", sans-serif
+        margin-left: 200px
         .nick
           width: auto
           margin-left: 0px
@@ -79,14 +143,52 @@ body
 .wordwrap
   -ms-word-break: break-all
   word-break: break-all
+  //Non standard for webkit
   word-break: break-word
   -webkit-hyphens: auto
   -moz-hyphens: auto
   hyphens: auto
 
-.body .logs li
-  padding: 10px
-.body .logs li:nth-child(odd)
-  background: rgba(0,0,0,.33)
-.body .logs li:nth-child(even)
-  background: rgba(0,0,0,.15)
+
+// quick navigation
+.quick-nav
+  position: fixed
+  top: 45%
+  right: 3%
+  @include inline-block
+  text-align: center
+
+.nav_page-up,
+.nav_page-down
+  background-color: $base03
+  color: $base1
+  font-size: 14pt
+  padding: 5px
+  @include border-radius(5px)
+  &:hover
+    cursor: pointer
+    background-color: $base01
+    color: $base03
+
+.nav_page-down
+  margin-top: 15px
+
+
+// mobile layout
+@media only screen and (max-width : 568px)
+  .body .logs li
+    // padding: 10px
+    &:nth-child(odd)
+      background: $row-color-odd
+    &:nth-child(even)
+      background: $row-color-even
+    .nick
+      width: auto
+    .msg
+      margin-left: 0
+      clear: left
+
+  .nav_page-up,
+  .nav_page-down
+    padding: 1px
+
