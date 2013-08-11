@@ -33,7 +33,7 @@ var pollNewMsg = function(isWidget) {
         var linkedMsg = msg["msg"].replace(/(http[s]*:\/\/[^\s]+)/, '<a href="$1">$1</a>');
         var $lis = $(".logs > li");
         var msgElement = $("<li id=\"" + $lis.length + "\">").addClass("new-arrival")
-          .append($("<span class=\"time\">").text(strftime(date)))
+          .append($("<a class=\"time\" href=\"#" + $lis.length + "\" target=\"_self\" title=\"#" + $lis.length + "\">").text(strftime(date)))
           .append($("<span class=\"nick\">").text(msg["nick"]))
           .append($("<span class=\"msg wordwrap\">").html(linkedMsg));
         if (isWidget) {

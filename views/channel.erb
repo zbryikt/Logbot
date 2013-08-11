@@ -42,7 +42,7 @@
             <% @msgs.each_index do |i| %>
               <% linked_msg = @msgs[i]["msg"].gsub(/&(?!nbsp;)/, '&amp;').gsub(/<(?!\/?span)/, '&lt;').gsub(/http[s]*:\/\/[^\s]+/, '<a href="\0">\0</a>') %>
               <li id="<%= i %>">
-                <span class="time"><%= Time.at(@msgs[i]["time"].to_f).strftime("%T") %></span>
+                <a class="time" href="<%= "##{i}" %>" target="_self" title="<%= "##{i}" %>"><%= Time.at(@msgs[i]["time"].to_f).strftime("%T") %></a>
                 <span class="nick"><%= @msgs[i]["nick"] %></span>
                 <span class="msg wordwrap"><%= linked_msg %></span>
               </li>
