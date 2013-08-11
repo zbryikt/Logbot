@@ -20,7 +20,7 @@
               <% linked_msg = @msgs[i]["msg"].gsub(/&(?!nbsp;)/, '&amp;').gsub(/<(?!\/?span)/, '&lt;').gsub(/http[s]*:\/\/[^\s]+/, '<a href="\0">\0</a>') %>
               <li id="<%= i %>">
                 <span class="time"><%= Time.at(@msgs[i]["time"].to_f).strftime("%T") %></span>
-                <span class="nick"><%= msg["nick"] %></span>
+                <span class="nick"><%= @msgs[i]["nick"] %></span>
                 <span class="msg wordwrap"><%= linked_msg %></span>
               </li>
             <% end %>
