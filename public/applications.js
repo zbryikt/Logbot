@@ -74,7 +74,9 @@ setTimeout(function(){
     },
 
     error: function() {
+setTimeout(function(){
       pollNewMsg(isWidget);
+}, Math.round(Math.random() * 3000 + 3000));
     }
   });
 }
