@@ -30,10 +30,14 @@ var pollNewMsg = function(isWidget) {
 	if (seenTimestamp[msg.time]) { continue; }
 	seenTimestamp[msg.time] = true;
         var date = new Date(parseFloat(msg["time"]) * 1000);
+        /* TODO: may depend on implementation */
+        dateInArray = date.toLocaleDateString("nu", { timeZone: "UTC+8" }).split("/");
+        dateStr = dateInArray[2] + "-" + dateInArray[0] + "-" + dateInArray[1];
+        /* not a good idea */
         var linkedMsg = msg["msg"].replace(/(http[s]*:\/\/[^\s]+)/, '<a href="$1">$1</a>');
         var $lis = $(".logs > li");
         var msgElement = $("<li id=\"" + $lis.length + "\">").addClass("new-arrival")
-          .append($("<a class=\"time\" href=\"#" + $lis.length + "\" target=\"_self\" title=\"#" + $lis.length + "\">").text(strftime(date)))
+          .append($("<a class=\"time\" href=\"" + dateStr + "#" + $lis.length + "\" target=\"_self\" title=\"#" + $lis.length + "\">").text(strftime(date)))
           .append($("<span class=\"nick\">").text(msg["nick"]))
           .append($("<span class=\"msg wordwrap\">").html(linkedMsg));
         if (isWidget) {
