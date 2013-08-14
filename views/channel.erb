@@ -26,7 +26,7 @@
             <option value="<%= @date %>"><%= @date %></option>
           <% end %>
           <optgroup label="Today">
-            <option value="today" <%= "selected" if @date == Date.today.to_s %>><%= Date.today.to_s %></option>
+            <option id="today" value="today" <%= "selected" if @date == Date.today.to_s %>><%= Date.today.to_s %></option>
           </optgroup>
           <optgroup label="Earlier logs">
             <% (1.upto 4).map{|d| (Date.today - d).to_s }.each do |date| %>
