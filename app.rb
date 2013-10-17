@@ -53,6 +53,30 @@ module IRC_Log
       erb :channel
     end
 
+    get "/channel/:channel/:date/:line" do |channel, date, line|
+      case date
+        when "today"
+          @date = Time.now.strftime("%F")
+        when "yesterday"
+          @date = (Time.now - 86400).strftime("%F")
+        else
+          # date in "%Y-%m-%d" format (e.g. 2013-01-01)
+          @date = date
+      end
+
+      @channel = channel
+
+      msgs = $redis.lrange("irclog:channel:##{@channel}:#{@date}", 0, -1)
+      msg = JSON.parse(msgs[line.to_i])
+      @nick = msg["nick"]
+      @msg = msg["msg"]
+      @time = msg["time"].to_f
+
+      @url = CGI.escape(request.url)
+
+      erb :quote
+    end
+
     get "/widget/:channel" do |channel|
       @channel = channel
       today = Time.now.strftime("%Y-%m-%d")
@@ -60,6 +84,50 @@ module IRC_Log
       @msgs = @msgs.map {|msg| JSON.parse(msg) }.reverse
 
       erb :widget
+    end
+
+    get "/oembed.?:type?" do |type|
+      p params[:url]
+      match = /http:\/\/.+\/channel\/(.+)\/(.+)\/(.+)/.match(params[:url])
+
+      @channel = match[1]
+
+      date = match[2]
+      case date
+        when "today"
+          @date = Time.now.strftime("%F")
+        when "yesterday"
+          @date = (Time.now - 86400).strftime("%F")
+        else
+          # date in "%Y-%m-%d" format (e.g. 2013-01-01)
+          @date = date
+      end
+
+      line = match[3].to_i
+      msgs = $redis.lrange("irclog:channel:##{@channel}:#{@date}", 0, -1)
+      if 0 > line or line >= msgs.length
+        halt(404)
+      end
+      msg = JSON.parse(msgs[line])
+
+      @nick = msg["nick"]
+      @msg = msg["msg"]
+
+      case type
+        when "xml"
+          content_type :xml
+          erb :oembed
+        else
+          content_type :json
+          {
+            :version       => "1.0",
+            :type          => "link",
+            :title         => "Logbot | ##{@channel} | #{@nick}> #{@msg}",
+            :author_name   => @nick,
+            :providor_name => "Logbot",
+            :providor_url  => request.base_url
+          }.to_json
+        end
     end
   end
 end

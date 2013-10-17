@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Logbot | #<%= @channel %> | <%= @nick %>&gt; <%= @msg %></title>
+    <link rel="alternate" type="application/json+oembed"
+      href="/oembed.json?url=<%= @url %>"
+      title="<%= @title %>" />
+    <link rel="alternate" type="text/xml+oembed"
+      href="/oembed.xml?url=<%= @url %>"
+      title="<%= @title %>" />
+    <base target="_blank" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <blockquote>
+        <p id="msg"><%= @msg %></p>
+        <footer>
+          <span id="nick"><%= @nick %></span>
+          <span id="time"><%= Time.at(@time).strftime("%T") %></span>
+        </footer>
+      </blockquote>
+      <div class="footer">
+        <p>Powered by Logbot 2013 | <a href="https://github.com/dannvix/Logbot">GitHub Repo</a></p>
+      </div>
+    </div>
+  </body>
+</html>
