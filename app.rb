@@ -66,8 +66,13 @@ module IRC_Log
 
       @channel = channel
 
+      @line = line.to_i
+
       msgs = $redis.lrange("irclog:channel:##{@channel}:#{@date}", 0, -1)
-      msg = JSON.parse(msgs[line.to_i])
+      if 0 > @line or @line >= msgs.length
+        halt(404)
+      end
+      msg = JSON.parse(msgs[@line])
       @nick = msg["nick"]
       @msg = msg["msg"]
       @time = msg["time"].to_f
