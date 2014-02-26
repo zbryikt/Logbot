@@ -1,0 +1,3730 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Logbot | #g0v.tw</title>
+    <link rel="stylesheet" type="text/css" href="/assets/screen.css">
+    <base target="_blank" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1>Logbot</h1>
+      </div>
+      <div class="quick-nav">
+        <div class="nav_page-up" onclick="pageScrollTop(0);">⬆</div>
+        <div class="nav_page-down" onclick="pageScrollTop($(document).height());">⬇</div>
+      </div>
+      <div class="body">
+        <div class="channel">#g0v.tw</div>
+        
+        
+        <select id="date-picker" class="date">
+          
+            <option value="2014-02-19">2014-02-19</option>
+          
+          <optgroup label="Today">
+            <option id="today" value="today" >2014-02-26</option>
+          </optgroup>
+          <optgroup label="Earlier logs">
+            
+              <option value="2014-02-25" >2014-02-25</option>
+            
+              <option value="2014-02-24" >2014-02-24</option>
+            
+              <option value="2014-02-23" >2014-02-23</option>
+            
+              <option value="2014-02-22" >2014-02-22</option>
+            
+          </optgroup>
+        </select>
+
+        <div class="scroll_switch">AUTO⬇ </div>
+       
+        <div>
+          <ul class="logs">
+            
+              
+              <li id="0">
+                <a class="time" href="2014-02-19#0" target="_self" title="#0">00:00:05</a>
+                <a class="nick" href="2014-02-19/0" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">上面有助教說教才會公開，但錄影還不確定的樣子</span>
+              </li>
+            
+              
+              <li id="1">
+                <a class="time" href="2014-02-19#1" target="_self" title="#1">00:00:56</a>
+                <a class="nick" href="2014-02-19/1" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">剛剛有跟 ipa 還有 dirty__ 討論了一下</span>
+              </li>
+            
+              
+              <li id="2">
+                <a class="time" href="2014-02-19#2" target="_self" title="#2">00:01:54</a>
+                <a class="nick" href="2014-02-19/2" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">目前覺得比較可行的方式是台大場另外自己辦, 然後看之前發起過專案的人有沒有意願在現場稍微引導一下學生</span>
+              </li>
+            
+              
+              <li id="3">
+                <a class="time" href="2014-02-19#3" target="_self" title="#3">00:02:06</a>
+                <a class="nick" href="2014-02-19/3" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">johnny__: 目前看來是有 sort desc, 只是臨時會打亂了.... 所以如果無法用 date 的話, 可以 sort by ad, session, extra, sitting</span>
+              </li>
+            
+              
+              <li id="4">
+                <a class="time" href="2014-02-19#4" target="_self" title="#4">00:04:42</a>
+                <a class="nick" href="2014-02-19/4" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">nypgand1 離線惹……還是要幫他離線 ++ XD # CfA字幕翻譯</span>
+              </li>
+            
+              
+              <li id="5">
+                <a class="time" href="2014-02-19#5" target="_self" title="#5">00:08:02</a>
+                <a class="nick" href="2014-02-19/5" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">tkirby: 台大自己辦的意思是，不開放非學生報名？</span>
+              </li>
+            
+              
+              <li id="6">
+                <a class="time" href="2014-02-19#6" target="_self" title="#6">00:08:32</a>
+                <a class="nick" href="2014-02-19/6" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">只好來個環台鍵盤革命 tutorial 了   lol</span>
+              </li>
+            
+              
+              <li id="7">
+                <a class="time" href="2014-02-19#7" target="_self" title="#7">00:08:49</a>
+                <a class="nick" href="2014-02-19/7" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">ipa: 不是, 是在台大辦一場 g0v 黑客松, 類似我們辦新竹場, 台南場那樣</span>
+              </li>
+            
+              
+              <li id="8">
+                <a class="time" href="2014-02-19#8" target="_self" title="#8">00:09:45</a>
+                <a class="nick" href="2014-02-19/8" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">喔 對啊 大松舉辦人沒有想要辦台大場的意思 XD</span>
+              </li>
+            
+              
+              <li id="9">
+                <a class="time" href="2014-02-19#9" target="_self" title="#9">00:10:18</a>
+                <a class="nick" href="2014-02-19/9" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">tkalu_: 哭哭, kktix 不能 iframe embed 惹... 只能 embed ticket_widget... 看不到報名盛況</span>
+              </li>
+            
+              
+              <li id="10">
+                <a class="time" href="2014-02-19#10" target="_self" title="#10">00:10:35</a>
+                <a class="nick" href="2014-02-19/10" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ronnywan1:  用民主玩 pokemon 感覺要幾百年才能移動一步… = ="</span>
+              </li>
+            
+              
+              <li id="11">
+                <a class="time" href="2014-02-19#11" target="_self" title="#11">00:10:52</a>
+                <a class="nick" href="2014-02-19/11" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">ipa: xD</span>
+              </li>
+            
+              
+              <li id="12">
+                <a class="time" href="2014-02-19#12" target="_self" title="#12">00:10:53</a>
+                <a class="nick" href="2014-02-19/12" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">tkirby: 就保障學生名額之外再開放報名吧？</span>
+              </li>
+            
+              
+              <li id="13">
+                <a class="time" href="2014-02-19#13" target="_self" title="#13">00:11:27</a>
+                <a class="nick" href="2014-02-19/13" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">ipa: yeah, 不然光是學生好像就沒意思了</span>
+              </li>
+            
+              
+              <li id="14">
+                <a class="time" href="2014-02-19#14" target="_self" title="#14">00:12:07</a>
+                <a class="nick" href="2014-02-19/14" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">資工的學生感覺跟一般的新手又不太一樣，如果是任意科系的學生全部塞到零時通關那一系列的專案就好惹</span>
+              </li>
+            
+              
+              <li id="15">
+                <a class="time" href="2014-02-19#15" target="_self" title="#15">00:12:19</a>
+                <a class="nick" href="2014-02-19/15" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">但資工的學生的話好像就得分配一些比較技術的東西</span>
+              </li>
+            
+              
+              <li id="16">
+                <a class="time" href="2014-02-19#16" target="_self" title="#16">00:15:42</a>
+                <a class="nick" href="2014-02-19/16" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">資工系就去 斧頭幫大挑戰練一下 crawler 之後parse政府資料  XDDD</span>
+              </li>
+            
+              
+              <li id="17">
+                <a class="time" href="2014-02-19#17" target="_self" title="#17">00:16:57</a>
+                <a class="nick" href="2014-02-19/17" target="_self" title="quote">ronnywan1</a>
+                <span class="msg wordwrap">ETBlue: 他有民主模式和無政府模式..XD 現在走迷宮大家選擇民主，戰鬥時就會選擇無政府</span>
+              </li>
+            
+              
+              <li id="18">
+                <a class="time" href="2014-02-19#18" target="_self" title="#18">00:17:23</a>
+                <a class="nick" href="2014-02-19/18" target="_self" title="quote">MouthBrother</a>
+                <span class="msg wordwrap">只會用C#做parse 該來練練python了</span>
+              </li>
+            
+              
+              <li id="19">
+                <a class="time" href="2014-02-19#19" target="_self" title="#19">00:18:24</a>
+                <a class="nick" href="2014-02-19/19" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">Lee1092: 對耶斧頭幫就是技術類的新手村</span>
+              </li>
+            
+              
+              <li id="20">
+                <a class="time" href="2014-02-19#20" target="_self" title="#20">00:20:23</a>
+                <a class="nick" href="2014-02-19/20" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">不過那門課有一半學生非資工領域</span>
+              </li>
+            
+              
+              <li id="21">
+                <a class="time" href="2014-02-19#21" target="_self" title="#21">00:20:32</a>
+                <a class="nick" href="2014-02-19/21" target="_self" title="quote">ronnywan1</a>
+                <span class="msg wordwrap">來一晚出一關斧頭幫好了 XD</span>
+              </li>
+            
+              
+              <li id="22">
+                <a class="time" href="2014-02-19#22" target="_self" title="#22">00:20:48</a>
+                <a class="nick" href="2014-02-19/22" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">tkirby: 有商學院的？</span>
+              </li>
+            
+              
+              <li id="23">
+                <a class="time" href="2014-02-19#23" target="_self" title="#23">00:21:14</a>
+                <a class="nick" href="2014-02-19/23" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">MouthBrother: c# 語言本身其實也蠻好用的我覺得, 如果有類似 cheerio 的 library 的話應該也不賴</span>
+              </li>
+            
+              
+              <li id="24">
+                <a class="time" href="2014-02-19#24" target="_self" title="#24">00:21:29</a>
+                <a class="nick" href="2014-02-19/24" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">通通先學 mockup tool? :p</span>
+              </li>
+            
+              
+              <li id="25">
+                <a class="time" href="2014-02-19#25" target="_self" title="#25">00:21:43</a>
+                <a class="nick" href="2014-02-19/25" target="_self" title="quote">ronnywan1</a>
+                <span class="msg wordwrap">第三關用擋 referer 好還是需要 session 的好</span>
+              </li>
+            
+              
+              <li id="26">
+                <a class="time" href="2014-02-19#26" target="_self" title="#26">00:21:49</a>
+                <a class="nick" href="2014-02-19/26" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">ipa: 細節我其實不是很清楚, 據說是學程的課</span>
+              </li>
+            
+              
+              <li id="27">
+                <a class="time" href="2014-02-19#27" target="_self" title="#27">00:22:03</a>
+                <a class="nick" href="2014-02-19/27" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ronnywan1: 霸氣外露！ XD # 一晚一關</span>
+              </li>
+            
+              
+              <li id="28">
+                <a class="time" href="2014-02-19#28" target="_self" title="#28">00:22:06</a>
+                <a class="nick" href="2014-02-19/28" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">ronnywan1: session +1</span>
+              </li>
+            
+              
+              <li id="29">
+                <a class="time" href="2014-02-19#29" target="_self" title="#29">00:22:36</a>
+                <a class="nick" href="2014-02-19/29" target="_self" title="quote">johnny__</a>
+                <span class="msg wordwrap">clkao: npm run dev後出現err    gulp --require LiveScript dev    除了README 我還有另外npm install -g gulp了</span>
+              </li>
+            
+              
+              <li id="30">
+                <a class="time" href="2014-02-19#30" target="_self" title="#30">00:22:53</a>
+                <a class="nick" href="2014-02-19/30" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">其實我也好想上 XD # 暴動惹</span>
+              </li>
+            
+              
+              <li id="31">
+                <a class="time" href="2014-02-19#31" target="_self" title="#31">00:22:56</a>
+                <a class="nick" href="2014-02-19/31" target="_self" title="quote">isacloud</a>
+                <span class="msg wordwrap">tkirby: 有空可互相交流一下, 最近在弄政大的課程，也是讓學生參與 g0v。</span>
+              </li>
+            
+              
+              <li id="32">
+                <a class="time" href="2014-02-19#32" target="_self" title="#32">00:23:09</a>
+                <a class="nick" href="2014-02-19/32" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">johnny__: nopaste 一下整段 error?</span>
+              </li>
+            
+              
+              <li id="33">
+                <a class="time" href="2014-02-19#33" target="_self" title="#33">00:23:27</a>
+                <a class="nick" href="2014-02-19/33" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">isacloud++</span>
+              </li>
+            
+              
+              <li id="34">
+                <a class="time" href="2014-02-19#34" target="_self" title="#34">00:23:28</a>
+                <a class="nick" href="2014-02-19/34" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">3du 高教司!!</span>
+              </li>
+            
+              
+              <li id="35">
+                <a class="time" href="2014-02-19#35" target="_self" title="#35">00:24:10</a>
+                <a class="nick" href="2014-02-19/35" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">isacloud: 噢喔噢</span>
+              </li>
+            
+              
+              <li id="36">
+                <a class="time" href="2014-02-19#36" target="_self" title="#36">00:24:13</a>
+                <a class="nick" href="2014-02-19/36" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">isacloud: g0v 人力資源部政大大使！</span>
+              </li>
+            
+              
+              <li id="37">
+                <a class="time" href="2014-02-19#37" target="_self" title="#37">00:24:19</a>
+                <a class="nick" href="2014-02-19/37" target="_self" title="quote">caasih</a>
+                <span class="msg wordwrap">johnny__: bower install ?</span>
+              </li>
+            
+              
+              <li id="38">
+                <a class="time" href="2014-02-19#38" target="_self" title="#38">00:24:35</a>
+                <a class="nick" href="2014-02-19/38" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">不曉得有沒有其他大學也有</span>
+              </li>
+            
+              
+              <li id="39">
+                <a class="time" href="2014-02-19#39" target="_self" title="#39">00:24:36</a>
+                <a class="nick" href="2014-02-19/39" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">isacloud ++</span>
+              </li>
+            
+              
+              <li id="40">
+                <a class="time" href="2014-02-19#40" target="_self" title="#40">00:24:39</a>
+                <a class="nick" href="2014-02-19/40" target="_self" title="quote">johnny__</a>
+                <span class="msg wordwrap"><a href="https://www.irccloud.com/pastebin/frm3aRyd">https://www.irccloud.com/pastebin/frm3aRyd</a></span>
+              </li>
+            
+              
+              <li id="41">
+                <a class="time" href="2014-02-19#41" target="_self" title="#41">00:24:41</a>
+                <a class="nick" href="2014-02-19/41" target="_self" title="quote">isacloud</a>
+                <span class="msg wordwrap">但這邊的大多無 web 經驗，大部分是 C++ 背景。關於怎麼妥善把他們推坑，還需多討論。</span>
+              </li>
+            
+              
+              <li id="42">
+                <a class="time" href="2014-02-19#42" target="_self" title="#42">00:24:43</a>
+                <a class="nick" href="2014-02-19/42" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">johnny__'s url: [Pastebin: frm3aRyd | IRCCloud]</span>
+              </li>
+            
+              
+              <li id="43">
+                <a class="time" href="2014-02-19#43" target="_self" title="#43">00:24:48</a>
+                <a class="nick" href="2014-02-19/43" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">正常來說 run dev 應該會做完全部該做的事情 包括 bower... 不過可能 gulp branch 才比較完整</span>
+              </li>
+            
+              
+              <li id="44">
+                <a class="time" href="2014-02-19#44" target="_self" title="#44">00:24:49</a>
+                <a class="nick" href="2014-02-19/44" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">ballII: 師大 (敲碗)</span>
+              </li>
+            
+              
+              <li id="45">
+                <a class="time" href="2014-02-19#45" target="_self" title="#45">00:25:17</a>
+                <a class="nick" href="2014-02-19/45" target="_self" title="quote">isacloud</a>
+                <span class="msg wordwrap">tkirby: 請問你2/22會到嗎?</span>
+              </li>
+            
+              
+              <li id="46">
+                <a class="time" href="2014-02-19#46" target="_self" title="#46">00:25:35</a>
+                <a class="nick" href="2014-02-19/46" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">這樣下去有人會說「都是國立大學階級」 ._.</span>
+              </li>
+            
+              
+              <li id="47">
+                <a class="time" href="2014-02-19#47" target="_self" title="#47">00:25:38</a>
+                <a class="nick" href="2014-02-19/47" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">johnny__: 看來是 bower 爛掉沒錯... 如 caasih 說的手動 bower i 看看 他可能會問你問題</span>
+              </li>
+            
+              
+              <li id="48">
+                <a class="time" href="2014-02-19#48" target="_self" title="#48">00:25:39</a>
+                <a class="nick" href="2014-02-19/48" target="_self" title="quote">isacloud</a>
+                <span class="msg wordwrap">ipa: XD</span>
+              </li>
+            
+              
+              <li id="49">
+                <a class="time" href="2014-02-19#49" target="_self" title="#49">00:25:40</a>
+                <a class="nick" href="2014-02-19/49" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">isacloud: 會~</span>
+              </li>
+            
+              
+              <li id="50">
+                <a class="time" href="2014-02-19#50" target="_self" title="#50">00:25:42</a>
+                <a class="nick" href="2014-02-19/50" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">ipa: exactly</span>
+              </li>
+            
+              
+              <li id="51">
+                <a class="time" href="2014-02-19#51" target="_self" title="#51">00:26:18</a>
+                <a class="nick" href="2014-02-19/51" target="_self" title="quote">isacloud</a>
+                <span class="msg wordwrap">tkirby: cool, I will find you XD</span>
+              </li>
+            
+              
+              <li id="52">
+                <a class="time" href="2014-02-19#52" target="_self" title="#52">00:27:03</a>
+                <a class="nick" href="2014-02-19/52" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">辦私立大學就會說「都是大學階級」 XD</span>
+              </li>
+            
+              
+              <li id="53">
+                <a class="time" href="2014-02-19#53" target="_self" title="#53">00:27:20</a>
+                <a class="nick" href="2014-02-19/53" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">isacloud: 好 XD</span>
+              </li>
+            
+              
+              <li id="54">
+                <a class="time" href="2014-02-19#54" target="_self" title="#54">00:27:46</a>
+                <a class="nick" href="2014-02-19/54" target="_self" title="quote">isacloud</a>
+                <span class="msg wordwrap">兩個課程領域剛好不同，或許有機會跨 team 合作!</span>
+              </li>
+            
+              
+              <li id="55">
+                <a class="time" href="2014-02-19#55" target="_self" title="#55">00:28:49</a>
+                <a class="nick" href="2014-02-19/55" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">evenwu_: 請問這個字體是.... <a href="http://www.seinsights.asia/annual_event/index.html#">http://www.seinsights.asia/annual_event/index.html#</a></span>
+              </li>
+            
+              
+              <li id="56">
+                <a class="time" href="2014-02-19#56" target="_self" title="#56">00:28:51</a>
+                <a class="nick" href="2014-02-19/56" target="_self" title="quote">isacloud</a>
+                <span class="msg wordwrap">我沒做什麼啦，還得麻煩 clkao 3/10 去政大介紹 g0v</span>
+              </li>
+            
+              
+              <li id="57">
+                <a class="time" href="2014-02-19#57" target="_self" title="#57">00:28:52</a>
+                <a class="nick" href="2014-02-19/57" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">clkao's url: [社企流二週年論壇：夢想自造家 Everyone is a change maker.]</span>
+              </li>
+            
+              
+              <li id="58">
+                <a class="time" href="2014-02-19#58" target="_self" title="#58">00:30:06</a>
+                <a class="nick" href="2014-02-19/58" target="_self" title="quote">johnny__</a>
+                <span class="msg wordwrap">clkao: OK了  要補README嗎  還是這暫時性的</span>
+              </li>
+            
+              
+              <li id="59">
+                <a class="time" href="2014-02-19#59" target="_self" title="#59">00:30:13</a>
+                <a class="nick" href="2014-02-19/59" target="_self" title="quote">caasih</a>
+                <span class="msg wordwrap">clkao johnny__: 我也 git clean 了一下，結果遇到這個</span>
+              </li>
+            
+              
+              <li id="60">
+                <a class="time" href="2014-02-19#60" target="_self" title="#60">00:30:18</a>
+                <a class="nick" href="2014-02-19/60" target="_self" title="quote">caasih</a>
+                <span class="msg wordwrap">bower ECMDERR       Failed to execute "git clone git://github.com/angular/bower-angular.git -b v1.2.14-build.2275+sha.4f937bd --progress . --depth 1", exit code of #1</span>
+              </li>
+            
+              
+              <li id="61">
+                <a class="time" href="2014-02-19#61" target="_self" title="#61">00:31:01</a>
+                <a class="nick" href="2014-02-19/61" target="_self" title="quote">caasih</a>
+                <span class="msg wordwrap">記得之前 bower 會問要選哪個 angular 。</span>
+              </li>
+            
+              
+              <li id="62">
+                <a class="time" href="2014-02-19#62" target="_self" title="#62">00:31:01</a>
+                <a class="nick" href="2014-02-19/62" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">johnny__: 應該是暫時性的.... 也許註明一下如果出現關於 bower 錯誤，可以先 git clean -xdf ; 重新 npm i</span>
+              </li>
+            
+              
+              <li id="63">
+                <a class="time" href="2014-02-19#63" target="_self" title="#63">00:32:27</a>
+                <a class="nick" href="2014-02-19/63" target="_self" title="quote">johnny__</a>
+                <span class="msg wordwrap">clkao: 我重頭試一次看看</span>
+              </li>
+            
+              
+              <li id="64">
+                <a class="time" href="2014-02-19#64" target="_self" title="#64">00:37:05</a>
+                <a class="nick" href="2014-02-19/64" target="_self" title="quote">isacloud</a>
+                <span class="msg wordwrap">台大場課程介紹網頁太犯規+1 怎麼可以這麼漂亮。XD</span>
+              </li>
+            
+              
+              <li id="65">
+                <a class="time" href="2014-02-19#65" target="_self" title="#65">00:38:22</a>
+                <a class="nick" href="2014-02-19/65" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">額，在 waffle.io 上開 issue 只能寫 issue 標題，不能寫 issue 敘述 >_&lt;</span>
+              </li>
+            
+              
+              <li id="66">
+                <a class="time" href="2014-02-19#66" target="_self" title="#66">00:41:22</a>
+                <a class="nick" href="2014-02-19/66" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">ipa  或許是打字誤會，  我想應該是有人看成  g0v只限跟台大合作開辦課程 XDD</span>
+              </li>
+            
+              
+              <li id="67">
+                <a class="time" href="2014-02-19#67" target="_self" title="#67">00:42:45</a>
+                <a class="nick" href="2014-02-19/67" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">XD</span>
+              </li>
+            
+              
+              <li id="68">
+                <a class="time" href="2014-02-19#68" target="_self" title="#68">00:43:39</a>
+                <a class="nick" href="2014-02-19/68" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">fb連結現在竟然又不能改文字了</span>
+              </li>
+            
+              
+              <li id="69">
+                <a class="time" href="2014-02-19#69" target="_self" title="#69">00:43:47</a>
+                <a class="nick" href="2014-02-19/69" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">發文不附圖，此風又不可長了</span>
+              </li>
+            
+              
+              <li id="70">
+                <a class="time" href="2014-02-19#70" target="_self" title="#70">00:46:44</a>
+                <a class="nick" href="2014-02-19/70" target="_self" title="quote">johnny__</a>
+                <span class="msg wordwrap">clkao: caasih: 剛試了一下 還是要bower i 才能npm run dev</span>
+              </li>
+            
+              
+              <li id="71">
+                <a class="time" href="2014-02-19#71" target="_self" title="#71">00:51:07</a>
+                <a class="nick" href="2014-02-19/71" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">johnny__: got it. 這個應該在 gulp branch 修掉了</span>
+              </li>
+            
+              
+              <li id="72">
+                <a class="time" href="2014-02-19#72" target="_self" title="#72">00:56:43</a>
+                <a class="nick" href="2014-02-19/72" target="_self" title="quote">hccloud_</a>
+                <span class="msg wordwrap">應該跟紙風車一樣，夠多人贊助交通，食宿。g0v 大使團就去開一天課</span>
+              </li>
+            
+              
+              <li id="73">
+                <a class="time" href="2014-02-19#73" target="_self" title="#73">00:57:08</a>
+                <a class="nick" href="2014-02-19/73" target="_self" title="quote">ronnywan1</a>
+                <span class="msg wordwrap"><a href="http://axe.g0v.tw/level/3">http://axe.g0v.tw/level/3</a></span>
+              </li>
+            
+              
+              <li id="74">
+                <a class="time" href="2014-02-19#74" target="_self" title="#74">00:57:11</a>
+                <a class="nick" href="2014-02-19/74" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">ronnywan1's url: [第3關:用到 session 的網站 : g0v斧頭幫大挑戰]</span>
+              </li>
+            
+              
+              <li id="75">
+                <a class="time" href="2014-02-19#75" target="_self" title="#75">00:57:11</a>
+                <a class="nick" href="2014-02-19/75" target="_self" title="quote">ronnywan1</a>
+                <span class="msg wordwrap">第三關完成</span>
+              </li>
+            
+              
+              <li id="76">
+                <a class="time" href="2014-02-19#76" target="_self" title="#76">00:57:54</a>
+                <a class="nick" href="2014-02-19/76" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">...... 未免也太快速</span>
+              </li>
+            
+              
+              <li id="77">
+                <a class="time" href="2014-02-19#77" target="_self" title="#77">00:58:18</a>
+                <a class="nick" href="2014-02-19/77" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">poga: 你讓我第一次按下別人送的 PR merge 綠色按鈕</span>
+              </li>
+            
+              
+              <li id="78">
+                <a class="time" href="2014-02-19#78" target="_self" title="#78">00:58:41</a>
+                <a class="nick" href="2014-02-19/78" target="_self" title="quote">poga</a>
+                <span class="msg wordwrap">ipa: XDDDD ipa++</span>
+              </li>
+            
+              
+              <li id="79">
+                <a class="time" href="2014-02-19#79" target="_self" title="#79">00:58:45</a>
+                <a class="nick" href="2014-02-19/79" target="_self" title="quote">ronnywan1</a>
+                <span class="msg wordwrap">只是把第二關改一改，資料換一下.. 上次用新竹市里長這次用台南市 XD</span>
+              </li>
+            
+              
+              <li id="80">
+                <a class="time" href="2014-02-19#80" target="_self" title="#80">00:59:01</a>
+                <a class="nick" href="2014-02-19/80" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">進入斧頭幫頁面是不是要來個 star wars effect.... '很久很久以前，還沒有 open data 的時候，人類需要寫 parser.... 你即將學習這個古老的技能.... may the source be with you'</span>
+              </li>
+            
+              
+              <li id="81">
+                <a class="time" href="2014-02-19#81" target="_self" title="#81">00:59:05</a>
+                <a class="nick" href="2014-02-19/81" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">ipa  我剛也有衝動想要按..  又怕怕的..  0.0</span>
+              </li>
+            
+              
+              <li id="82">
+                <a class="time" href="2014-02-19#82" target="_self" title="#82">00:59:28</a>
+                <a class="nick" href="2014-02-19/82" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">Lee1092: 我也有點抖 0.0</span>
+              </li>
+            
+              
+              <li id="83">
+                <a class="time" href="2014-02-19#83" target="_self" title="#83">01:00:08</a>
+                <a class="nick" href="2014-02-19/83" target="_self" title="quote">poga</a>
+                <span class="msg wordwrap">按起來超爽的</span>
+              </li>
+            
+              
+              <li id="84">
+                <a class="time" href="2014-02-19#84" target="_self" title="#84">01:00:40</a>
+                <a class="nick" href="2014-02-19/84" target="_self" title="quote">ronnywan1</a>
+                <span class="msg wordwrap">第四關來放個 Big5 網頁，正確答案要用 UTF-8 的好了 XD</span>
+              </li>
+            
+              
+              <li id="85">
+                <a class="time" href="2014-02-19#85" target="_self" title="#85">01:01:35</a>
+                <a class="nick" href="2014-02-19/85" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">斧神來也麻將關卡 XD</span>
+              </li>
+            
+              
+              <li id="86">
+                <a class="time" href="2014-02-19#86" target="_self" title="#86">01:01:43</a>
+                <a class="nick" href="2014-02-19/86" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">XD XD XD</span>
+              </li>
+            
+              
+              <li id="87">
+                <a class="time" href="2014-02-19#87" target="_self" title="#87">01:03:35</a>
+                <a class="nick" href="2014-02-19/87" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">in2表示。。。</span>
+              </li>
+            
+              
+              <li id="88">
+                <a class="time" href="2014-02-19#88" target="_self" title="#88">01:08:11</a>
+                <a class="nick" href="2014-02-19/88" target="_self" title="quote">ETBlue_</a>
+                <span class="msg wordwrap">斧神來也 XDDDD</span>
+              </li>
+            
+              
+              <li id="89">
+                <a class="time" href="2014-02-19#89" target="_self" title="#89">01:11:40</a>
+                <a class="nick" href="2014-02-19/89" target="_self" title="quote">ronnywan1</a>
+                <span class="msg wordwrap">第一關已經有四種程式語言解了 XD</span>
+              </li>
+            
+              
+              <li id="90">
+                <a class="time" href="2014-02-19#90" target="_self" title="#90">01:12:45</a>
+                <a class="nick" href="2014-02-19/90" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap"><a href="http://embed.plnkr.co/y7FLEZp6uR448MOqetv6/">http://embed.plnkr.co/y7FLEZp6uR448MOqetv6/</a></span>
+              </li>
+            
+              
+              <li id="91">
+                <a class="time" href="2014-02-19#91" target="_self" title="#91">01:12:49</a>
+                <a class="nick" href="2014-02-19/91" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">clkao's url: [Plunker - Untitled]</span>
+              </li>
+            
+              
+              <li id="92">
+                <a class="time" href="2014-02-19#92" target="_self" title="#92">01:13:17</a>
+                <a class="nick" href="2014-02-19/92" target="_self" title="quote">ronnywan1</a>
+                <span class="msg wordwrap">clkao++  XDDDDDDD</span>
+              </li>
+            
+              
+              <li id="93">
+                <a class="time" href="2014-02-19#93" target="_self" title="#93">01:13:21</a>
+                <a class="nick" href="2014-02-19/93" target="_self" title="quote">poga</a>
+                <span class="msg wordwrap">XDDDDDDD clkao++</span>
+              </li>
+            
+              
+              <li id="94">
+                <a class="time" href="2014-02-19#94" target="_self" title="#94">01:13:35</a>
+                <a class="nick" href="2014-02-19/94" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">clkao++</span>
+              </li>
+            
+              
+              <li id="95">
+                <a class="time" href="2014-02-19#95" target="_self" title="#95">01:14:14</a>
+                <a class="nick" href="2014-02-19/95" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">把郎ㄟ專案，係一瞑過 n 關，阮ㄟ專案卡～袂完～</span>
+              </li>
+            
+              
+              <li id="96">
+                <a class="time" href="2014-02-19#96" target="_self" title="#96">01:14:34</a>
+                <a class="nick" href="2014-02-19/96" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">……竟然還有片頭動畫 orz</span>
+              </li>
+            
+              
+              <li id="97">
+                <a class="time" href="2014-02-19#97" target="_self" title="#97">01:14:37</a>
+                <a class="nick" href="2014-02-19/97" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">那個 a link 好像點不到 XD</span>
+              </li>
+            
+              
+              <li id="98">
+                <a class="time" href="2014-02-19#98" target="_self" title="#98">01:14:40</a>
+                <a class="nick" href="2014-02-19/98" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">XDDD</span>
+              </li>
+            
+              
+              <li id="99">
+                <a class="time" href="2014-02-19#99" target="_self" title="#99">01:14:45</a>
+                <a class="nick" href="2014-02-19/99" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">對壓點不到</span>
+              </li>
+            
+              
+              <li id="100">
+                <a class="time" href="2014-02-19#100" target="_self" title="#100">01:19:52</a>
+                <a class="nick" href="2014-02-19/100" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">a-tiosh 梗太難了XD</span>
+              </li>
+            
+              
+              <li id="101">
+                <a class="time" href="2014-02-19#101" target="_self" title="#101">01:20:39</a>
+                <a class="nick" href="2014-02-19/101" target="_self" title="quote">johnny__</a>
+                <span class="msg wordwrap">斧神來也 哈哈哈笑死我了</span>
+              </li>
+            
+              
+              <li id="102">
+                <a class="time" href="2014-02-19#102" target="_self" title="#102">01:21:39</a>
+                <a class="nick" href="2014-02-19/102" target="_self" title="quote">isacloud</a>
+                <span class="msg wordwrap">clkao++ lol</span>
+              </li>
+            
+              
+              <li id="103">
+                <a class="time" href="2014-02-19#103" target="_self" title="#103">01:23:47</a>
+                <a class="nick" href="2014-02-19/103" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">clkao: <a href="http://embed.plnkr.co/Mwz6WEk1tRBx4zknUc5a/preview">http://embed.plnkr.co/Mwz6WEk1tRBx4zknUc5a/preview</a></span>
+              </li>
+            
+              
+              <li id="104">
+                <a class="time" href="2014-02-19#104" target="_self" title="#104">01:23:51</a>
+                <a class="nick" href="2014-02-19/104" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">au's url: [Plunker - axe.g0v.tw intro]</span>
+              </li>
+            
+              
+              <li id="105">
+                <a class="time" href="2014-02-19#105" target="_self" title="#105">01:24:55</a>
+                <a class="nick" href="2014-02-19/105" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">au++ # merged</span>
+              </li>
+            
+              
+              <li id="106">
+                <a class="time" href="2014-02-19#106" target="_self" title="#106">01:27:14</a>
+                <a class="nick" href="2014-02-19/106" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">clkao: updat agained, s/釜/斧/ and l10n</span>
+              </li>
+            
+              
+              <li id="107">
+                <a class="time" href="2014-02-19#107" target="_self" title="#107">01:27:44</a>
+                <a class="nick" href="2014-02-19/107" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">this is neverending</span>
+              </li>
+            
+              
+              <li id="108">
+                <a class="time" href="2014-02-19#108" target="_self" title="#108">01:30:03</a>
+                <a class="nick" href="2014-02-19/108" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">turned into public plnkr as <a href="http://embed.plnkr.co/yUN44b">http://embed.plnkr.co/yUN44b</a> # and I'm done with it XD</span>
+              </li>
+            
+              
+              <li id="109">
+                <a class="time" href="2014-02-19#109" target="_self" title="#109">01:31:01</a>
+                <a class="nick" href="2014-02-19/109" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">au:++</span>
+              </li>
+            
+              
+              <li id="110">
+                <a class="time" href="2014-02-19#110" target="_self" title="#110">01:31:20</a>
+                <a class="nick" href="2014-02-19/110" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ipa: tkirby: 你們覺得呢 <a href="https://github.com/g0v/don-press/issues?labels=question&amp;milestone=1&amp;page=1&amp;state=open">https://github.com/g0v/don-press/issues?labels=question&amp;milestone=1&amp;page=1&amp;state=open</a></span>
+              </li>
+            
+              
+              <li id="111">
+                <a class="time" href="2014-02-19#111" target="_self" title="#111">01:31:23</a>
+                <a class="nick" href="2014-02-19/111" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">ETBlue's url: [Issues · g0v/don-press · GitHub]</span>
+              </li>
+            
+              
+              <li id="112">
+                <a class="time" href="2014-02-19#112" target="_self" title="#112">01:32:00</a>
+                <a class="nick" href="2014-02-19/112" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">哭哭，waffle.io 的 issue 清單不會自動更新啊 QAQ</span>
+              </li>
+            
+              
+              <li id="113">
+                <a class="time" href="2014-02-19#113" target="_self" title="#113">01:33:09</a>
+                <a class="nick" href="2014-02-19/113" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">片頭動畫竟然還做中英對照 XDDD</span>
+              </li>
+            
+              
+              <li id="114">
+                <a class="time" href="2014-02-19#114" target="_self" title="#114">01:35:08</a>
+                <a class="nick" href="2014-02-19/114" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">tkirby: we can use remove-watcher and create-watcher</span>
+              </li>
+            
+              
+              <li id="115">
+                <a class="time" href="2014-02-19#115" target="_self" title="#115">01:35:30</a>
+                <a class="nick" href="2014-02-19/115" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">clkao: ohoh</span>
+              </li>
+            
+              
+              <li id="116">
+                <a class="time" href="2014-02-19#116" target="_self" title="#116">01:37:35</a>
+                <a class="nick" href="2014-02-19/116" target="_self" title="quote">ballII</a>
+                <span class="msg wordwrap">tkirby: （突然被叫害我有點狀況外XD）是指讓大學課程跟g0v合作嗎？像台大CCSP那樣？</span>
+              </li>
+            
+              
+              <li id="117">
+                <a class="time" href="2014-02-19#117" target="_self" title="#117">01:39:17</a>
+                <a class="nick" href="2014-02-19/117" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">ballII: yeah.. 其實是半開玩笑的啦, 不用太認真 XD</span>
+              </li>
+            
+              
+              <li id="118">
+                <a class="time" href="2014-02-19#118" target="_self" title="#118">01:41:02</a>
+                <a class="nick" href="2014-02-19/118" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">師大語言中心萌典松? XD</span>
+              </li>
+            
+              
+              <li id="119">
+                <a class="time" href="2014-02-19#119" target="_self" title="#119">01:41:11</a>
+                <a class="nick" href="2014-02-19/119" target="_self" title="quote">ballII</a>
+                <span class="msg wordwrap">tkirby: 不用太認真嗎？那我就不在大型會議上提出囉XD～（因為提出需要相當大的膽量⋯⋯尤其我是名不見經傳的小咖⋯⋯）</span>
+              </li>
+            
+              
+              <li id="120">
+                <a class="time" href="2014-02-19#120" target="_self" title="#120">01:41:42</a>
+                <a class="nick" href="2014-02-19/120" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">au: 原來下次萌典松的地點決定了，roger!</span>
+              </li>
+            
+              
+              <li id="121">
+                <a class="time" href="2014-02-19#121" target="_self" title="#121">01:42:44</a>
+                <a class="nick" href="2014-02-19/121" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">ballII: 這樣說的話...  其實要認真也可以啦 XDD 只是你想清楚這個坑怎麼填先, 我只是負責挖.... XDDDDDDD</span>
+              </li>
+            
+              
+              <li id="122">
+                <a class="time" href="2014-02-19#122" target="_self" title="#122">01:42:50</a>
+                <a class="nick" href="2014-02-19/122" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">ETBlue: 那可能是下下次? 三月場說好是 bookshow 的... #雖然 GACC 也很願意借場地</span>
+              </li>
+            
+              
+              <li id="123">
+                <a class="time" href="2014-02-19#123" target="_self" title="#123">01:43:59</a>
+                <a class="nick" href="2014-02-19/123" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">au: ballII: 不管哪一場，決定好通知我 lol</span>
+              </li>
+            
+              
+              <li id="124">
+                <a class="time" href="2014-02-19#124" target="_self" title="#124">01:44:18</a>
+                <a class="nick" href="2014-02-19/124" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">ok</span>
+              </li>
+            
+              
+              <li id="125">
+                <a class="time" href="2014-02-19#125" target="_self" title="#125">01:44:34</a>
+                <a class="nick" href="2014-02-19/125" target="_self" title="quote">ballII</a>
+                <span class="msg wordwrap">au: 萌典很需要語言中心的人才嗎？我以為各專案最缺的是資訊人才，尤其這好像也是目前課程合作最容易的形式（招睞大量資訊人這樣）。</span>
+              </li>
+            
+              
+              <li id="126">
+                <a class="time" href="2014-02-19#126" target="_self" title="#126">01:45:21</a>
+                <a class="nick" href="2014-02-19/126" target="_self" title="quote">ballII</a>
+                <span class="msg wordwrap">（我先睡覺，起床後追log）</span>
+              </li>
+            
+              
+              <li id="127">
+                <a class="time" href="2014-02-19#127" target="_self" title="#127">01:45:23</a>
+                <a class="nick" href="2014-02-19/127" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">透過招募師大資教系人才成功奠定 g0v 教育部根基 (?)</span>
+              </li>
+            
+              
+              <li id="128">
+                <a class="time" href="2014-02-19#128" target="_self" title="#128">01:46:34</a>
+                <a class="nick" href="2014-02-19/128" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">ballII: 萌典松只是名目，各個專案都歡迎參加啊。會想到語言教育中心是，因為感覺上有許多教材編製/數位化/應用的可能性</span>
+              </li>
+            
+              
+              <li id="129">
+                <a class="time" href="2014-02-19#129" target="_self" title="#129">01:47:33</a>
+                <a class="nick" href="2014-02-19/129" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">(其實只是延續 #g0v 半開玩笑->莫名其妙認真起來 的優良傳統)</span>
+              </li>
+            
+              
+              <li id="130">
+                <a class="time" href="2014-02-19#130" target="_self" title="#130">01:47:57</a>
+                <a class="nick" href="2014-02-19/130" target="_self" title="quote">ballII</a>
+                <span class="msg wordwrap">招睞^H徠</span>
+              </li>
+            
+              
+              <li id="131">
+                <a class="time" href="2014-02-19#131" target="_self" title="#131">01:48:32</a>
+                <a class="nick" href="2014-02-19/131" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">XD</span>
+              </li>
+            
+              
+              <li id="132">
+                <a class="time" href="2014-02-19#132" target="_self" title="#132">01:48:41</a>
+                <a class="nick" href="2014-02-19/132" target="_self" title="quote">ballII</a>
+                <span class="msg wordwrap">au: XD  那我會想一下，跟可能人選or單位聊一下</span>
+              </li>
+            
+              
+              <li id="133">
+                <a class="time" href="2014-02-19#133" target="_self" title="#133">01:48:52</a>
+                <a class="nick" href="2014-02-19/133" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">ballII++</span>
+              </li>
+            
+              
+              <li id="134">
+                <a class="time" href="2014-02-19#134" target="_self" title="#134">01:49:05</a>
+                <a class="nick" href="2014-02-19/134" target="_self" title="quote">hychen_</a>
+                <span class="msg wordwrap">喝牛肉湯太補...我失眠了 orz</span>
+              </li>
+            
+              
+              <li id="135">
+                <a class="time" href="2014-02-19#135" target="_self" title="#135">01:49:20</a>
+                <a class="nick" href="2014-02-19/135" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ballII++ # 還有我發現 let it go 也很適合改編成重唱說</span>
+              </li>
+            
+              
+              <li id="136">
+                <a class="time" href="2014-02-19#136" target="_self" title="#136">01:49:28</a>
+                <a class="nick" href="2014-02-19/136" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">三月底的話可能有 Oxford University Press 編字典的朋友一起參加</span>
+              </li>
+            
+              
+              <li id="137">
+                <a class="time" href="2014-02-19#137" target="_self" title="#137">01:49:35</a>
+                <a class="nick" href="2014-02-19/137" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">hychen_: 你一定是太晚喝了 XD</span>
+              </li>
+            
+              
+              <li id="138">
+                <a class="time" href="2014-02-19#138" target="_self" title="#138">01:49:41</a>
+                <a class="nick" href="2014-02-19/138" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">等初步確定再寫到 hackpad 上</span>
+              </li>
+            
+              
+              <li id="139">
+                <a class="time" href="2014-02-19#139" target="_self" title="#139">01:50:48</a>
+                <a class="nick" href="2014-02-19/139" target="_self" title="quote">hychen_</a>
+                <span class="msg wordwrap">ETBlue: 就9:00多之後跑去喝... 順便吃了豆奶宗的沙茶蛋餅</span>
+              </li>
+            
+              
+              <li id="140">
+                <a class="time" href="2014-02-19#140" target="_self" title="#140">01:51:09</a>
+                <a class="nick" href="2014-02-19/140" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">hychen_: 好恐怖，感覺台南是個會讓人變胖的地方</span>
+              </li>
+            
+              
+              <li id="141">
+                <a class="time" href="2014-02-19#141" target="_self" title="#141">01:51:13</a>
+                <a class="nick" href="2014-02-19/141" target="_self" title="quote">hychen_</a>
+                <span class="msg wordwrap">ETBlue: 本日的晚餐是勝利早點的豬肉蛋餅, 還不賴</span>
+              </li>
+            
+              
+              <li id="142">
+                <a class="time" href="2014-02-19#142" target="_self" title="#142">01:52:18</a>
+                <a class="nick" href="2014-02-19/142" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">XDD 那接下來的目標是東吳, 銘傳, 陽明, 世新, 海洋還是臺北大學呢 XD 好像都沒有認識的 XD</span>
+              </li>
+            
+              
+              <li id="143">
+                <a class="time" href="2014-02-19#143" target="_self" title="#143">01:53:10</a>
+                <a class="nick" href="2014-02-19/143" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">au++ # 瘋狂划水</span>
+              </li>
+            
+              
+              <li id="144">
+                <a class="time" href="2014-02-19#144" target="_self" title="#144">01:53:27</a>
+                <a class="nick" href="2014-02-19/144" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">XD</span>
+              </li>
+            
+              
+              <li id="145">
+                <a class="time" href="2014-02-19#145" target="_self" title="#145">02:12:11</a>
+                <a class="nick" href="2014-02-19/145" target="_self" title="quote">sb-didern</a>
+                <span class="msg wordwrap">..</span>
+              </li>
+            
+              
+              <li id="146">
+                <a class="time" href="2014-02-19#146" target="_self" title="#146">02:18:43</a>
+                <a class="nick" href="2014-02-19/146" target="_self" title="quote">caasih</a>
+                <span class="msg wordwrap">sb-didern: .... ..</span>
+              </li>
+            
+              
+              <li id="147">
+                <a class="time" href="2014-02-19#147" target="_self" title="#147">02:42:19</a>
+                <a class="nick" href="2014-02-19/147" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">tkirby++ # gullet screenshot updated</span>
+              </li>
+            
+              
+              <li id="148">
+                <a class="time" href="2014-02-19#148" target="_self" title="#148">07:37:00</a>
+                <a class="nick" href="2014-02-19/148" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">日安!</span>
+              </li>
+            
+              
+              <li id="149">
+                <a class="time" href="2014-02-19#149" target="_self" title="#149">08:38:21</a>
+                <a class="nick" href="2014-02-19/149" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">clkao ++   斧神傳說XDDD   以後該不會出限湖中女神  金斧銀斧XDD</span>
+              </li>
+            
+              
+              <li id="150">
+                <a class="time" href="2014-02-19#150" target="_self" title="#150">08:45:36</a>
+                <a class="nick" href="2014-02-19/150" target="_self" title="quote">jimyhuang</a>
+                <span class="msg wordwrap">才一天沒追，斧頭幫都出現了</span>
+              </li>
+            
+              
+              <li id="151">
+                <a class="time" href="2014-02-19#151" target="_self" title="#151">09:38:35</a>
+                <a class="nick" href="2014-02-19/151" target="_self" title="quote">dirty__</a>
+                <span class="msg wordwrap"><a href="http://style.codeforamerica.org/">http://style.codeforamerica.org/</a> # CfA 的 style guide, 好像寫了個 semantic ui @@</span>
+              </li>
+            
+              
+              <li id="152">
+                <a class="time" href="2014-02-19#152" target="_self" title="#152">09:38:40</a>
+                <a class="nick" href="2014-02-19/152" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">dirty__'s url: [Code for America Style Guide]</span>
+              </li>
+            
+              
+              <li id="153">
+                <a class="time" href="2014-02-19#153" target="_self" title="#153">09:42:22</a>
+                <a class="nick" href="2014-02-19/153" target="_self" title="quote">opop</a>
+                <span class="msg wordwrap"><a href="http://cft.kktix.cc/events/7efd3817">http://cft.kktix.cc/events/7efd3817</a> g0v 總是選到大日子黑客送</span>
+              </li>
+            
+              
+              <li id="154">
+                <a class="time" href="2014-02-19#154" target="_self" title="#154">09:42:24</a>
+                <a class="nick" href="2014-02-19/154" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">opop's url: [2014 Open Data Day（新）]</span>
+              </li>
+            
+              
+              <li id="155">
+                <a class="time" href="2014-02-19#155" target="_self" title="#155">09:42:49</a>
+                <a class="nick" href="2014-02-19/155" target="_self" title="quote">opop</a>
+                <span class="msg wordwrap">已經第三個活動了的樣子～</span>
+              </li>
+            
+              
+              <li id="156">
+                <a class="time" href="2014-02-19#156" target="_self" title="#156">09:45:09</a>
+                <a class="nick" href="2014-02-19/156" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">Lee1092: 哈哈</span>
+              </li>
+            
+              
+              <li id="157">
+                <a class="time" href="2014-02-19#157" target="_self" title="#157">09:46:12</a>
+                <a class="nick" href="2014-02-19/157" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">萌典的故事：</span>
+              </li>
+            
+              
+              <li id="158">
+                <a class="time" href="2014-02-19#158" target="_self" title="#158">09:46:13</a>
+                <a class="nick" href="2014-02-19/158" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">有一天，pingooo到了湖邊，不小心把教育部的線上電子辭典掉到了湖裡。湖中出現了一個女神，問：請問這個萌典是你的嗎？</span>
+              </li>
+            
+              
+              <li id="159">
+                <a class="time" href="2014-02-19#159" target="_self" title="#159">09:53:44</a>
+                <a class="nick" href="2014-02-19/159" target="_self" title="quote">iamblue_cloud___</a>
+                <span class="msg wordwrap">G0V如果有做地理資訊.天氣相關的   如果想跟臺大課程合作  我可以牽線幾位教授（我大學系上的領域XD）</span>
+              </li>
+            
+              
+              <li id="160">
+                <a class="time" href="2014-02-19#160" target="_self" title="#160">09:54:45</a>
+                <a class="nick" href="2014-02-19/160" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">關於0r9.tw - 開放文化基金會 - 是否考慮直接註冊一個公司，以 "社會企業" 的形式存在？因為公司組織應該是國內最有彈性的一種法人...</span>
+              </li>
+            
+              
+              <li id="161">
+                <a class="time" href="2014-02-19#161" target="_self" title="#161">10:02:24</a>
+                <a class="nick" href="2014-02-19/161" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">:D</span>
+              </li>
+            
+              
+              <li id="162">
+                <a class="time" href="2014-02-19#162" target="_self" title="#162">10:03:02</a>
+                <a class="nick" href="2014-02-19/162" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap"><a href="http://weather.wingzero.tw/hsinchu">http://weather.wingzero.tw/hsinchu</a>   好冷 Q__Q</span>
+              </li>
+            
+              
+              <li id="163">
+                <a class="time" href="2014-02-19#163" target="_self" title="#163">10:03:04</a>
+                <a class="nick" href="2014-02-19/163" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">walkingice's url: [新竹縣 | My Weather 我的氣象站]</span>
+              </li>
+            
+              
+              <li id="164">
+                <a class="time" href="2014-02-19#164" target="_self" title="#164">10:03:10</a>
+                <a class="nick" href="2014-02-19/164" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">iamblue_cloud___: 你是大氣系喔?  我一直以為你是資工的耶 xD</span>
+              </li>
+            
+              
+              <li id="165">
+                <a class="time" href="2014-02-19#165" target="_self" title="#165">10:03:41</a>
+                <a class="nick" href="2014-02-19/165" target="_self" title="quote">iamblue_cloud___</a>
+                <span class="msg wordwrap">不 生工 XD</span>
+              </li>
+            
+              
+              <li id="166">
+                <a class="time" href="2014-02-19#166" target="_self" title="#166">10:03:57</a>
+                <a class="nick" href="2014-02-19/166" target="_self" title="quote">iamblue_cloud___</a>
+                <span class="msg wordwrap">胡子哥那年代應該叫做農工系</span>
+              </li>
+            
+              
+              <li id="167">
+                <a class="time" href="2014-02-19#167" target="_self" title="#167">10:04:00</a>
+                <a class="nick" href="2014-02-19/167" target="_self" title="quote">iamblue_cloud___</a>
+                <span class="msg wordwrap">鬍</span>
+              </li>
+            
+              
+              <li id="168">
+                <a class="time" href="2014-02-19#168" target="_self" title="#168">10:04:27</a>
+                <a class="nick" href="2014-02-19/168" target="_self" title="quote">privism</a>
+                <span class="msg wordwrap">大氣系可以玩超級電腦嗎</span>
+              </li>
+            
+              
+              <li id="169">
+                <a class="time" href="2014-02-19#169" target="_self" title="#169">10:04:53</a>
+                <a class="nick" href="2014-02-19/169" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">XDDDDD</span>
+              </li>
+            
+              
+              <li id="170">
+                <a class="time" href="2014-02-19#170" target="_self" title="#170">10:09:22</a>
+                <a class="nick" href="2014-02-19/170" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">應該要把 weather.wingzero.tw 的作者抓來 xD</span>
+              </li>
+            
+              
+              <li id="171">
+                <a class="time" href="2014-02-19#171" target="_self" title="#171">10:12:18</a>
+                <a class="nick" href="2014-02-19/171" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kiang: 其實公司的話就是某斯高，也就是現況 XD 只是這樣還是要經過營業稅 基金會是考慮初期大宗為 conference 活動，活動費用可接受廠商贊助、核銷，又非營業</span>
+              </li>
+            
+              
+              <li id="172">
+                <a class="time" href="2014-02-19#172" target="_self" title="#172">10:16:47</a>
+                <a class="nick" href="2014-02-19/172" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">clkao: 成立公司可以自行定義決策流程，基金會會有比較多惱人的規定，我不覺得應付那些規定的成本只有 5% 就是了</span>
+              </li>
+            
+              
+              <li id="173">
+                <a class="time" href="2014-02-19#173" target="_self" title="#173">10:20:29</a>
+                <a class="nick" href="2014-02-19/173" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">kiang: 公司的話現在就有，基金會惱人規定的部份要不要補充到 hackpad？</span>
+              </li>
+            
+              
+              <li id="174">
+                <a class="time" href="2014-02-19#174" target="_self" title="#174">10:20:42</a>
+                <a class="nick" href="2014-02-19/174" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">iamblue_cloud___: 有做大氣或微氣候的嗎XD?</span>
+              </li>
+            
+              
+              <li id="175">
+                <a class="time" href="2014-02-19#175" target="_self" title="#175">10:20:47</a>
+                <a class="nick" href="2014-02-19/175" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">ipa: 已經放上 hackpad 了 ;)</span>
+              </li>
+            
+              
+              <li id="176">
+                <a class="time" href="2014-02-19#176" target="_self" title="#176">10:21:55</a>
+                <a class="nick" href="2014-02-19/176" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">kiang++</span>
+              </li>
+            
+              
+              <li id="177">
+                <a class="time" href="2014-02-19#177" target="_self" title="#177">10:22:18</a>
+                <a class="nick" href="2014-02-19/177" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">公司連hackpad也要封鎖 =皿=</span>
+              </li>
+            
+              
+              <li id="178">
+                <a class="time" href="2014-02-19#178" target="_self" title="#178">10:22:34</a>
+                <a class="nick" href="2014-02-19/178" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">a0kman: 翻牆吧 XD</span>
+              </li>
+            
+              
+              <li id="179">
+                <a class="time" href="2014-02-19#179" target="_self" title="#179">10:22:59</a>
+                <a class="nick" href="2014-02-19/179" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">XD 已用網卡</span>
+              </li>
+            
+              
+              <li id="180">
+                <a class="time" href="2014-02-19#180" target="_self" title="#180">10:25:24</a>
+                <a class="nick" href="2014-02-19/180" target="_self" title="quote">iamblue_cloud___</a>
+                <span class="msg wordwrap">a0kman: ?  G0V我記得有吧 XD</span>
+              </li>
+            
+              
+              <li id="181">
+                <a class="time" href="2014-02-19#181" target="_self" title="#181">10:25:40</a>
+                <a class="nick" href="2014-02-19/181" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">呼呼呼~</span>
+              </li>
+            
+              
+              <li id="182">
+                <a class="time" href="2014-02-19#182" target="_self" title="#182">10:26:16</a>
+                <a class="nick" href="2014-02-19/182" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kiang++</span>
+              </li>
+            
+              
+              <li id="183">
+                <a class="time" href="2014-02-19#183" target="_self" title="#183">10:26:27</a>
+                <a class="nick" href="2014-02-19/183" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">太好惹~我最缺乏的</span>
+              </li>
+            
+              
+              <li id="184">
+                <a class="time" href="2014-02-19#184" target="_self" title="#184">10:26:42</a>
+                <a class="nick" href="2014-02-19/184" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">幾個領域都有人可以諮詢了Orz</span>
+              </li>
+            
+              
+              <li id="185">
+                <a class="time" href="2014-02-19#185" target="_self" title="#185">10:28:37</a>
+                <a class="nick" href="2014-02-19/185" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">而且，基金會跟協會都有陷入政治鬥爭的前例 XD</span>
+              </li>
+            
+              
+              <li id="186">
+                <a class="time" href="2014-02-19#186" target="_self" title="#186">10:31:04</a>
+                <a class="nick" href="2014-02-19/186" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">其實我覺得公司最好</span>
+              </li>
+            
+              
+              <li id="187">
+                <a class="time" href="2014-02-19#187" target="_self" title="#187">10:31:21</a>
+                <a class="nick" href="2014-02-19/187" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">沒必要弄基金會   # 個人喜好   lol</span>
+              </li>
+            
+              
+              <li id="188">
+                <a class="time" href="2014-02-19#188" target="_self" title="#188">10:33:08</a>
+                <a class="nick" href="2014-02-19/188" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kiang: 基金會如果董事會單純應該還好？協會比較恐怖就是了</span>
+              </li>
+            
+              
+              <li id="189">
+                <a class="time" href="2014-02-19#189" target="_self" title="#189">10:33:28</a>
+                <a class="nick" href="2014-02-19/189" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">(請補充基金會鬥爭 XD)</span>
+              </li>
+            
+              
+              <li id="190">
+                <a class="time" href="2014-02-19#190" target="_self" title="#190">10:33:51</a>
+                <a class="nick" href="2014-02-19/190" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kiang: 另外, 某司高其實就算是獨立運作了....</span>
+              </li>
+            
+              
+              <li id="191">
+                <a class="time" href="2014-02-19#191" target="_self" title="#191">10:37:10</a>
+                <a class="nick" href="2014-02-19/191" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">基金會鬥爭比較看得到的例子是公視，但過去待過基金會，很多董事會其實不太管事，所以最後變成下面的人亂搞吧</span>
+              </li>
+            
+              
+              <li id="192">
+                <a class="time" href="2014-02-19#192" target="_self" title="#192">10:38:59</a>
+                <a class="nick" href="2014-02-19/192" target="_self" title="quote">sb-neelso</a>
+                <span class="msg wordwrap">ff</span>
+              </li>
+            
+              
+              <li id="193">
+                <a class="time" href="2014-02-19#193" target="_self" title="#193">10:48:18</a>
+                <a class="nick" href="2014-02-19/193" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">clkao: 使用某司高的疑慮在於，你沒辦法將它的財務完全公開，因為它並不是只有 G0V 。</span>
+              </li>
+            
+              
+              <li id="194">
+                <a class="time" href="2014-02-19#194" target="_self" title="#194">10:50:00</a>
+                <a class="nick" href="2014-02-19/194" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">當有人對公開的數字產生疑慮時，出示憑證去證明它會變得困難些</span>
+              </li>
+            
+              
+              <li id="195">
+                <a class="time" href="2014-02-19#195" target="_self" title="#195">10:54:25</a>
+                <a class="nick" href="2014-02-19/195" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kiang: 了解。不過一般來說有疑慮應該只會對單一社群或工作項目？不過若是有新的法人，不管什麼形式應該本來就會都公開</span>
+              </li>
+            
+              
+              <li id="196">
+                <a class="time" href="2014-02-19#196" target="_self" title="#196">10:56:30</a>
+                <a class="nick" href="2014-02-19/196" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">clkao: 如果你的公開數字寫著 稅務支出 xxx ，有人提出疑問時，你如何提出營業稅與營所稅申報的細節？</span>
+              </li>
+            
+              
+              <li id="197">
+                <a class="time" href="2014-02-19#197" target="_self" title="#197">10:57:04</a>
+                <a class="nick" href="2014-02-19/197" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">clkao: 基金會是不是歸內政部管啊</span>
+              </li>
+            
+              
+              <li id="198">
+                <a class="time" href="2014-02-19#198" target="_self" title="#198">10:57:19</a>
+                <a class="nick" href="2014-02-19/198" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">billy3321: 有各種主管機關供你選擇</span>
+              </li>
+            
+              
+              <li id="199">
+                <a class="time" href="2014-02-19#199" target="_self" title="#199">10:57:31</a>
+                <a class="nick" href="2014-02-19/199" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">clkao: 噗</span>
+              </li>
+            
+              
+              <li id="200">
+                <a class="time" href="2014-02-19#200" target="_self" title="#200">10:58:29</a>
+                <a class="nick" href="2014-02-19/200" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">我剛剛想到要是歸文化部管，搞不好開黑客松的時候就會看到龍應台在旁邊笑而不語的坐著.....(抖)</span>
+              </li>
+            
+              
+              <li id="201">
+                <a class="time" href="2014-02-19#201" target="_self" title="#201">10:58:55</a>
+                <a class="nick" href="2014-02-19/201" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kiang: 對的。不過以某司高的例子來說，事先有明確的服務費用，所以個別社群/工作項目，應該不會有再有稅務的項目</span>
+              </li>
+            
+              
+              <li id="202">
+                <a class="time" href="2014-02-19#202" target="_self" title="#202">11:01:40</a>
+                <a class="nick" href="2014-02-19/202" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">clkao: 在舉辦活動這個例子上面是這樣沒錯，但舉辦活動以外的收支呢？這應該也是希望成立基金會的原因之一吧？總之，成立法人，基金會真的不是好的選項就是了，個人偏見 XD</span>
+              </li>
+            
+              
+              <li id="203">
+                <a class="time" href="2014-02-19#203" target="_self" title="#203">11:02:51</a>
+                <a class="nick" href="2014-02-19/203" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kiang: *nod*</span>
+              </li>
+            
+              
+              <li id="204">
+                <a class="time" href="2014-02-19#204" target="_self" title="#204">11:05:14</a>
+                <a class="nick" href="2014-02-19/204" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">不過公司成本也不低，所以要看舉辦活動以外，會有多少收支!?</span>
+              </li>
+            
+              
+              <li id="205">
+                <a class="time" href="2014-02-19#205" target="_self" title="#205">11:05:17</a>
+                <a class="nick" href="2014-02-19/205" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">我想主要還是在下面和各社群互動的規則，大致有一個樣貌後，也許比較好評估怎麼樣的形式最適合?</span>
+              </li>
+            
+              
+              <li id="206">
+                <a class="time" href="2014-02-19#206" target="_self" title="#206">11:06:32</a>
+                <a class="nick" href="2014-02-19/206" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">我的意思是，針對那些流程，看各種法人形式上的限制，跟可能會遇到的問題各是什麼</span>
+              </li>
+            
+              
+              <li id="207">
+                <a class="time" href="2014-02-19#207" target="_self" title="#207">11:11:48</a>
+                <a class="nick" href="2014-02-19/207" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">clkao: 法人好像要定期開會。不過這應該可以用黑客松解決（？）</span>
+              </li>
+            
+              
+              <li id="208">
+                <a class="time" href="2014-02-19#208" target="_self" title="#208">11:12:28</a>
+                <a class="nick" href="2014-02-19/208" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">billy3321: 可以把確定的 requirement 加在下面嗎? hangout 應該也沒問題</span>
+              </li>
+            
+              
+              <li id="209">
+                <a class="time" href="2014-02-19#209" target="_self" title="#209">11:12:49</a>
+                <a class="nick" href="2014-02-19/209" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">clkao: 確定的問 pofeng_ ，他比較清楚</span>
+              </li>
+            
+              
+              <li id="210">
+                <a class="time" href="2014-02-19#210" target="_self" title="#210">11:13:25</a>
+                <a class="nick" href="2014-02-19/210" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">clkao: 黑客松的時候柳林會過去，他一邊有公司（沃草）一邊要成立法人（1985）</span>
+              </li>
+            
+              
+              <li id="211">
+                <a class="time" href="2014-02-19#211" target="_self" title="#211">11:13:28</a>
+                <a class="nick" href="2014-02-19/211" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">clkao: 你可以問他</span>
+              </li>
+            
+              
+              <li id="212">
+                <a class="time" href="2014-02-19#212" target="_self" title="#212">11:14:36</a>
+                <a class="nick" href="2014-02-19/212" target="_self" title="quote">pofeng_</a>
+                <span class="msg wordwrap">gamification++ ( 斧頭幫, 萌典啄木鳥 )</span>
+              </li>
+            
+              
+              <li id="213">
+                <a class="time" href="2014-02-19#213" target="_self" title="#213">11:15:18</a>
+                <a class="nick" href="2014-02-19/213" target="_self" title="quote">pofeng_</a>
+                <span class="msg wordwrap">1985 是社團法人, 這邊是講財團法人 (基金會)</span>
+              </li>
+            
+              
+              <li id="214">
+                <a class="time" href="2014-02-19#214" target="_self" title="#214">11:16:14</a>
+                <a class="nick" href="2014-02-19/214" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">另外，基金會 "只能動用基金孳息，不得動用本金" 的規定不知道是否適用所有基金會</span>
+              </li>
+            
+              
+              <li id="215">
+                <a class="time" href="2014-02-19#215" target="_self" title="#215">11:16:43</a>
+                <a class="nick" href="2014-02-19/215" target="_self" title="quote">pofeng_</a>
+                <span class="msg wordwrap">應該是, 還滿麻煩的 ...</span>
+              </li>
+            
+              
+              <li id="216">
+                <a class="time" href="2014-02-19#216" target="_self" title="#216">11:17:57</a>
+                <a class="nick" href="2014-02-19/216" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kiang: ya, 這應該是保障基金會照章程、而非出資者控制的相應作法... 所以一起 draft 一份大家能同意的遊戲規則其實是比較重要</span>
+              </li>
+            
+              
+              <li id="217">
+                <a class="time" href="2014-02-19#217" target="_self" title="#217">11:18:07</a>
+                <a class="nick" href="2014-02-19/217" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">billab 好像要衝一下了 XD</span>
+              </li>
+            
+              
+              <li id="218">
+                <a class="time" href="2014-02-19#218" target="_self" title="#218">11:18:24</a>
+                <a class="nick" href="2014-02-19/218" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">疑那個動民主好像也可以用來討論</span>
+              </li>
+            
+              
+              <li id="219">
+                <a class="time" href="2014-02-19#219" target="_self" title="#219">11:18:50</a>
+                <a class="nick" href="2014-02-19/219" target="_self" title="quote">pofeng_</a>
+                <span class="msg wordwrap">clkao: Eating your own dog food ++</span>
+              </li>
+            
+              
+              <li id="220">
+                <a class="time" href="2014-02-19#220" target="_self" title="#220">11:19:37</a>
+                <a class="nick" href="2014-02-19/220" target="_self" title="quote">pofeng_</a>
+                <span class="msg wordwrap">hcchien: 我也喜歡公司比較好亂搞 (誤)</span>
+              </li>
+            
+              
+              <li id="221">
+                <a class="time" href="2014-02-19#221" target="_self" title="#221">11:20:33</a>
+                <a class="nick" href="2014-02-19/221" target="_self" title="quote">pofeng_</a>
+                <span class="msg wordwrap">hcchien: 只是如果科斯高經手的資金繼續成長的話, 轉成基金會是個選項 ...</span>
+              </li>
+            
+              
+              <li id="222">
+                <a class="time" href="2014-02-19#222" target="_self" title="#222">11:20:34</a>
+                <a class="nick" href="2014-02-19/222" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">pofeng_: 原來你都亂搞 *指*   LOL</span>
+              </li>
+            
+              
+              <li id="223">
+                <a class="time" href="2014-02-19#223" target="_self" title="#223">11:20:45</a>
+                <a class="nick" href="2014-02-19/223" target="_self" title="quote">pofeng_</a>
+                <span class="msg wordwrap">*挺*</span>
+              </li>
+            
+              
+              <li id="224">
+                <a class="time" href="2014-02-19#224" target="_self" title="#224">11:20:45</a>
+                <a class="nick" href="2014-02-19/224" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">pofeng_: sorry，搞錯了</span>
+              </li>
+            
+              
+              <li id="225">
+                <a class="time" href="2014-02-19#225" target="_self" title="#225">11:21:23</a>
+                <a class="nick" href="2014-02-19/225" target="_self" title="quote">pofeng_</a>
+                <span class="msg wordwrap">billy3321: 不會不會, 只是弄清楚一下</span>
+              </li>
+            
+              
+              <li id="226">
+                <a class="time" href="2014-02-19#226" target="_self" title="#226">11:21:31</a>
+                <a class="nick" href="2014-02-19/226" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">hcchien: 快幫忙弄規則 :p 不然 summit 怎麼搞 XD</span>
+              </li>
+            
+              
+              <li id="227">
+                <a class="time" href="2014-02-19#227" target="_self" title="#227">11:21:59</a>
+                <a class="nick" href="2014-02-19/227" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">社團法人之前有gg的例子</span>
+              </li>
+            
+              
+              <li id="228">
+                <a class="time" href="2014-02-19#228" target="_self" title="#228">11:22:34</a>
+                <a class="nick" href="2014-02-19/228" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">clkao: 我以為 summit 是要用黑客松形式做掉</span>
+              </li>
+            
+              
+              <li id="229">
+                <a class="time" href="2014-02-19#229" target="_self" title="#229">11:23:34</a>
+                <a class="nick" href="2014-02-19/229" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">hcchien: 是也行啊 若要請國外講者這樣適合嗎？</span>
+              </li>
+            
+              
+              <li id="230">
+                <a class="time" href="2014-02-19#230" target="_self" title="#230">11:25:15</a>
+                <a class="nick" href="2014-02-19/230" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">clkao: 因為我都亂搞，所以國外講者其實也都沒跟他們拿購票證明什麼的</span>
+              </li>
+            
+              
+              <li id="231">
+                <a class="time" href="2014-02-19#231" target="_self" title="#231">11:25:33</a>
+                <a class="nick" href="2014-02-19/231" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">所以如果要全部有憑據感覺會有點麻煩</span>
+              </li>
+            
+              
+              <li id="232">
+                <a class="time" href="2014-02-19#232" target="_self" title="#232">11:25:53</a>
+                <a class="nick" href="2014-02-19/232" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">去日本參加活動，他們也是直接給一筆錢，沒有跟我要過憑證...</span>
+              </li>
+            
+              
+              <li id="233">
+                <a class="time" href="2014-02-19#233" target="_self" title="#233">11:26:35</a>
+                <a class="nick" href="2014-02-19/233" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">靠那我去香港還要給他們機票證明... 是人品問題嗎...</span>
+              </li>
+            
+              
+              <li id="234">
+                <a class="time" href="2014-02-19#234" target="_self" title="#234">11:27:13</a>
+                <a class="nick" href="2014-02-19/234" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">可能是地方習慣差異吧 XD</span>
+              </li>
+            
+              
+              <li id="235">
+                <a class="time" href="2014-02-19#235" target="_self" title="#235">11:27:43</a>
+                <a class="nick" href="2014-02-19/235" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">他們可能要全部透明   lol</span>
+              </li>
+            
+              
+              <li id="236">
+                <a class="time" href="2014-02-19#236" target="_self" title="#236">11:28:09</a>
+                <a class="nick" href="2014-02-19/236" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">人家是賽馬會捐助的有錢單位耶 XD</span>
+              </li>
+            
+              
+              <li id="237">
+                <a class="time" href="2014-02-19#237" target="_self" title="#237">11:29:30</a>
+                <a class="nick" href="2014-02-19/237" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">有錢單位贊助 g0v，我們還是要透明啊</span>
+              </li>
+            
+              
+              <li id="238">
+                <a class="time" href="2014-02-19#238" target="_self" title="#238">11:30:27</a>
+                <a class="nick" href="2014-02-19/238" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">ya ;)</span>
+              </li>
+            
+              
+              <li id="239">
+                <a class="time" href="2014-02-19#239" target="_self" title="#239">11:31:05</a>
+                <a class="nick" href="2014-02-19/239" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">所以g0v的難點不是能不能亂搞，是完全不能亂搞。所以就算是有獨立公司，還是要購票證明   lol</span>
+              </li>
+            
+              
+              <li id="240">
+                <a class="time" href="2014-02-19#240" target="_self" title="#240">11:32:55</a>
+                <a class="nick" href="2014-02-19/240" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">但成立公司的好處就是被亂搞的機會比較低</span>
+              </li>
+            
+              
+              <li id="241">
+                <a class="time" href="2014-02-19#241" target="_self" title="#241">11:35:08</a>
+                <a class="nick" href="2014-02-19/241" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">可能賽馬會要看票據吧XD</span>
+              </li>
+            
+              
+              <li id="242">
+                <a class="time" href="2014-02-19#242" target="_self" title="#242">11:36:37</a>
+                <a class="nick" href="2014-02-19/242" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">總之自己亂搞 gg 跟被亂搞 gg 的意義完全不一樣</span>
+              </li>
+            
+              
+              <li id="243">
+                <a class="time" href="2014-02-19#243" target="_self" title="#243">11:36:43</a>
+                <a class="nick" href="2014-02-19/243" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">雖然結果一樣啦   lol</span>
+              </li>
+            
+              
+              <li id="244">
+                <a class="time" href="2014-02-19#244" target="_self" title="#244">11:41:35</a>
+                <a class="nick" href="2014-02-19/244" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">爽度不同？ XD</span>
+              </li>
+            
+              
+              <li id="245">
+                <a class="time" href="2014-02-19#245" target="_self" title="#245">11:48:37</a>
+                <a class="nick" href="2014-02-19/245" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">機票用票據報帳會有很多問題，因為長短天期、有無直飛或商務艙等影響票價因素很多，事先說好一個價碼會比全額補助機票好一點</span>
+              </li>
+            
+              
+              <li id="246">
+                <a class="time" href="2014-02-19#246" target="_self" title="#246">11:56:57</a>
+                <a class="nick" href="2014-02-19/246" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">比較想要鳳凰城基金會（誤）</span>
+              </li>
+            
+              
+              <li id="247">
+                <a class="time" href="2014-02-19#247" target="_self" title="#247">11:58:33</a>
+                <a class="nick" href="2014-02-19/247" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">帥啊老 p</span>
+              </li>
+            
+              
+              <li id="248">
+                <a class="time" href="2014-02-19#248" target="_self" title="#248">12:00:20</a>
+                <a class="nick" href="2014-02-19/248" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">什麼是鳳凰城基金會    # lol</span>
+              </li>
+            
+              
+              <li id="249">
+                <a class="time" href="2014-02-19#249" target="_self" title="#249">12:00:33</a>
+                <a class="nick" href="2014-02-19/249" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">hcchien 在裝年輕嗎</span>
+              </li>
+            
+              
+              <li id="250">
+                <a class="time" href="2014-02-19#250" target="_self" title="#250">12:00:52</a>
+                <a class="nick" href="2014-02-19/250" target="_self" title="quote">pofeng_</a>
+                <span class="msg wordwrap">明明就史塔克工業比較威 (誤)</span>
+              </li>
+            
+              
+              <li id="251">
+                <a class="time" href="2014-02-19#251" target="_self" title="#251">12:01:10</a>
+                <a class="nick" href="2014-02-19/251" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">tkirby: 昨天 +1 今天就 merge 了... 看來 gullet 變好用有望 # <a href="https://github.com/rogerwang/node-webkit/pull/1076">https://github.com/rogerwang/node-webkit/pull/1076</a></span>
+              </li>
+            
+              
+              <li id="252">
+                <a class="time" href="2014-02-19#252" target="_self" title="#252">12:01:17</a>
+                <a class="nick" href="2014-02-19/252" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">clkao's url: [[MAC]implement on mac: hide the window from task bar while keeping it shown by richardcypher · Pull Request #1076 · rogerwang/node-webkit · GitHub]</span>
+              </li>
+            
+              
+              <li id="253">
+                <a class="time" href="2014-02-19#253" target="_self" title="#253">12:01:34</a>
+                <a class="nick" href="2014-02-19/253" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">可惜自己 build node-webkit 要超久... 還是等新的 snapshot 出來好了...</span>
+              </li>
+            
+              
+              <li id="254">
+                <a class="time" href="2014-02-19#254" target="_self" title="#254">12:02:00</a>
+                <a class="nick" href="2014-02-19/254" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap"><a href="http://zh.wikipedia.org/wiki/%E9%9C%B9%E9%9D%82%E9%81%8A%E4%BF%A0">http://zh.wikipedia.org/wiki/%E9%9C%B9%E9%9D%82%E9%81%8A%E4%BF%A0</a></span>
+              </li>
+            
+              
+              <li id="255">
+                <a class="time" href="2014-02-19#255" target="_self" title="#255">12:02:04</a>
+                <a class="nick" href="2014-02-19/255" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">kiang's url: [霹靂遊俠 - 维基百科，自由的百科全书]</span>
+              </li>
+            
+              
+              <li id="256">
+                <a class="time" href="2014-02-19#256" target="_self" title="#256">12:02:16</a>
+                <a class="nick" href="2014-02-19/256" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">回味一下 XD</span>
+              </li>
+            
+              
+              <li id="257">
+                <a class="time" href="2014-02-19#257" target="_self" title="#257">12:02:29</a>
+                <a class="nick" href="2014-02-19/257" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">clkao: 被你識破</span>
+              </li>
+            
+              
+              <li id="258">
+                <a class="time" href="2014-02-19#258" target="_self" title="#258">12:03:08</a>
+                <a class="nick" href="2014-02-19/258" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">尖端科技的結晶嗎... 可惜乃特基金會已經有了 |D</span>
+              </li>
+            
+              
+              <li id="259">
+                <a class="time" href="2014-02-19#259" target="_self" title="#259">12:05:23</a>
+                <a class="nick" href="2014-02-19/259" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap"><a href="http://company.g0v.ronny.tw/id/29169879">http://company.g0v.ronny.tw/id/29169879</a> - 史塔克工業台灣已經有了 XD</span>
+              </li>
+            
+              
+              <li id="260">
+                <a class="time" href="2014-02-19#260" target="_self" title="#260">12:05:25</a>
+                <a class="nick" href="2014-02-19/260" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">kiang's url: [史塔克工業有限公司:29169879:台灣公司資料]</span>
+              </li>
+            
+              
+              <li id="261">
+                <a class="time" href="2014-02-19#261" target="_self" title="#261">12:15:02</a>
+                <a class="nick" href="2014-02-19/261" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">clkao: 噢喔噢~!</span>
+              </li>
+            
+              
+              <li id="262">
+                <a class="time" href="2014-02-19#262" target="_self" title="#262">12:26:00</a>
+                <a class="nick" href="2014-02-19/262" target="_self" title="quote">iamblue_cloud___</a>
+                <span class="msg wordwrap">Orz 鳳凰城基金會 真的不知道...</span>
+              </li>
+            
+              
+              <li id="263">
+                <a class="time" href="2014-02-19#263" target="_self" title="#263">12:26:09</a>
+                <a class="nick" href="2014-02-19/263" target="_self" title="quote">iamblue_cloud___</a>
+                <span class="msg wordwrap">但我有看過馬蓋先</span>
+              </li>
+            
+              
+              <li id="264">
+                <a class="time" href="2014-02-19#264" target="_self" title="#264">12:26:09</a>
+                <a class="nick" href="2014-02-19/264" target="_self" title="quote">iamblue_cloud___</a>
+                <span class="msg wordwrap">xD</span>
+              </li>
+            
+              
+              <li id="265">
+                <a class="time" href="2014-02-19#265" target="_self" title="#265">12:51:50</a>
+                <a class="nick" href="2014-02-19/265" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">上次同事說他沒看過幽遊白書，也讓我覺得自己變阿伯了</span>
+              </li>
+            
+              
+              <li id="266">
+                <a class="time" href="2014-02-19#266" target="_self" title="#266">13:06:58</a>
+                <a class="nick" href="2014-02-19/266" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">走冰伯！</span>
+              </li>
+            
+              
+              <li id="267">
+                <a class="time" href="2014-02-19#267" target="_self" title="#267">13:09:07</a>
+                <a class="nick" href="2014-02-19/267" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">那昨天的星際斧頭片頭 會不會也很多人沒看過呢.... >&lt;</span>
+              </li>
+            
+              
+              <li id="268">
+                <a class="time" href="2014-02-19#268" target="_self" title="#268">13:36:55</a>
+                <a class="nick" href="2014-02-19/268" target="_self" title="quote">isacloud</a>
+                <span class="msg wordwrap">走冰伯 XD</span>
+              </li>
+            
+              
+              <li id="269">
+                <a class="time" href="2014-02-19#269" target="_self" title="#269">14:06:58</a>
+                <a class="nick" href="2014-02-19/269" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap"><a href="http://www.lostateminor.com/2014/02/06/interview-designer-waffle-iron-typewriter-chris-dimino/">http://www.lostateminor.com/2014/02/06/interview-designer-waffle-iron-typewriter-chris-dimino/</a></span>
+              </li>
+            
+              
+              <li id="270">
+                <a class="time" href="2014-02-19#270" target="_self" title="#270">14:07:03</a>
+                <a class="nick" href="2014-02-19/270" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">買一台好惹</span>
+              </li>
+            
+              
+              <li id="271">
+                <a class="time" href="2014-02-19#271" target="_self" title="#271">14:08:46</a>
+                <a class="nick" href="2014-02-19/271" target="_self" title="quote">caa51</a>
+                <span class="msg wordwrap">加上星星啦 <a href="http://embed.plnkr.co/1SlFUURNopXkoCxcMRrR/preview">http://embed.plnkr.co/1SlFUURNopXkoCxcMRrR/preview</a></span>
+              </li>
+            
+              
+              <li id="272">
+                <a class="time" href="2014-02-19#272" target="_self" title="#272">14:08:49</a>
+                <a class="nick" href="2014-02-19/272" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">caa51's url: [Plunker - axe.g0v.tw intro]</span>
+              </li>
+            
+              
+              <li id="273">
+                <a class="time" href="2014-02-19#273" target="_self" title="#273">14:21:38</a>
+                <a class="nick" href="2014-02-19/273" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">caa51++</span>
+              </li>
+            
+              
+              <li id="274">
+                <a class="time" href="2014-02-19#274" target="_self" title="#274">14:37:40</a>
+                <a class="nick" href="2014-02-19/274" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">caasih++</span>
+              </li>
+            
+              
+              <li id="275">
+                <a class="time" href="2014-02-19#275" target="_self" title="#275">14:38:15</a>
+                <a class="nick" href="2014-02-19/275" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">plnkr 不能送 pr 好麻煩 XD</span>
+              </li>
+            
+              
+              <li id="276">
+                <a class="time" href="2014-02-19#276" target="_self" title="#276">14:38:42</a>
+                <a class="nick" href="2014-02-19/276" target="_self" title="quote">caasih</a>
+                <span class="msg wordwrap">clkao: XD</span>
+              </li>
+            
+              
+              <li id="277">
+                <a class="time" href="2014-02-19#277" target="_self" title="#277">14:42:48</a>
+                <a class="nick" href="2014-02-19/277" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">更新了原來了 還要改的話請重新 fork :p</span>
+              </li>
+            
+              
+              <li id="278">
+                <a class="time" href="2014-02-19#278" target="_self" title="#278">14:43:07</a>
+                <a class="nick" href="2014-02-19/278" target="_self" title="quote">caasih</a>
+                <span class="msg wordwrap">clkao: roger roger</span>
+              </li>
+            
+              
+              <li id="279">
+                <a class="time" href="2014-02-19#279" target="_self" title="#279">14:57:17</a>
+                <a class="nick" href="2014-02-19/279" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">計算薪資算到腦子有點爬帶，有人知道哪裡提供一個工具可以直接根據總額去拆出細項的嗎？</span>
+              </li>
+            
+              
+              <li id="280">
+                <a class="time" href="2014-02-19#280" target="_self" title="#280">14:57:41</a>
+                <a class="nick" href="2014-02-19/280" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">例如預期支出 30000 ，健保、勞保、津貼、加班等等規定一併列出</span>
+              </li>
+            
+              
+              <li id="281">
+                <a class="time" href="2014-02-19#281" target="_self" title="#281">14:58:00</a>
+                <a class="nick" href="2014-02-19/281" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">還有那個惱人的補充健保費，如果沒有我就先開始弄了...</span>
+              </li>
+            
+              
+              <li id="282">
+                <a class="time" href="2014-02-19#282" target="_self" title="#282">14:59:48</a>
+                <a class="nick" href="2014-02-19/282" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kiang: 好像沒看到現成的耶 衝了吧！</span>
+              </li>
+            
+              
+              <li id="283">
+                <a class="time" href="2014-02-19#283" target="_self" title="#283">14:59:55</a>
+                <a class="nick" href="2014-02-19/283" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">XD</span>
+              </li>
+            
+              
+              <li id="284">
+                <a class="time" href="2014-02-19#284" target="_self" title="#284">15:01:03</a>
+                <a class="nick" href="2014-02-19/284" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">順便幫員工算出所得稅大概多少, 再從 budget.g0v 告訴他你稅繳去哪裡 XD</span>
+              </li>
+            
+              
+              <li id="285">
+                <a class="time" href="2014-02-19#285" target="_self" title="#285">15:01:48</a>
+                <a class="nick" href="2014-02-19/285" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">clkao++</span>
+              </li>
+            
+              
+              <li id="286">
+                <a class="time" href="2014-02-19#286" target="_self" title="#286">15:40:23</a>
+                <a class="nick" href="2014-02-19/286" target="_self" title="quote">ballII</a>
+                <span class="msg wordwrap">ETBlue: 我是覺得For The First Time In Forever旋律劍拔弩張的衝突感很強，可以把歌詞改寫成社會議題之類來唱XD</span>
+              </li>
+            
+              
+              <li id="287">
+                <a class="time" href="2014-02-19#287" target="_self" title="#287">16:14:33</a>
+                <a class="nick" href="2014-02-19/287" target="_self" title="quote">pm5</a>
+                <span class="msg wordwrap">caa51++</span>
+              </li>
+            
+              
+              <li id="288">
+                <a class="time" href="2014-02-19#288" target="_self" title="#288">16:15:00</a>
+                <a class="nick" href="2014-02-19/288" target="_self" title="quote">OtomeSound</a>
+                <span class="msg wordwrap">糟糕我都沒看過←標準小屁孩</span>
+              </li>
+            
+              
+              <li id="289">
+                <a class="time" href="2014-02-19#289" target="_self" title="#289">16:51:35</a>
+                <a class="nick" href="2014-02-19/289" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">poga: 忽然覺得零時小學開個像是 ccsp 這樣的課好像也不錯的樣子.. XD</span>
+              </li>
+            
+              
+              <li id="290">
+                <a class="time" href="2014-02-19#290" target="_self" title="#290">17:09:17</a>
+                <a class="nick" href="2014-02-19/290" target="_self" title="quote">jimyhuang</a>
+                <span class="msg wordwrap">pofeng_: 基金會++ 能大方接受社會各介資源而無需提供股份的最好模式。</span>
+              </li>
+            
+              
+              <li id="291">
+                <a class="time" href="2014-02-19#291" target="_self" title="#291">17:10:55</a>
+                <a class="nick" href="2014-02-19/291" target="_self" title="quote">jimyhuang</a>
+                <span class="msg wordwrap">公司要處理[贊助]，都滿麻煩的。贊助金額越高，成本越高。</span>
+              </li>
+            
+              
+              <li id="292">
+                <a class="time" href="2014-02-19#292" target="_self" title="#292">17:16:20</a>
+                <a class="nick" href="2014-02-19/292" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">成立科科黨參選台北市長，收取政治獻金</span>
+              </li>
+            
+              
+              <li id="293">
+                <a class="time" href="2014-02-19#293" target="_self" title="#293">17:17:05</a>
+                <a class="nick" href="2014-02-19/293" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">啊....保證金要兩百萬 orz</span>
+              </li>
+            
+              
+              <li id="294">
+                <a class="time" href="2014-02-19#294" target="_self" title="#294">17:18:33</a>
+                <a class="nick" href="2014-02-19/294" target="_self" title="quote">jimyhuang</a>
+                <span class="msg wordwrap">walkingice: 而且只有選前n個月才可以收。你看那些陣營選完後都成立基金會去了</span>
+              </li>
+            
+              
+              <li id="295">
+                <a class="time" href="2014-02-19#295" target="_self" title="#295">17:34:44</a>
+                <a class="nick" href="2014-02-19/295" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">ccsp?</span>
+              </li>
+            
+              
+              <li id="296">
+                <a class="time" href="2014-02-19#296" target="_self" title="#296">17:37:29</a>
+                <a class="nick" href="2014-02-19/296" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">hcchien: cloud computing and service platform (臺大的課)</span>
+              </li>
+            
+              
+              <li id="297">
+                <a class="time" href="2014-02-19#297" target="_self" title="#297">17:39:55</a>
+                <a class="nick" href="2014-02-19/297" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">tkirby: 喔喔，就昨天暴動那個</span>
+              </li>
+            
+              
+              <li id="298">
+                <a class="time" href="2014-02-19#298" target="_self" title="#298">17:42:49</a>
+                <a class="nick" href="2014-02-19/298" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap"><a href="http://kiang.github.io/salary/">http://kiang.github.io/salary/</a> - 先做簡單計算 :)</span>
+              </li>
+            
+              
+              <li id="299">
+                <a class="time" href="2014-02-19#299" target="_self" title="#299">17:43:40</a>
+                <a class="nick" href="2014-02-19/299" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">看起來應該還有蠻多東西要做， 2/22 應該會想辦法加些東西 - <a href="https://github.com/kiang/salary">https://github.com/kiang/salary</a></span>
+              </li>
+            
+              
+              <li id="300">
+                <a class="time" href="2014-02-19#300" target="_self" title="#300">17:43:44</a>
+                <a class="nick" href="2014-02-19/300" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">kiang's url: [kiang/salary · GitHub]</span>
+              </li>
+            
+              
+              <li id="301">
+                <a class="time" href="2014-02-19#301" target="_self" title="#301">17:54:01</a>
+                <a class="nick" href="2014-02-19/301" target="_self" title="quote">isacloud</a>
+                <span class="msg wordwrap">kiang++ # 超實用 XD</span>
+              </li>
+            
+              
+              <li id="302">
+                <a class="time" href="2014-02-19#302" target="_self" title="#302">18:14:31</a>
+                <a class="nick" href="2014-02-19/302" target="_self" title="quote">sb-floser</a>
+                <span class="msg wordwrap">kiang++</span>
+              </li>
+            
+              
+              <li id="303">
+                <a class="time" href="2014-02-19#303" target="_self" title="#303">18:15:27</a>
+                <a class="nick" href="2014-02-19/303" target="_self" title="quote">sb-floser</a>
+                <span class="msg wordwrap">希望能有個 以勞工實領薪資 倒推算回去預算的功能</span>
+              </li>
+            
+              
+              <li id="304">
+                <a class="time" href="2014-02-19#304" target="_self" title="#304">18:44:19</a>
+                <a class="nick" href="2014-02-19/304" target="_self" title="quote">pofeng_</a>
+                <span class="msg wordwrap">jimyhuang: 那也要有人願意捐啊, 哈哈</span>
+              </li>
+            
+              
+              <li id="305">
+                <a class="time" href="2014-02-19#305" target="_self" title="#305">18:48:36</a>
+                <a class="nick" href="2014-02-19/305" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kiang++</span>
+              </li>
+            
+              
+              <li id="306">
+                <a class="time" href="2014-02-19#306" target="_self" title="#306">18:52:46</a>
+                <a class="nick" href="2014-02-19/306" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">開始有人想贊助，但現在只開放贊助吃食，如果有好的流程說不定可以開放贊助開課程</span>
+              </li>
+            
+              
+              <li id="307">
+                <a class="time" href="2014-02-19#307" target="_self" title="#307">19:04:15</a>
+                <a class="nick" href="2014-02-19/307" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap"><a href="https://www.facebook.com/g0v.tw/posts/240591759453712">https://www.facebook.com/g0v.tw/posts/240591759453712</a> XD</span>
+              </li>
+            
+              
+              <li id="308">
+                <a class="time" href="2014-02-19#308" target="_self" title="#308">19:04:19</a>
+                <a class="nick" href="2014-02-19/308" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">ipa's url: [g0v.tw 台灣零時政府 - <a href="http://www.pajju.com/2014/01/workmanship-le...">http://www.pajju.com/2014/01/workmanship-le...</a> | Facebook]</span>
+              </li>
+            
+              
+              <li id="309">
+                <a class="time" href="2014-02-19#309" target="_self" title="#309">19:06:17</a>
+                <a class="nick" href="2014-02-19/309" target="_self" title="quote">poga</a>
+                <span class="msg wordwrap">tkirby: 對耶... 反正好像很多人在喊線上修課、錄影之類的 XD</span>
+              </li>
+            
+              
+              <li id="310">
+                <a class="time" href="2014-02-19#310" target="_self" title="#310">19:07:22</a>
+                <a class="nick" href="2014-02-19/310" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">小學校、斧頭幫都適合開課</span>
+              </li>
+            
+              
+              <li id="311">
+                <a class="time" href="2014-02-19#311" target="_self" title="#311">19:09:09</a>
+                <a class="nick" href="2014-02-19/311" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">kiang++ 超神速啊 XD</span>
+              </li>
+            
+              
+              <li id="312">
+                <a class="time" href="2014-02-19#312" target="_self" title="#312">19:09:39</a>
+                <a class="nick" href="2014-02-19/312" target="_self" title="quote">poga</a>
+                <span class="msg wordwrap">零時學程? XD</span>
+              </li>
+            
+              
+              <li id="313">
+                <a class="time" href="2014-02-19#313" target="_self" title="#313">19:11:37</a>
+                <a class="nick" href="2014-02-19/313" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">poga</span>&nbsp;其實想把moltenpad做成MOOC用的新種知識載體...</span>
+              </li>
+            
+              
+              <li id="314">
+                <a class="time" href="2014-02-19#314" target="_self" title="#314">19:13:40</a>
+                <a class="nick" href="2014-02-19/314" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">poga: 衝 ^o^</span>
+              </li>
+            
+              
+              <li id="315">
+                <a class="time" href="2014-02-19#315" target="_self" title="#315">19:14:00</a>
+                <a class="nick" href="2014-02-19/315" target="_self" title="quote">poga</a>
+                <span class="msg wordwrap">衝～</span>
+              </li>
+            
+              
+              <li id="316">
+                <a class="time" href="2014-02-19#316" target="_self" title="#316">19:17:33</a>
+                <a class="nick" href="2014-02-19/316" target="_self" title="quote">poga</a>
+                <span class="msg wordwrap">直接幫ccsp作一份開放教材...? XD</span>
+              </li>
+            
+              
+              <li id="317">
+                <a class="time" href="2014-02-19#317" target="_self" title="#317">19:19:53</a>
+                <a class="nick" href="2014-02-19/317" target="_self" title="quote">hychen_</a>
+                <span class="msg wordwrap">kiang++</span>
+              </li>
+            
+              
+              <li id="318">
+                <a class="time" href="2014-02-19#318" target="_self" title="#318">19:19:56</a>
+                <a class="nick" href="2014-02-19/318" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">00:56 &lt; hccloud_> 應該跟紙風車一樣，夠多人贊助交通，食宿。g0v 大使團就去開一天課</span>
+              </li>
+            
+              
+              <li id="319">
+                <a class="time" href="2014-02-19#319" target="_self" title="#319">19:19:57</a>
+                <a class="nick" href="2014-02-19/319" target="_self" title="quote">hychen_</a>
+                <span class="msg wordwrap">poga++</span>
+              </li>
+            
+              
+              <li id="320">
+                <a class="time" href="2014-02-19#320" target="_self" title="#320">19:20:47</a>
+                <a class="nick" href="2014-02-19/320" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">poga: 你好衝動啊～(指)</span>
+              </li>
+            
+              
+              <li id="321">
+                <a class="time" href="2014-02-19#321" target="_self" title="#321">19:21:36</a>
+                <a class="nick" href="2014-02-19/321" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">a0kman 紅惹 # 「個夢境最後了亮點是，台北跟台中同時開了一家連鎖店，叫做奧客麵，裡面賣的是可以配炸物的那種豐富的日式麵」</span>
+              </li>
+            
+              
+              <li id="322">
+                <a class="time" href="2014-02-19#322" target="_self" title="#322">19:22:45</a>
+                <a class="nick" href="2014-02-19/322" target="_self" title="quote">poga</a>
+                <span class="msg wordwrap">clkao: 剛看到它是這學期的課程... 嗯我果然好衝動啊... XD</span>
+              </li>
+            
+              
+              <li id="323">
+                <a class="time" href="2014-02-19#323" target="_self" title="#323">19:22:49</a>
+                <a class="nick" href="2014-02-19/323" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">小學校長不同凡響</span>
+              </li>
+            
+              
+              <li id="324">
+                <a class="time" href="2014-02-19#324" target="_self" title="#324">19:28:30</a>
+                <a class="nick" href="2014-02-19/324" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">明天第一堂客的樣子</span>
+              </li>
+            
+              
+              <li id="325">
+                <a class="time" href="2014-02-19#325" target="_self" title="#325">19:29:32</a>
+                <a class="nick" href="2014-02-19/325" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">tkirby: 試了 gullet 在 windows 上好像爛掉</span>
+              </li>
+            
+              
+              <li id="326">
+                <a class="time" href="2014-02-19#326" target="_self" title="#326">19:30:00</a>
+                <a class="nick" href="2014-02-19/326" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">是說 summit 的事情如何了呢</span>
+              </li>
+            
+              
+              <li id="327">
+                <a class="time" href="2014-02-19#327" target="_self" title="#327">19:30:26</a>
+                <a class="nick" href="2014-02-19/327" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">tkirby ++  我想參加  # 零時小學校</span>
+              </li>
+            
+              
+              <li id="328">
+                <a class="time" href="2014-02-19#328" target="_self" title="#328">19:30:52</a>
+                <a class="nick" href="2014-02-19/328" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">hcchien: 不是等你 osdc 忙完就開始接手嗎 XD</span>
+              </li>
+            
+              
+              <li id="329">
+                <a class="time" href="2014-02-19#329" target="_self" title="#329">19:31:54</a>
+                <a class="nick" href="2014-02-19/329" target="_self" title="quote">poga</a>
+                <span class="msg wordwrap">好，該開hackpad了</span>
+              </li>
+            
+              
+              <li id="330">
+                <a class="time" href="2014-02-19#330" target="_self" title="#330">19:31:57</a>
+                <a class="nick" href="2014-02-19/330" target="_self" title="quote">poga</a>
+                <span class="msg wordwrap">（苦思標題</span>
+              </li>
+            
+              
+              <li id="331">
+                <a class="time" href="2014-02-19#331" target="_self" title="#331">19:32:14</a>
+                <a class="nick" href="2014-02-19/331" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">clkao: 那些還好，就是場地可能要先搞定  # 今年人文所好像很熱門</span>
+              </li>
+            
+              
+              <li id="332">
+                <a class="time" href="2014-02-19#332" target="_self" title="#332">19:33:23</a>
+                <a class="nick" href="2014-02-19/332" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">是說 osdc 好像議程，贊助弄完就差不多忙完了</span>
+              </li>
+            
+              
+              <li id="333">
+                <a class="time" href="2014-02-19#333" target="_self" title="#333">19:34:22</a>
+                <a class="nick" href="2014-02-19/333" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">也來開個 hackpad 好了  (愛學人   lol</span>
+              </li>
+            
+              
+              <li id="334">
+                <a class="time" href="2014-02-19#334" target="_self" title="#334">19:37:33</a>
+                <a class="nick" href="2014-02-19/334" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">ronnywang: 來畫中華電信 dfs tree + 人物關係圖吧 # <a href="http://www.businessweekly.com.tw/KWebArticle.aspx?ID=53518&amp;path=h&amp;pnumber=1">http://www.businessweekly.com.tw/KWebArticle.aspx?ID=53518&amp;path=h&amp;pnumber=1</a></span>
+              </li>
+            
+              
+              <li id="335">
+                <a class="time" href="2014-02-19#335" target="_self" title="#335">19:37:37</a>
+                <a class="nick" href="2014-02-19/335" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">clkao's url: [戶政凸槌　引爆選舉「安慰獎」內幕 - 時事 - 新聞- 商業周刊]</span>
+              </li>
+            
+              
+              <li id="336">
+                <a class="time" href="2014-02-19#336" target="_self" title="#336">19:37:48</a>
+                <a class="nick" href="2014-02-19/336" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">*bfs</span>
+              </li>
+            
+              
+              <li id="337">
+                <a class="time" href="2014-02-19#337" target="_self" title="#337">19:40:59</a>
+                <a class="nick" href="2014-02-19/337" target="_self" title="quote">dirty__</a>
+                <span class="msg wordwrap">poga: 衝!</span>
+              </li>
+            
+              
+              <li id="338">
+                <a class="time" href="2014-02-19#338" target="_self" title="#338">20:21:22</a>
+                <a class="nick" href="2014-02-19/338" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">dirty__</span>&nbsp;發現動民主 1.337 已經遠超過 mockup (圖)了啊</span>
+              </li>
+            
+              
+              <li id="339">
+                <a class="time" href="2014-02-19#339" target="_self" title="#339">20:21:42</a>
+                <a class="nick" href="2014-02-19/339" target="_self" title="quote">dirty__</a>
+                <span class="msg wordwrap">ETBlue: 所以現在的 mockup 都在你腦袋中囉? 這樣別人怎麼幫 XD</span>
+              </li>
+            
+              
+              <li id="340">
+                <a class="time" href="2014-02-19#340" target="_self" title="#340">20:24:29</a>
+                <a class="nick" href="2014-02-19/340" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">clkao: 靠腰 下次來個踢館吃飯松好了</span>
+              </li>
+            
+              
+              <li id="341">
+                <a class="time" href="2014-02-19#341" target="_self" title="#341">20:25:28</a>
+                <a class="nick" href="2014-02-19/341" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">德國還有叫aokman的公司</span>
+              </li>
+            
+              
+              <li id="342">
+                <a class="time" href="2014-02-19#342" target="_self" title="#342">20:45:46</a>
+                <a class="nick" href="2014-02-19/342" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap"><a href="https://g0v.hackpad.com/g0v-summit-2014-yNlvbssm17s">https://g0v.hackpad.com/g0v-summit-2014-yNlvbssm17s</a></span>
+              </li>
+            
+              
+              <li id="343">
+                <a class="time" href="2014-02-19#343" target="_self" title="#343">20:45:50</a>
+                <a class="nick" href="2014-02-19/343" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">hcchien's url: [g0v summit 2014 - g0v.hackpad.com]</span>
+              </li>
+            
+              
+              <li id="344">
+                <a class="time" href="2014-02-19#344" target="_self" title="#344">20:50:14</a>
+                <a class="nick" href="2014-02-19/344" target="_self" title="quote">travis-ci</a>
+                <span class="msg wordwrap">[travis-ci] Change view : <a href="https://github.com/g0v/ly.g0v.tw/compare/51791e7abbaf...2c38a2ffdda3">https://github.com/g0v/ly.g0v.tw/compare/51791e7abbaf...2c38a2ffdda3</a></span>
+              </li>
+            
+              
+              <li id="345">
+                <a class="time" href="2014-02-19#345" target="_self" title="#345">20:50:14</a>
+                <a class="nick" href="2014-02-19/345" target="_self" title="quote">travis-ci</a>
+                <span class="msg wordwrap">[travis-ci] Build details : <a href="http://travis-ci.org/g0v/ly.g0v.tw/builds/19180463">http://travis-ci.org/g0v/ly.g0v.tw/builds/19180463</a></span>
+              </li>
+            
+              
+              <li id="346">
+                <a class="time" href="2014-02-19#346" target="_self" title="#346">20:50:14</a>
+                <a class="nick" href="2014-02-19/346" target="_self" title="quote">travis-ci</a>
+                <span class="msg wordwrap">[travis-ci] g0v/ly.g0v.tw#276 (ly-diff - 2c38a2f : caasi Huang): The build was broken.</span>
+              </li>
+            
+              
+              <li id="347">
+                <a class="time" href="2014-02-19#347" target="_self" title="#347">20:57:50</a>
+                <a class="nick" href="2014-02-19/347" target="_self" title="quote">travis-ci</a>
+                <span class="msg wordwrap">[travis-ci] Change view : <a href="https://github.com/g0v/ly.g0v.tw/compare/2c38a2ffdda3...447df0a0a9ca">https://github.com/g0v/ly.g0v.tw/compare/2c38a2ffdda3...447df0a0a9ca</a></span>
+              </li>
+            
+              
+              <li id="348">
+                <a class="time" href="2014-02-19#348" target="_self" title="#348">20:57:50</a>
+                <a class="nick" href="2014-02-19/348" target="_self" title="quote">travis-ci</a>
+                <span class="msg wordwrap">[travis-ci] g0v/ly.g0v.tw#277 (ly-diff - 447df0a : caasi Huang): The build was fixed.</span>
+              </li>
+            
+              
+              <li id="349">
+                <a class="time" href="2014-02-19#349" target="_self" title="#349">20:57:50</a>
+                <a class="nick" href="2014-02-19/349" target="_self" title="quote">travis-ci</a>
+                <span class="msg wordwrap">[travis-ci] Build details : <a href="http://travis-ci.org/g0v/ly.g0v.tw/builds/19180795">http://travis-ci.org/g0v/ly.g0v.tw/builds/19180795</a></span>
+              </li>
+            
+              
+              <li id="350">
+                <a class="time" href="2014-02-19#350" target="_self" title="#350">21:18:55</a>
+                <a class="nick" href="2014-02-19/350" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">poga: gulp-protractor 把 webdriver task 加了 callback, 不知道能否解決我們的 ly.g0v.tw 上 protractor task 的需要?</span>
+              </li>
+            
+              
+              <li id="351">
+                <a class="time" href="2014-02-19#351" target="_self" title="#351">21:36:16</a>
+                <a class="nick" href="2014-02-19/351" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap"> <a href="http://youtu.be/eB1a-EEsHIA">http://youtu.be/eB1a-EEsHIA</a></span>
+              </li>
+            
+              
+              <li id="352">
+                <a class="time" href="2014-02-19#352" target="_self" title="#352">21:36:20</a>
+                <a class="nick" href="2014-02-19/352" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">ipa's url: [CodeAcross 2014 Taipei intro - YouTube]</span>
+              </li>
+            
+              
+              <li id="353">
+                <a class="time" href="2014-02-19#353" target="_self" title="#353">21:38:08</a>
+                <a class="nick" href="2014-02-19/353" target="_self" title="quote">caasih</a>
+                <span class="msg wordwrap">clkao++ ipa++</span>
+              </li>
+            
+              
+              <li id="354">
+                <a class="time" href="2014-02-19#354" target="_self" title="#354">21:39:44</a>
+                <a class="nick" href="2014-02-19/354" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">clkao ++ ipa ++  簡潔有力!</span>
+              </li>
+            
+              
+              <li id="355">
+                <a class="time" href="2014-02-19#355" target="_self" title="#355">21:45:29</a>
+                <a class="nick" href="2014-02-19/355" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">clkao++ ipa++ # nice</span>
+              </li>
+            
+              
+              <li id="356">
+                <a class="time" href="2014-02-19#356" target="_self" title="#356">21:46:32</a>
+                <a class="nick" href="2014-02-19/356" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">猜測應該是會被 CfA 剪成一個環遊世界 每人一句 I code for ... because ...</span>
+              </li>
+            
+              
+              <li id="357">
+                <a class="time" href="2014-02-19#357" target="_self" title="#357">21:50:53</a>
+                <a class="nick" href="2014-02-19/357" target="_self" title="quote">pm5cloud__</a>
+                <span class="msg wordwrap">clkao++ ipa++</span>
+              </li>
+            
+              
+              <li id="358">
+                <a class="time" href="2014-02-19#358" target="_self" title="#358">21:54:12</a>
+                <a class="nick" href="2014-02-19/358" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">ipa++ # 超專業</span>
+              </li>
+            
+              
+              <li id="359">
+                <a class="time" href="2014-02-19#359" target="_self" title="#359">21:54:49</a>
+                <a class="nick" href="2014-02-19/359" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">ipa++, 下次拍攝可以把窗簾拉上 XD</span>
+              </li>
+            
+              
+              <li id="360">
+                <a class="time" href="2014-02-19#360" target="_self" title="#360">21:57:29</a>
+                <a class="nick" href="2014-02-19/360" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">是為了自然光</span>
+              </li>
+            
+              
+              <li id="361">
+                <a class="time" href="2014-02-19#361" target="_self" title="#361">21:57:46</a>
+                <a class="nick" href="2014-02-19/361" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">不過有人頭一直亂動</span>
+              </li>
+            
+              
+              <li id="362">
+                <a class="time" href="2014-02-19#362" target="_self" title="#362">21:57:51</a>
+                <a class="nick" href="2014-02-19/362" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">所以眼鏡會反光 XD</span>
+              </li>
+            
+              
+              <li id="363">
+                <a class="time" href="2014-02-19#363" target="_self" title="#363">21:58:43</a>
+                <a class="nick" href="2014-02-19/363" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">如果家裡常備電影燈，我也願意把窗簾拉上 lol</span>
+              </li>
+            
+              
+              <li id="364">
+                <a class="time" href="2014-02-19#364" target="_self" title="#364">21:59:31</a>
+                <a class="nick" href="2014-02-19/364" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">一般日光燈拍起來效果很糟嗎？ &lt;-- 沒概念</span>
+              </li>
+            
+              
+              <li id="365">
+                <a class="time" href="2014-02-19#365" target="_self" title="#365">22:00:14</a>
+                <a class="nick" href="2014-02-19/365" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kiang: google 50hz lamp</span>
+              </li>
+            
+              
+              <li id="366">
+                <a class="time" href="2014-02-19#366" target="_self" title="#366">22:03:02</a>
+                <a class="nick" href="2014-02-19/366" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap"><a href="http://www.mobile01.com/topicdetail.php?f=244&amp;t=1111249&amp;p=1">http://www.mobile01.com/topicdetail.php?f=244&amp;t=1111249&amp;p=1</a></span>
+              </li>
+            
+              
+              <li id="367">
+                <a class="time" href="2014-02-19#367" target="_self" title="#367">22:03:04</a>
+                <a class="nick" href="2014-02-19/367" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">kiang's url: [[求救]我的5d2錄影竟然出現橫向橘色條紋 (第1頁) - Canon單眼相機 - Mobile01]</span>
+              </li>
+            
+              
+              <li id="368">
+                <a class="time" href="2014-02-19#368" target="_self" title="#368">22:03:54</a>
+                <a class="nick" href="2014-02-19/368" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">ronnywang: 在嗎在嗎</span>
+              </li>
+            
+              
+              <li id="369">
+                <a class="time" href="2014-02-19#369" target="_self" title="#369">22:05:00</a>
+                <a class="nick" href="2014-02-19/369" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">clkao: ++ ipa ++ !!!!</span>
+              </li>
+            
+              
+              <li id="370">
+                <a class="time" href="2014-02-19#370" target="_self" title="#370">22:06:35</a>
+                <a class="nick" href="2014-02-19/370" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">clkao: 簡單的說，相機太好才會有這個困擾 - 我的傻瓜相機沒拍過閃爍的 XD</span>
+              </li>
+            
+              
+              <li id="371">
+                <a class="time" href="2014-02-19#371" target="_self" title="#371">22:07:37</a>
+                <a class="nick" href="2014-02-19/371" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">請勿質疑國際紀錄片大導演的決定 會被 k XD</span>
+              </li>
+            
+              
+              <li id="372">
+                <a class="time" href="2014-02-19#372" target="_self" title="#372">22:07:57</a>
+                <a class="nick" href="2014-02-19/372" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">XD</span>
+              </li>
+            
+              
+              <li id="373">
+                <a class="time" href="2014-02-19#373" target="_self" title="#373">22:08:18</a>
+                <a class="nick" href="2014-02-19/373" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">應該不會啦 大家都很 nice 的... WeiHung 請 au 修電腦也沒怎樣</span>
+              </li>
+            
+              
+              <li id="374">
+                <a class="time" href="2014-02-19#374" target="_self" title="#374">22:08:43</a>
+                <a class="nick" href="2014-02-19/374" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">au 修電腦！！</span>
+              </li>
+            
+              
+              <li id="375">
+                <a class="time" href="2014-02-19#375" target="_self" title="#375">22:11:40</a>
+                <a class="nick" href="2014-02-19/375" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">後來據說修好又重灌了</span>
+              </li>
+            
+              
+              <li id="376">
+                <a class="time" href="2014-02-19#376" target="_self" title="#376">22:12:04</a>
+                <a class="nick" href="2014-02-19/376" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">#但是至少搞清楚了 kubuntu 為什麼灌不動</span>
+              </li>
+            
+              
+              <li id="377">
+                <a class="time" href="2014-02-19#377" target="_self" title="#377">22:12:37</a>
+                <a class="nick" href="2014-02-19/377" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">ipa</span>&nbsp;是得過國際影展獎但不是大導演啦</span>
+              </li>
+            
+              
+              <li id="378">
+                <a class="time" href="2014-02-19#378" target="_self" title="#378">22:16:10</a>
+                <a class="nick" href="2014-02-19/378" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">國際影展!!</span>
+              </li>
+            
+              
+              <li id="379">
+                <a class="time" href="2014-02-19#379" target="_self" title="#379">22:17:45</a>
+                <a class="nick" href="2014-02-19/379" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">是說 clkao 頭真是愛亂動啊   lol</span>
+              </li>
+            
+              
+              <li id="380">
+                <a class="time" href="2014-02-19#380" target="_self" title="#380">23:00:21</a>
+                <a class="nick" href="2014-02-19/380" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">clkao: 村長，請問一下，g0v和程序正義有沒有關係？</span>
+              </li>
+            
+              
+              <li id="381">
+                <a class="time" href="2014-02-19#381" target="_self" title="#381">23:00:28</a>
+                <a class="nick" href="2014-02-19/381" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">隱約感覺應該有</span>
+              </li>
+            
+              
+              <li id="382">
+                <a class="time" href="2014-02-19#382" target="_self" title="#382">23:00:38</a>
+                <a class="nick" href="2014-02-19/382" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">不懂</span>
+              </li>
+            
+              
+              <li id="383">
+                <a class="time" href="2014-02-19#383" target="_self" title="#383">23:01:31</a>
+                <a class="nick" href="2014-02-19/383" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">舉例來說，ivod政府搞個外包網站讓我們很難抓影片</span>
+              </li>
+            
+              
+              <li id="384">
+                <a class="time" href="2014-02-19#384" target="_self" title="#384">23:01:43</a>
+                <a class="nick" href="2014-02-19/384" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">這件事情似乎程序上不太正義</span>
+              </li>
+            
+              
+              <li id="385">
+                <a class="time" href="2014-02-19#385" target="_self" title="#385">23:02:05</a>
+                <a class="nick" href="2014-02-19/385" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">不該是這個樣子，應該要open，畢竟這應該是讓全民更方便查詢的東西</span>
+              </li>
+            
+              
+              <li id="386">
+                <a class="time" href="2014-02-19#386" target="_self" title="#386">23:02:21</a>
+                <a class="nick" href="2014-02-19/386" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">所以open data從某個角度上來說，跟程序正義有點關係</span>
+              </li>
+            
+              
+              <li id="387">
+                <a class="time" href="2014-02-19#387" target="_self" title="#387">23:02:25</a>
+                <a class="nick" href="2014-02-19/387" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">是這樣講的嗎？</span>
+              </li>
+            
+              
+              <li id="388">
+                <a class="time" href="2014-02-19#388" target="_self" title="#388">23:04:03</a>
+                <a class="nick" href="2014-02-19/388" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">如果 open data 是一種民權，就可以說政府的資料要用適合的格式開放，屬於「正當程序」</span>
+              </li>
+            
+              
+              <li id="389">
+                <a class="time" href="2014-02-19#389" target="_self" title="#389">23:04:36</a>
+                <a class="nick" href="2014-02-19/389" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">嗯</span>
+              </li>
+            
+              
+              <li id="390">
+                <a class="time" href="2014-02-19#390" target="_self" title="#390">23:06:00</a>
+                <a class="nick" href="2014-02-19/390" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">是這樣的</span>
+              </li>
+            
+              
+              <li id="391">
+                <a class="time" href="2014-02-19#391" target="_self" title="#391">23:06:20</a>
+                <a class="nick" href="2014-02-19/391" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">公民覺醒聯盟在228那一天會在228公園辦活動</span>
+              </li>
+            
+              
+              <li id="392">
+                <a class="time" href="2014-02-19#392" target="_self" title="#392">23:06:32</a>
+                <a class="nick" href="2014-02-19/392" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">開放給現場的人上台演講</span>
+              </li>
+            
+              
+              <li id="393">
+                <a class="time" href="2014-02-19#393" target="_self" title="#393">23:06:50</a>
+                <a class="nick" href="2014-02-19/393" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">主題是程序正義，和反課綱的團體一起舉辦</span>
+              </li>
+            
+              
+              <li id="394">
+                <a class="time" href="2014-02-19#394" target="_self" title="#394">23:06:56</a>
+                <a class="nick" href="2014-02-19/394" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">現場可以提供插座</span>
+              </li>
+            
+              
+              <li id="395">
+                <a class="time" href="2014-02-19#395" target="_self" title="#395">23:07:09</a>
+                <a class="nick" href="2014-02-19/395" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">有興趣的人可以去，也可以上台演講推廣open data這樣</span>
+              </li>
+            
+              
+              <li id="396">
+                <a class="time" href="2014-02-19#396" target="_self" title="#396">23:07:13</a>
+                <a class="nick" href="2014-02-19/396" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">ETBlue</span>&nbsp;醒</span>
+              </li>
+            
+              
+              <li id="397">
+                <a class="time" href="2014-02-19#397" target="_self" title="#397">23:07:33</a>
+                <a class="nick" href="2014-02-19/397" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">ETBlue: 要去演講講動民主嗎？XD</span>
+              </li>
+            
+              
+              <li id="398">
+                <a class="time" href="2014-02-19#398" target="_self" title="#398">23:08:04</a>
+                <a class="nick" href="2014-02-19/398" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">我問了一下，或許可以提供數個插頭，給大家輪流充電</span>
+              </li>
+            
+              
+              <li id="399">
+                <a class="time" href="2014-02-19#399" target="_self" title="#399">23:08:05</a>
+                <a class="nick" href="2014-02-19/399" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">billy3321: 演講……可以用寫文章的嗎 QAQ</span>
+              </li>
+            
+              
+              <li id="400">
+                <a class="time" href="2014-02-19#400" target="_self" title="#400">23:08:30</a>
+                <a class="nick" href="2014-02-19/400" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">寫完文章上台照讀嗎？XD</span>
+              </li>
+            
+              
+              <li id="401">
+                <a class="time" href="2014-02-19#401" target="_self" title="#401">23:09:53</a>
+                <a class="nick" href="2014-02-19/401" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">可以啊XD</span>
+              </li>
+            
+              
+              <li id="402">
+                <a class="time" href="2014-02-19#402" target="_self" title="#402">23:10:09</a>
+                <a class="nick" href="2014-02-19/402" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">另外旁邊就是沃草，或許累了可以進去休息</span>
+              </li>
+            
+              
+              <li id="403">
+                <a class="time" href="2014-02-19#403" target="_self" title="#403">23:10:25</a>
+                <a class="nick" href="2014-02-19/403" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">是說這228程序正義活動好像跟動民主關係比較遠…看 ipa 跟 tkirby 有沒有想到什麼可以講的好惹</span>
+              </li>
+            
+              
+              <li id="404">
+                <a class="time" href="2014-02-19#404" target="_self" title="#404">23:10:42</a>
+                <a class="nick" href="2014-02-19/404" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">ETBlue</span>&nbsp;追log</span>
+              </li>
+            
+              
+              <li id="405">
+                <a class="time" href="2014-02-19#405" target="_self" title="#405">23:10:45</a>
+                <a class="nick" href="2014-02-19/405" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">總之應該可以去現場小松一下（？）</span>
+              </li>
+            
+              
+              <li id="406">
+                <a class="time" href="2014-02-19#406" target="_self" title="#406">23:11:00</a>
+                <a class="nick" href="2014-02-19/406" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">228我不在台灣 :P</span>
+              </li>
+            
+              
+              <li id="407">
+                <a class="time" href="2014-02-19#407" target="_self" title="#407">23:11:22</a>
+                <a class="nick" href="2014-02-19/407" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">ipa: 這麼重大的日子！你居然.....好啦其實我也不再台灣 >"&lt;</span>
+              </li>
+            
+              
+              <li id="408">
+                <a class="time" href="2014-02-19#408" target="_self" title="#408">23:11:33</a>
+                <a class="nick" href="2014-02-19/408" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">哈哈XD</span>
+              </li>
+            
+              
+              <li id="409">
+                <a class="time" href="2014-02-19#409" target="_self" title="#409">23:11:34</a>
+                <a class="nick" href="2014-02-19/409" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">不是已經抓交替了？</span>
+              </li>
+            
+              
+              <li id="410">
+                <a class="time" href="2014-02-19#410" target="_self" title="#410">23:11:41</a>
+                <a class="nick" href="2014-02-19/410" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">3/4才回高雄喔</span>
+              </li>
+            
+              
+              <li id="411">
+                <a class="time" href="2014-02-19#411" target="_self" title="#411">23:11:47</a>
+                <a class="nick" href="2014-02-19/411" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">billy3321: 你跟強哥抓交替 XD</span>
+              </li>
+            
+              
+              <li id="412">
+                <a class="time" href="2014-02-19#412" target="_self" title="#412">23:11:50</a>
+                <a class="nick" href="2014-02-19/412" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">對啊</span>
+              </li>
+            
+              
+              <li id="413">
+                <a class="time" href="2014-02-19#413" target="_self" title="#413">23:11:51</a>
+                <a class="nick" href="2014-02-19/413" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">XDD</span>
+              </li>
+            
+              
+              <li id="414">
+                <a class="time" href="2014-02-19#414" target="_self" title="#414">23:11:56</a>
+                <a class="nick" href="2014-02-19/414" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">抓交替</span>
+              </li>
+            
+              
+              <li id="415">
+                <a class="time" href="2014-02-19#415" target="_self" title="#415">23:12:10</a>
+                <a class="nick" href="2014-02-19/415" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">他要磨練翻牆功能了</span>
+              </li>
+            
+              
+              <li id="416">
+                <a class="time" href="2014-02-19#416" target="_self" title="#416">23:12:25</a>
+                <a class="nick" href="2014-02-19/416" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">不就 ssh -D... 有和好練？</span>
+              </li>
+            
+              
+              <li id="417">
+                <a class="time" href="2014-02-19#417" target="_self" title="#417">23:12:34</a>
+                <a class="nick" href="2014-02-19/417" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">shadowsocks</span>
+              </li>
+            
+              
+              <li id="418">
+                <a class="time" href="2014-02-19#418" target="_self" title="#418">23:12:46</a>
+                <a class="nick" href="2014-02-19/418" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">ssh會被丟包，速度會被強制降速</span>
+              </li>
+            
+              
+              <li id="419">
+                <a class="time" href="2014-02-19#419" target="_self" title="#419">23:13:09</a>
+                <a class="nick" href="2014-02-19/419" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">l2tp還會被強制停止加密</span>
+              </li>
+            
+              
+              <li id="420">
+                <a class="time" href="2014-02-19#420" target="_self" title="#420">23:13:15</a>
+                <a class="nick" href="2014-02-19/420" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">GFW超強的</span>
+              </li>
+            
+              
+              <li id="421">
+                <a class="time" href="2014-02-19#421" target="_self" title="#421">23:14:03</a>
+                <a class="nick" href="2014-02-19/421" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">上次那個shell自己寫了一套翻牆用的通訊協議</span>
+              </li>
+            
+              
+              <li id="422">
+                <a class="time" href="2014-02-19#422" target="_self" title="#422">23:14:05</a>
+                <a class="nick" href="2014-02-19/422" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap"><a href="https://github.com/shell909090/goproxy">https://github.com/shell909090/goproxy</a></span>
+              </li>
+            
+              
+              <li id="423">
+                <a class="time" href="2014-02-19#423" target="_self" title="#423">23:14:09</a>
+                <a class="nick" href="2014-02-19/423" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">billy3321's url: [shell909090/goproxy · GitHub]</span>
+              </li>
+            
+              
+              <li id="424">
+                <a class="time" href="2014-02-19#424" target="_self" title="#424">23:21:45</a>
+                <a class="nick" href="2014-02-19/424" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">.... 追 log 看到有人貼鬆餅機害我突然想吃鬆餅</span>
+              </li>
+            
+              
+              <li id="425">
+                <a class="time" href="2014-02-19#425" target="_self" title="#425">23:22:32</a>
+                <a class="nick" href="2014-02-19/425" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">結果我以為是 g0v 要自己來個基金會   lol</span>
+              </li>
+            
+              
+              <li id="426">
+                <a class="time" href="2014-02-19#426" target="_self" title="#426">23:22:59</a>
+                <a class="nick" href="2014-02-19/426" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">g0v基金會存的不是錢，是code</span>
+              </li>
+            
+              
+              <li id="427">
+                <a class="time" href="2014-02-19#427" target="_self" title="#427">23:23:04</a>
+                <a class="nick" href="2014-02-19/427" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ballII: 那就讓我們假借思考如何改編歌詞成g0v主題之名行練團之實好了，這樣硬跟g0v扯上關係以後就可以光明正大地在萌典松練唱… XD</span>
+              </li>
+            
+              
+              <li id="428">
+                <a class="time" href="2014-02-19#428" target="_self" title="#428">23:23:06</a>
+                <a class="nick" href="2014-02-19/428" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">存進去會自然生利息（？）</span>
+              </li>
+            
+              
+              <li id="429">
+                <a class="time" href="2014-02-19#429" target="_self" title="#429">23:23:26</a>
+                <a class="nick" href="2014-02-19/429" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">orz 香港行又多場 js talk</span>
+              </li>
+            
+              
+              <li id="430">
+                <a class="time" href="2014-02-19#430" target="_self" title="#430">23:24:06</a>
+                <a class="nick" href="2014-02-19/430" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">五天講四場會不會爆炸</span>
+              </li>
+            
+              
+              <li id="431">
+                <a class="time" href="2014-02-19#431" target="_self" title="#431">23:24:15</a>
+                <a class="nick" href="2014-02-19/431" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">clkao: &lt;(_ _)></span>
+              </li>
+            
+              
+              <li id="432">
+                <a class="time" href="2014-02-19#432" target="_self" title="#432">23:24:44</a>
+                <a class="nick" href="2014-02-19/432" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">hcchien: 聯合勸募啦</span>
+              </li>
+            
+              
+              <li id="433">
+                <a class="time" href="2014-02-19#433" target="_self" title="#433">23:24:45</a>
+                <a class="nick" href="2014-02-19/433" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">lihai!</span>
+              </li>
+            
+              
+              <li id="434">
+                <a class="time" href="2014-02-19#434" target="_self" title="#434">23:25:39</a>
+                <a class="nick" href="2014-02-19/434" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">hcchien: 不然效益不大</span>
+              </li>
+            
+              
+              <li id="435">
+                <a class="time" href="2014-02-19#435" target="_self" title="#435">23:25:55</a>
+                <a class="nick" href="2014-02-19/435" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">沒做事就被行政搞死</span>
+              </li>
+            
+              
+              <li id="436">
+                <a class="time" href="2014-02-19#436" target="_self" title="#436">23:26:13</a>
+                <a class="nick" href="2014-02-19/436" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">clkao: 這樣跟公司的差別是!?</span>
+              </li>
+            
+              
+              <li id="437">
+                <a class="time" href="2014-02-19#437" target="_self" title="#437">23:27:31</a>
+                <a class="nick" href="2014-02-19/437" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">在超新手狀態下 發現這個總算讓我可以入門了解XD <a href="http://ncu-csie-snmg.github.io/2013-NCU-CSIE-Website-Design-Competition/git.html">http://ncu-csie-snmg.github.io/2013-NCU-CSIE-Website-Design-Competition/git.html</a></span>
+              </li>
+            
+              
+              <li id="438">
+                <a class="time" href="2014-02-19#438" target="_self" title="#438">23:27:34</a>
+                <a class="nick" href="2014-02-19/438" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">a0kman's url: [2013 中央資工網頁設計比賽 - Git &amp; GitHub教學]</span>
+              </li>
+            
+              
+              <li id="439">
+                <a class="time" href="2014-02-19#439" target="_self" title="#439">23:27:42</a>
+                <a class="nick" href="2014-02-19/439" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">主要是稅務吧 還有捐款方可以抵稅</span>
+              </li>
+            
+              
+              <li id="440">
+                <a class="time" href="2014-02-19#440" target="_self" title="#440">23:29:01</a>
+                <a class="nick" href="2014-02-19/440" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">嗯，我以為還在早上提到的獨立收支報表</span>
+              </li>
+            
+              
+              <li id="441">
+                <a class="time" href="2014-02-19#441" target="_self" title="#441">23:29:33</a>
+                <a class="nick" href="2014-02-19/441" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">噢 各個參與社群還是要獨立收支吧</span>
+              </li>
+            
+              
+              <li id="442">
+                <a class="time" href="2014-02-19#442" target="_self" title="#442">23:31:18</a>
+                <a class="nick" href="2014-02-19/442" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">不過基金會也會需要 operation 支出吧!?</span>
+              </li>
+            
+              
+              <li id="443">
+                <a class="time" href="2014-02-19#443" target="_self" title="#443">23:32:34</a>
+                <a class="nick" href="2014-02-19/443" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">應該就 (1) 專案經手帳管費用 (2) 獨立成為一個專案募款</span>
+              </li>
+            
+              
+              <li id="444">
+                <a class="time" href="2014-02-19#444" target="_self" title="#444">23:33:01</a>
+                <a class="nick" href="2014-02-19/444" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">hcchien: 目前就等於某司高在支出吧 如果成本低於某司高就可以考慮？</span>
+              </li>
+            
+              
+              <li id="445">
+                <a class="time" href="2014-02-19#445" target="_self" title="#445">23:33:31</a>
+                <a class="nick" href="2014-02-19/445" target="_self" title="quote">weihung</a>
+                <span class="msg wordwrap">驚見被 clkao 點名</span>
+              </li>
+            
+              
+              <li id="446">
+                <a class="time" href="2014-02-19#446" target="_self" title="#446">23:35:45</a>
+                <a class="nick" href="2014-02-19/446" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">某司高有總經理負責手開發票，寄發票   lol</span>
+              </li>
+            
+              
+              <li id="447">
+                <a class="time" href="2014-02-19#447" target="_self" title="#447">23:36:07</a>
+                <a class="nick" href="2014-02-19/447" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">pycon 願意用餘款來成立的話 我們已經募資完畢了耶</span>
+              </li>
+            
+              
+              <li id="448">
+                <a class="time" href="2014-02-19#448" target="_self" title="#448">23:36:12</a>
+                <a class="nick" href="2014-02-19/448" target="_self" title="quote">weihung</a>
+                <span class="msg wordwrap">後來重灌果然還是被 au 發現了XD 。後來再度在 kubuntu 的系統更新中被搞壞了</span>
+              </li>
+            
+              
+              <li id="449">
+                <a class="time" href="2014-02-19#449" target="_self" title="#449">23:36:44</a>
+                <a class="nick" href="2014-02-19/449" target="_self" title="quote">weihung</a>
+                <span class="msg wordwrap">現在還是遲遲不敢升級 13.10</span>
+              </li>
+            
+              
+              <li id="450">
+                <a class="time" href="2014-02-19#450" target="_self" title="#450">23:36:44</a>
+                <a class="nick" href="2014-02-19/450" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">難道有放後門 才知道後來被重灌？</span>
+              </li>
+            
+              
+              <li id="451">
+                <a class="time" href="2014-02-19#451" target="_self" title="#451">23:36:55</a>
+                <a class="nick" href="2014-02-19/451" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">現在都 14.04 preview 了</span>
+              </li>
+            
+              
+              <li id="452">
+                <a class="time" href="2014-02-19#452" target="_self" title="#452">23:37:24</a>
+                <a class="nick" href="2014-02-19/452" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">沒有後門，只是偶爾關心 #kuansim 一下 XD</span>
+              </li>
+            
+              
+              <li id="453">
+                <a class="time" href="2014-02-19#453" target="_self" title="#453">23:37:34</a>
+                <a class="nick" href="2014-02-19/453" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">XD XD</span>
+              </li>
+            
+              
+              <li id="454">
+                <a class="time" href="2014-02-19#454" target="_self" title="#454">23:37:55</a>
+                <a class="nick" href="2014-02-19/454" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">pycon 還沒確定有多少餘額吧</span>
+              </li>
+            
+              
+              <li id="455">
+                <a class="time" href="2014-02-19#455" target="_self" title="#455">23:37:57</a>
+                <a class="nick" href="2014-02-19/455" target="_self" title="quote">weihung</a>
+                <span class="msg wordwrap">XD</span>
+              </li>
+            
+              
+              <li id="456">
+                <a class="time" href="2014-02-19#456" target="_self" title="#456">23:38:47</a>
+                <a class="nick" href="2014-02-19/456" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">雖不中亦不遠矣? XD</span>
+              </li>
+            
+              
+              <li id="457">
+                <a class="time" href="2014-02-19#457" target="_self" title="#457">23:39:08</a>
+                <a class="nick" href="2014-02-19/457" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">0.5 - 1.5</span>
+              </li>
+            
+              
+              <li id="458">
+                <a class="time" href="2014-02-19#458" target="_self" title="#458">23:39:24</a>
+                <a class="nick" href="2014-02-19/458" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">這 range 也太大   lol</span>
+              </li>
+            
+              
+              <li id="459">
+                <a class="time" href="2014-02-19#459" target="_self" title="#459">23:39:41</a>
+                <a class="nick" href="2014-02-19/459" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">反正不足 hc 大手一揮就有了</span>
+              </li>
+            
+              
+              <li id="460">
+                <a class="time" href="2014-02-19#460" target="_self" title="#460">23:42:23</a>
+                <a class="nick" href="2014-02-19/460" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">大手一揮，幫 clkao 加個 1</span>
+              </li>
+            
+              
+              <li id="461">
+                <a class="time" href="2014-02-19#461" target="_self" title="#461">23:43:05</a>
+                <a class="nick" href="2014-02-19/461" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">.... 我是說寄個 email 給老主顧</span>
+              </li>
+            
+              
+              <li id="462">
+                <a class="time" href="2014-02-19#462" target="_self" title="#462">23:44:13</a>
+                <a class="nick" href="2014-02-19/462" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">其實 flyingv 的形式能夠存在，募款這件事情並不會有法律上的疑慮，只是抵稅效果的確是基金會比較好</span>
+              </li>
+            
+              
+              <li id="463">
+                <a class="time" href="2014-02-19#463" target="_self" title="#463">23:44:19</a>
+                <a class="nick" href="2014-02-19/463" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">所以 5m 跟全國性的 30m 一樣都不能花用？</span>
+              </li>
+            
+              
+              <li id="464">
+                <a class="time" href="2014-02-19#464" target="_self" title="#464">23:44:39</a>
+                <a class="nick" href="2014-02-19/464" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">基金會好像都這樣，不能花本金</span>
+              </li>
+            
+              
+              <li id="465">
+                <a class="time" href="2014-02-19#465" target="_self" title="#465">23:45:17</a>
+                <a class="nick" href="2014-02-19/465" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">yes</span>
+              </li>
+            
+              
+              <li id="466">
+                <a class="time" href="2014-02-19#466" target="_self" title="#466">23:45:27</a>
+                <a class="nick" href="2014-02-19/466" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">只能生利息</span>
+              </li>
+            
+              
+              <li id="467">
+                <a class="time" href="2014-02-19#467" target="_self" title="#467">23:45:47</a>
+                <a class="nick" href="2014-02-19/467" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">5m 現在一年頂多就 10 萬吧...</span>
+              </li>
+            
+              
+              <li id="468">
+                <a class="time" href="2014-02-19#468" target="_self" title="#468">23:47:00</a>
+                <a class="nick" href="2014-02-19/468" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">我只是好奇一點，過去待基金會的時候他們都會想辦法把盈餘花完，不知道基金會在累積盈餘轉次年度使用上是不是有什麼限制</span>
+              </li>
+            
+              
+              <li id="469">
+                <a class="time" href="2014-02-19#469" target="_self" title="#469">23:47:05</a>
+                <a class="nick" href="2014-02-19/469" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">10 萬的話, g0v 黑客松就生生不息了</span>
+              </li>
+            
+              
+              <li id="470">
+                <a class="time" href="2014-02-19#470" target="_self" title="#470">23:47:11</a>
+                <a class="nick" href="2014-02-19/470" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">表情推薦 <a href="http://facemood.grtimed.com/index.php?view=facemood&amp;tid=3">http://facemood.grtimed.com/index.php?view=facemood&amp;tid=3</a></span>
+              </li>
+            
+              
+              <li id="471">
+                <a class="time" href="2014-02-19#471" target="_self" title="#471">23:47:14</a>
+                <a class="nick" href="2014-02-19/471" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">a0kman's url: [顏文字卡 | 豐富的顏文字庫]</span>
+              </li>
+            
+              
+              <li id="472">
+                <a class="time" href="2014-02-19#472" target="_self" title="#472">23:47:26</a>
+                <a class="nick" href="2014-02-19/472" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">tkirby: 那就是無盡松了</span>
+              </li>
+            
+              
+              <li id="473">
+                <a class="time" href="2014-02-19#473" target="_self" title="#473">23:47:29</a>
+                <a class="nick" href="2014-02-19/473" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">XDDD</span>
+              </li>
+            
+              
+              <li id="474">
+                <a class="time" href="2014-02-19#474" target="_self" title="#474">23:47:41</a>
+                <a class="nick" href="2014-02-19/474" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">XD</span>
+              </li>
+            
+              
+              <li id="475">
+                <a class="time" href="2014-02-19#475" target="_self" title="#475">23:48:16</a>
+                <a class="nick" href="2014-02-19/475" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">黑客松、summit、課程、大使團生生不息？</span>
+              </li>
+            
+              
+              <li id="476">
+                <a class="time" href="2014-02-19#476" target="_self" title="#476">23:48:17</a>
+                <a class="nick" href="2014-02-19/476" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">無盡松 = 爆肝松，是說這樣的確有台灣精神就是了 XD</span>
+              </li>
+            
+              
+              <li id="477">
+                <a class="time" href="2014-02-19#477" target="_self" title="#477">23:49:51</a>
+                <a class="nick" href="2014-02-19/477" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">但一年 10 萬塊如果要辦大一點的活動，邀請一個國外講者大概就用完了，所以還是得依賴活動贊助吧？</span>
+              </li>
+            
+              
+              <li id="478">
+                <a class="time" href="2014-02-19#478" target="_self" title="#478">23:50:15</a>
+                <a class="nick" href="2014-02-19/478" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">超大型會議一定要有贊助吧</span>
+              </li>
+            
+              
+              <li id="479">
+                <a class="time" href="2014-02-19#479" target="_self" title="#479">23:50:40</a>
+                <a class="nick" href="2014-02-19/479" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kiang: 當然。這個等多是支援行政用</span>
+              </li>
+            
+              
+              <li id="480">
+                <a class="time" href="2014-02-19#480" target="_self" title="#480">23:50:45</a>
+                <a class="nick" href="2014-02-19/480" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">場地 邀約 交通 行程 各種資料  餐飲 巴拉巴拉巴拉</span>
+              </li>
+            
+              
+              <li id="481">
+                <a class="time" href="2014-02-19#481" target="_self" title="#481">23:50:55</a>
+                <a class="nick" href="2014-02-19/481" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">g0v 有些政治色彩，不知道對廠商募款是否會順利</span>
+              </li>
+            
+              
+              <li id="482">
+                <a class="time" href="2014-02-19#482" target="_self" title="#482">23:51:01</a>
+                <a class="nick" href="2014-02-19/482" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kiang: 剛好昨天有講到 盈餘要繳稅</span>
+              </li>
+            
+              
+              <li id="483">
+                <a class="time" href="2014-02-19#483" target="_self" title="#483">23:51:21</a>
+                <a class="nick" href="2014-02-19/483" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">所以募到剛好額度是很重要的</span>
+              </li>
+            
+              
+              <li id="484">
+                <a class="time" href="2014-02-19#484" target="_self" title="#484">23:52:08</a>
+                <a class="nick" href="2014-02-19/484" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">但據說是可以專案申請保留 但應該是一堆 paper work</span>
+              </li>
+            
+              
+              <li id="485">
+                <a class="time" href="2014-02-19#485" target="_self" title="#485">23:52:15</a>
+                <a class="nick" href="2014-02-19/485" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">kiang: 不過g0v的色彩好像還好，從各種不同的團體來說 g0v應該已經算是各領域接受度最高之一了</span>
+              </li>
+            
+              
+              <li id="486">
+                <a class="time" href="2014-02-19#486" target="_self" title="#486">23:52:47</a>
+                <a class="nick" href="2014-02-19/486" target="_self" title="quote">hcchien</a>
+                <span class="msg wordwrap">summit 請參閱 hackpad   :p</span>
+              </li>
+            
+              
+              <li id="487">
+                <a class="time" href="2014-02-19#487" target="_self" title="#487">23:52:51</a>
+                <a class="nick" href="2014-02-19/487" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">恩，應該是夠麻煩以前基金會的人才不會想留盈餘吧，但是沒有盈餘就很難累積能量囉</span>
+              </li>
+            
+              
+              <li id="488">
+                <a class="time" href="2014-02-19#488" target="_self" title="#488">23:53:29</a>
+                <a class="nick" href="2014-02-19/488" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">dirty__: 現在的 mockup 就…有想出來的都已經變成 github page 惹，還沒出現的就是還沒想出來 >&lt;</span>
+              </li>
+            
+              
+              <li id="489">
+                <a class="time" href="2014-02-19#489" target="_self" title="#489">23:53:49</a>
+                <a class="nick" href="2014-02-19/489" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">a0kman: g0v 的政治色彩是挑戰政府，倒不是什麼藍綠之類的 XD</span>
+              </li>
+            
+              
+              <li id="490">
+                <a class="time" href="2014-02-19#490" target="_self" title="#490">23:53:57</a>
+                <a class="nick" href="2014-02-19/490" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">YUP</span>
+              </li>
+            
+              
+              <li id="491">
+                <a class="time" href="2014-02-19#491" target="_self" title="#491">23:54:18</a>
+                <a class="nick" href="2014-02-19/491" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">不過這個色彩不明顯就來自於各大部門的主動聯繫和合作</span>
+              </li>
+            
+              
+              <li id="492">
+                <a class="time" href="2014-02-19#492" target="_self" title="#492">23:54:20</a>
+                <a class="nick" href="2014-02-19/492" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kiang: 應該是先有專案 針對那個專案募款到剛好進行吧 如果是多年份的 本來就會跟捐管者分年捐... 需要靠盈餘累積能量的話那應該還是比較適合公司</span>
+              </li>
+            
+              
+              <li id="493">
+                <a class="time" href="2014-02-19#493" target="_self" title="#493">23:54:24</a>
+                <a class="nick" href="2014-02-19/493" target="_self" title="quote">dirty__</a>
+                <span class="msg wordwrap">ETBlue: 分身伐樹功力還不足</span>
+              </li>
+            
+              
+              <li id="494">
+                <a class="time" href="2014-02-19#494" target="_self" title="#494">23:54:58</a>
+                <a class="nick" href="2014-02-19/494" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">dirty__: 現在需要用某種方式把企畫概念複製一份到大家腦袋裡</span>
+              </li>
+            
+              
+              <li id="495">
+                <a class="time" href="2014-02-19#495" target="_self" title="#495">23:55:08</a>
+                <a class="nick" href="2014-02-19/495" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">ETBlue: 應該要 issue 鬆 禁止改 code 只能開 issue 畫草圖、概念圖</span>
+              </li>
+            
+              
+              <li id="496">
+                <a class="time" href="2014-02-19#496" target="_self" title="#496">23:55:09</a>
+                <a class="nick" href="2014-02-19/496" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">所以甚至有機會要辦理大型活動可以請各單位幫忙申請補助金專簽喔</span>
+              </li>
+            
+              
+              <li id="497">
+                <a class="time" href="2014-02-19#497" target="_self" title="#497">23:55:30</a>
+                <a class="nick" href="2014-02-19/497" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">dirty__: 可是之前的文件都是隨手筆記，所以亂七八糟，新來的人也很難進入狀況…</span>
+              </li>
+            
+              
+              <li id="498">
+                <a class="time" href="2014-02-19#498" target="_self" title="#498">23:55:44</a>
+                <a class="nick" href="2014-02-19/498" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">clkao: 好像有此必要耶囧</span>
+              </li>
+            
+              
+              <li id="499">
+                <a class="time" href="2014-02-19#499" target="_self" title="#499">23:55:51</a>
+                <a class="nick" href="2014-02-19/499" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">clkao: 過去找贊助的經驗裡，廠商的預算都是有一年沒一年的，剛好今年有這個名目就會想辦法榨乾它，很難遇到那種可以細水流長的贊助商</span>
+              </li>
+            
+              
+              <li id="500">
+                <a class="time" href="2014-02-19#500" target="_self" title="#500">23:55:57</a>
+                <a class="nick" href="2014-02-19/500" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kiang: 應該也說不上挑戰啊 就是刺激進步 有機會的話就以特殊政府對政府關係合作</span>
+              </li>
+            
+              
+              <li id="501">
+                <a class="time" href="2014-02-19#501" target="_self" title="#501">23:55:58</a>
+                <a class="nick" href="2014-02-19/501" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">突然想到之前關於顏色的心經咒語</span>
+              </li>
+            
+              
+              <li id="502">
+                <a class="time" href="2014-02-19#502" target="_self" title="#502">23:56:17</a>
+                <a class="nick" href="2014-02-19/502" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">我辦過一次甚麼海峽兩岸XX研討會的補助專簽，就是因為某大學有需要辦，長官也覺的對研究有幫助 就這樣簽了</span>
+              </li>
+            
+              
+              <li id="503">
+                <a class="time" href="2014-02-19#503" target="_self" title="#503">23:56:22</a>
+                <a class="nick" href="2014-02-19/503" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">是故資料無色，無受想行識</span>
+              </li>
+            
+              
+              <li id="504">
+                <a class="time" href="2014-02-19#504" target="_self" title="#504">23:56:41</a>
+                <a class="nick" href="2014-02-19/504" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">故知般若開放資料多　是大源碼　是大明神　是無上咒</span>
+              </li>
+            
+              
+              <li id="505">
+                <a class="time" href="2014-02-19#505" target="_self" title="#505">23:56:50</a>
+                <a class="nick" href="2014-02-19/505" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">是無等等咒 能除一切bug 真實不虛</span>
+              </li>
+            
+              
+              <li id="506">
+                <a class="time" href="2014-02-19#506" target="_self" title="#506">23:57:00</a>
+                <a class="nick" href="2014-02-19/506" target="_self" title="quote">kiang</a>
+                <span class="msg wordwrap">clkao: 光是政誌就會讓政治人物膽顫心驚了吧 XD</span>
+              </li>
+            
+              
+              <li id="507">
+                <a class="time" href="2014-02-19#507" target="_self" title="#507">23:57:02</a>
+                <a class="nick" href="2014-02-19/507" target="_self" title="quote">dirty__</a>
+                <span class="msg wordwrap">我看到什麼了我?</span>
+              </li>
+            
+              
+              <li id="508">
+                <a class="time" href="2014-02-19#508" target="_self" title="#508">23:57:02</a>
+                <a class="nick" href="2014-02-19/508" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kiang: 了解。不過現在有蠻多廠商都有 csr 或對應的基金會... multi-year 計畫應該還是 ok</span>
+              </li>
+            
+              
+              <li id="509">
+                <a class="time" href="2014-02-19#509" target="_self" title="#509">23:57:03</a>
+                <a class="nick" href="2014-02-19/509" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">我覺得我被超渡了</span>
+              </li>
+            
+              
+              <li id="510">
+                <a class="time" href="2014-02-19#510" target="_self" title="#510">23:57:06</a>
+                <a class="nick" href="2014-02-19/510" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">故說般若開放資料咒，即說咒曰：open, open, data open, data all open, 菩提薩婆訶。</span>
+              </li>
+            
+              
+              <li id="511">
+                <a class="time" href="2014-02-19#511" target="_self" title="#511">23:57:21</a>
+                <a class="nick" href="2014-02-19/511" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">宿便都變成舍利子了!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span>
+              </li>
+            
+              
+              <li id="512">
+                <a class="time" href="2014-02-19#512" target="_self" title="#512">23:57:23</a>
+                <a class="nick" href="2014-02-19/512" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">clkao: dirty__ 加上還需要其他專業的人合作，像是研究政治的可以提供企畫想法…所以在想說動民主團可能要開個企畫組的名目讓大家來做一些研究跟概念發展的事情</span>
+              </li>
+            
+              
+              <li id="513">
+                <a class="time" href="2014-02-19#513" target="_self" title="#513">23:57:59</a>
+                <a class="nick" href="2014-02-19/513" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">這顏文字庫好方便 XD <a href="http://facemood.grtimed.com/index.php?view=facemood&amp;tid=3">http://facemood.grtimed.com/index.php?view=facemood&amp;tid=3</a> a0kman 提供</span>
+              </li>
+            
+              
+              <li id="514">
+                <a class="time" href="2014-02-19#514" target="_self" title="#514">23:58:02</a>
+                <a class="nick" href="2014-02-19/514" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">ETBlue's url: [顏文字卡 | 豐富的顏文字庫]</span>
+              </li>
+            
+              
+              <li id="515">
+                <a class="time" href="2014-02-19#515" target="_self" title="#515">23:58:14</a>
+                <a class="nick" href="2014-02-19/515" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">ETBlue: 續推XD</span>
+              </li>
+            
+              
+              <li id="516">
+                <a class="time" href="2014-02-19#516" target="_self" title="#516">23:58:17</a>
+                <a class="nick" href="2014-02-19/516" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">clkao: 啊, gullet 不能在 windows 上正常執行嗎  等會來看看好了</span>
+              </li>
+            
+              
+              <li id="517">
+                <a class="time" href="2014-02-19#517" target="_self" title="#517">23:58:26</a>
+                <a class="nick" href="2014-02-19/517" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">點表情就複製了唷</span>
+              </li>
+            
+              
+              <li id="518">
+                <a class="time" href="2014-02-19#518" target="_self" title="#518">23:59:12</a>
+                <a class="nick" href="2014-02-19/518" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">clkao  我嘗試在 windows 上 run g0v.tw   發現 jade檔那些都沒 complie 出來耶   0.0</span>
+              </li>
+            
+              
+              <li id="519">
+                <a class="time" href="2014-02-19#519" target="_self" title="#519">23:59:26</a>
+                <a class="nick" href="2014-02-19/519" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">Lee1092: 呃! brunch windows 有障礙</span>
+              </li>
+            
+              
+              <li id="520">
+                <a class="time" href="2014-02-19#520" target="_self" title="#520">23:59:29</a>
+                <a class="nick" href="2014-02-19/520" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">不說民間廠商的話  一些活動的贊助 如果高階事務官覺得很有意思或有幫助   會很有機會持續好幾年都可以有"幫助"</span>
+              </li>
+            
+              
+              <li id="521">
+                <a class="time" href="2014-02-19#521" target="_self" title="#521">23:59:32</a>
+                <a class="nick" href="2014-02-19/521" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">orz............</span>
+              </li>
+            
+              
+              <li id="522">
+                <a class="time" href="2014-02-19#522" target="_self" title="#522">23:59:48</a>
+                <a class="nick" href="2014-02-19/522" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">好吧   只好改開MBA</span>
+              </li>
+            
+              
+              <li id="523">
+                <a class="time" href="2014-02-19#523" target="_self" title="#523">23:59:53</a>
+                <a class="nick" href="2014-02-19/523" target="_self" title="quote">a0kman</a>
+                <span class="msg wordwrap">所以要全力攻陷事務官 政務官和政黨難說</span>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="footer">
+  <p>Powered by Logbot 2013 | <a href="https://github.com/g0v/Logbot">GitHub Repo</a></p>
+</div>
+
+    </div>
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script>
+      var channel = "g0v.tw";
+    </script>
+    <script src="/assets/applications.js"></script>
+    
+  </body>
+</html>

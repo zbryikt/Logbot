@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Logbot | #g0v.tw</title>
+    <link rel="stylesheet" type="text/css" href="/assets/screen.css">
+    <base target="_blank" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1>Logbot</h1>
+      </div>
+      <div class="quick-nav">
+        <div class="nav_page-up" onclick="pageScrollTop(0);">⬆</div>
+        <div class="nav_page-down" onclick="pageScrollTop($(document).height());">⬇</div>
+      </div>
+      <div class="body">
+        <div class="channel">#g0v.tw</div>
+        
+        
+        <select id="date-picker" class="date">
+          
+            <option value="2013-09-19">2013-09-19</option>
+          
+          <optgroup label="Today">
+            <option id="today" value="today" >2014-02-26</option>
+          </optgroup>
+          <optgroup label="Earlier logs">
+            
+              <option value="2014-02-25" >2014-02-25</option>
+            
+              <option value="2014-02-24" >2014-02-24</option>
+            
+              <option value="2014-02-23" >2014-02-23</option>
+            
+              <option value="2014-02-22" >2014-02-22</option>
+            
+          </optgroup>
+        </select>
+
+        <div class="scroll_switch">AUTO⬇ </div>
+       
+        <div>
+          <ul class="logs">
+            
+              
+              <li id="0">
+                <a class="time" href="2013-09-19#0" target="_self" title="#0">01:40:43</a>
+                <a class="nick" href="2013-09-19/0" target="_self" title="quote">hychen</a>
+                <span class="msg wordwrap">dirty: 我有3個</span>
+              </li>
+            
+              
+              <li id="1">
+                <a class="time" href="2013-09-19#1" target="_self" title="#1">06:49:10</a>
+                <a class="nick" href="2013-09-19/1" target="_self" title="quote">dirty</a>
+                <span class="msg wordwrap">hychen: thx, 需要時再找你 ^^</span>
+              </li>
+            
+              
+              <li id="2">
+                <a class="time" href="2013-09-19#2" target="_self" title="#2">06:53:13</a>
+                <a class="nick" href="2013-09-19/2" target="_self" title="quote">wHisKy-</a>
+                <span class="msg wordwrap">clkao 10.07 那一場，據說開放報名兩天後政府官員部分已經破百了.. 民間的部分還不清楚</span>
+              </li>
+            
+              
+              <li id="3">
+                <a class="time" href="2013-09-19#3" target="_self" title="#3">08:41:13</a>
+                <a class="nick" href="2013-09-19/3" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">wHisKy-: thanks for the info</span>
+              </li>
+            
+              
+              <li id="4">
+                <a class="time" href="2013-09-19#4" target="_self" title="#4">08:41:42</a>
+                <a class="nick" href="2013-09-19/4" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">dirty: 其實上 topic 那個 queue 填 有 invitation 的人就會去寄了</span>
+              </li>
+            
+              
+              <li id="5">
+                <a class="time" href="2013-09-19#5" target="_self" title="#5">12:40:08</a>
+                <a class="nick" href="2013-09-19/5" target="_self" title="quote">dirty</a>
+                <span class="msg wordwrap">clkao: 我知道, 只是這兩天我都很急, 要趁我在線上時教別人怎麼用 irc</span>
+              </li>
+            
+              
+              <li id="6">
+                <a class="time" href="2013-09-19#6" target="_self" title="#6">14:31:03</a>
+                <a class="nick" href="2013-09-19/6" target="_self" title="quote">weitsai</a>
+                <span class="msg wordwrap">最近在測試 iHelp 在每個 android 裝置上的 UI 畫面是不是正確</span>
+              </li>
+            
+              
+              <li id="7">
+                <a class="time" href="2013-09-19#7" target="_self" title="#7">14:31:23</a>
+                <a class="nick" href="2013-09-19/7" target="_self" title="quote">weitsai</a>
+                <span class="msg wordwrap">覺得一個一個手機燒有點麻煩所以用 php 寫了一個小 tool</span>
+              </li>
+            
+              
+              <li id="8">
+                <a class="time" href="2013-09-19#8" target="_self" title="#8">14:31:27</a>
+                <a class="nick" href="2013-09-19/8" target="_self" title="quote">weitsai</a>
+                <span class="msg wordwrap"><a href="https://github.com/weitsai/InstallApkToDevices">https://github.com/weitsai/InstallApkToDevices</a></span>
+              </li>
+            
+              
+              <li id="9">
+                <a class="time" href="2013-09-19#9" target="_self" title="#9">14:31:29</a>
+                <a class="nick" href="2013-09-19/9" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">weitsai's url: [weitsai/InstallApkToDevices · GitHub]</span>
+              </li>
+            
+              
+              <li id="10">
+                <a class="time" href="2013-09-19#10" target="_self" title="#10">14:44:08</a>
+                <a class="nick" href="2013-09-19/10" target="_self" title="quote">clkaoud</a>
+                <span class="msg wordwrap">weitsai++</span>
+              </li>
+            
+              
+              <li id="11">
+                <a class="time" href="2013-09-19#11" target="_self" title="#11">14:46:31</a>
+                <a class="nick" href="2013-09-19/11" target="_self" title="quote">clkaoud</a>
+                <span class="msg wordwrap">kcwu: 18g 應該也傳好了</span>
+              </li>
+            
+              
+              <li id="12">
+                <a class="time" href="2013-09-19#12" target="_self" title="#12">17:02:27</a>
+                <a class="nick" href="2013-09-19/12" target="_self" title="quote">edwardc</a>
+                <span class="msg wordwrap"><a href="http://www.tpc.moj.gov.tw/lp.asp?ctNode=26813&amp;CtUnit=8582&amp;BaseDSD=7&amp;mp=009">http://www.tpc.moj.gov.tw/lp.asp?ctNode=26813&amp;CtUnit=8582&amp;BaseDSD=7&amp;mp=009</a> 這個部分不知道有沒有人爬了?</span>
+              </li>
+            
+              
+              <li id="13">
+                <a class="time" href="2013-09-19#13" target="_self" title="#13">17:02:29</a>
+                <a class="nick" href="2013-09-19/13" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">edwardc's url: [偵查終結公告 - 臺灣臺北地方法院檢察署]</span>
+              </li>
+            
+              
+              <li id="14">
+                <a class="time" href="2013-09-19#14" target="_self" title="#14">17:25:35</a>
+                <a class="nick" href="2013-09-19/14" target="_self" title="quote">dirty</a>
+                <span class="msg wordwrap">我發覺 github 的權限管理很不直覺. 有辦法設某個 member/team 只有某個 repo 的 admin 嗎?</span>
+              </li>
+            
+              
+              <li id="15">
+                <a class="time" href="2013-09-19#15" target="_self" title="#15">17:26:17</a>
+                <a class="nick" href="2013-09-19/15" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">dirty: 得在那個 team 設定 member 能動哪些 repo</span>
+              </li>
+            
+              
+              <li id="16">
+                <a class="time" href="2013-09-19#16" target="_self" title="#16">17:26:22</a>
+                <a class="nick" href="2013-09-19/16" target="_self" title="quote">dirty</a>
+                <span class="msg wordwrap">我把一個 team 設 pull, push, admin, 並指定了一個 repo, 但是那個 team 的 member 可以 create new repo</span>
+              </li>
+            
+              
+              <li id="17">
+                <a class="time" href="2013-09-19#17" target="_self" title="#17">17:27:09</a>
+                <a class="nick" href="2013-09-19/17" target="_self" title="quote">dirty</a>
+                <span class="msg wordwrap">clkao: yep, 那是我的直覺</span>
+              </li>
+            
+              
+              <li id="18">
+                <a class="time" href="2013-09-19#18" target="_self" title="#18">19:38:18</a>
+                <a class="nick" href="2013-09-19/18" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">irccloud mobile app open source了~ XD</span>
+              </li>
+            
+              
+              <li id="19">
+                <a class="time" href="2013-09-19#19" target="_self" title="#19">20:10:53</a>
+                <a class="nick" href="2013-09-19/19" target="_self" title="quote">pofeng_</a>
+                <span class="msg wordwrap">請問一下 FB open graph 的問題, 為什麼有些分享可以顯示大圖, 有些是小圖, 如何設定 ?</span>
+              </li>
+            
+              
+              <li id="20">
+                <a class="time" href="2013-09-19#20" target="_self" title="#20">20:11:13</a>
+                <a class="nick" href="2013-09-19/20" target="_self" title="quote">pofeng_</a>
+                <span class="msg wordwrap">( PS: og:image 已經設了大圖 )</span>
+              </li>
+            
+              
+              <li id="21">
+                <a class="time" href="2013-09-19#21" target="_self" title="#21">20:51:54</a>
+                <a class="nick" href="2013-09-19/21" target="_self" title="quote">clkaoud</a>
+                <span class="msg wordwrap">yhsiang!!</span>
+              </li>
+            
+              
+              <li id="22">
+                <a class="time" href="2013-09-19#22" target="_self" title="#22">20:58:21</a>
+                <a class="nick" href="2013-09-19/22" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">clkaoud: <a href="https://blog.irccloud.com/mobile-apps-open-sourced/">https://blog.irccloud.com/mobile-apps-open-sourced/</a></span>
+              </li>
+            
+              
+              <li id="23">
+                <a class="time" href="2013-09-19#23" target="_self" title="#23">20:58:22</a>
+                <a class="nick" href="2013-09-19/23" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">yhsiang's url: [Mobile apps open sourced | IRCCloud Blog]</span>
+              </li>
+            
+              
+              <li id="24">
+                <a class="time" href="2013-09-19#24" target="_self" title="#24">22:19:32</a>
+                <a class="nick" href="2013-09-19/24" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap"><a href="http://billy3321.blogspot.com/2013/09/ubuntu-1304-serverruby-on-rails-app.html">http://billy3321.blogspot.com/2013/09/ubuntu-1304-serverruby-on-rails-app.html</a></span>
+              </li>
+            
+              
+              <li id="25">
+                <a class="time" href="2013-09-19#25" target="_self" title="#25">22:19:33</a>
+                <a class="nick" href="2013-09-19/25" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">billy3321's url: [雨蒼的終端機: 如何在Ubuntu 13.04 Server上部署Ruby on Rails app]</span>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="footer">
+  <p>Powered by Logbot 2013 | <a href="https://github.com/g0v/Logbot">GitHub Repo</a></p>
+</div>
+
+    </div>
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script>
+      var channel = "g0v.tw";
+    </script>
+    <script src="/assets/applications.js"></script>
+    
+  </body>
+</html>

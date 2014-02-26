@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Logbot | #g0v.tw</title>
+    <link rel="stylesheet" type="text/css" href="/assets/screen.css">
+    <base target="_blank" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1>Logbot</h1>
+      </div>
+      <div class="quick-nav">
+        <div class="nav_page-up" onclick="pageScrollTop(0);">⬆</div>
+        <div class="nav_page-down" onclick="pageScrollTop($(document).height());">⬇</div>
+      </div>
+      <div class="body">
+        <div class="channel">#g0v.tw</div>
+        
+        
+        <select id="date-picker" class="date">
+          
+            <option value="2013-06-24">2013-06-24</option>
+          
+          <optgroup label="Today">
+            <option id="today" value="today" >2014-02-26</option>
+          </optgroup>
+          <optgroup label="Earlier logs">
+            
+              <option value="2014-02-25" >2014-02-25</option>
+            
+              <option value="2014-02-24" >2014-02-24</option>
+            
+              <option value="2014-02-23" >2014-02-23</option>
+            
+              <option value="2014-02-22" >2014-02-22</option>
+            
+          </optgroup>
+        </select>
+
+        <div class="scroll_switch">AUTO⬇ </div>
+       
+        <div>
+          <ul class="logs">
+            
+              
+              <li id="0">
+                <a class="time" href="2013-06-24#0" target="_self" title="#0">00:12:03</a>
+                <a class="nick" href="2013-06-24/0" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">yhsiang: <a href="https://github.com/thedjpetersen/subway">https://github.com/thedjpetersen/subway</a></span>
+              </li>
+            
+              
+              <li id="1">
+                <a class="time" href="2013-06-24#1" target="_self" title="#1">00:12:05</a>
+                <a class="nick" href="2013-06-24/1" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">clkao's url: [thedjpetersen/subway · GitHub]</span>
+              </li>
+            
+              
+              <li id="2">
+                <a class="time" href="2013-06-24#2" target="_self" title="#2">00:13:02</a>
+                <a class="nick" href="2013-06-24/2" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">差點以為是吃的subway ...:$</span>
+              </li>
+            
+              
+              <li id="3">
+                <a class="time" href="2013-06-24#3" target="_self" title="#3">00:14:36</a>
+                <a class="nick" href="2013-06-24/3" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">這個還會有自動載入圖片阿, 跟構想上的感覺好接近可以載圖片載影片 XDD</span>
+              </li>
+            
+              
+              <li id="4">
+                <a class="time" href="2013-06-24#4" target="_self" title="#4">00:15:48</a>
+                <a class="nick" href="2013-06-24/4" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">好像不賴</span>
+              </li>
+            
+              
+              <li id="5">
+                <a class="time" href="2013-06-24#5" target="_self" title="#5">00:18:09</a>
+                <a class="nick" href="2013-06-24/5" target="_self" title="quote">clkaosub</a>
+                <span class="msg wordwrap">not bad at all</span>
+              </li>
+            
+              
+              <li id="6">
+                <a class="time" href="2013-06-24#6" target="_self" title="#6">00:18:14</a>
+                <a class="nick" href="2013-06-24/6" target="_self" title="quote">clkaosub</a>
+                <span class="msg wordwrap">has a user system already</span>
+              </li>
+            
+              
+              <li id="7">
+                <a class="time" href="2013-06-24#7" target="_self" title="#7">00:18:26</a>
+                <a class="nick" href="2013-06-24/7" target="_self" title="quote">clkaosub</a>
+                <span class="msg wordwrap">(with sqlite)</span>
+              </li>
+            
+              
+              <li id="8">
+                <a class="time" href="2013-06-24#8" target="_self" title="#8">00:18:34</a>
+                <a class="nick" href="2013-06-24/8" target="_self" title="quote">clkaosub</a>
+                <span class="msg wordwrap">so we can insert users quite easily</span>
+              </li>
+            
+              
+              <li id="9">
+                <a class="time" href="2013-06-24#9" target="_self" title="#9">00:19:01</a>
+                <a class="nick" href="2013-06-24/9" target="_self" title="quote">clkaosub</a>
+                <span class="msg wordwrap">ui in backbone so should be quite hackable</span>
+              </li>
+            
+              
+              <li id="10">
+                <a class="time" href="2013-06-24#10" target="_self" title="#10">00:25:06</a>
+                <a class="nick" href="2013-06-24/10" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">bouncer_mode_allowed // not implemented yet</span>
+              </li>
+            
+              
+              <li id="11">
+                <a class="time" href="2013-06-24#11" target="_self" title="#11">00:42:31</a>
+                <a class="nick" href="2013-06-24/11" target="_self" title="quote">caasiHuang_</a>
+                <span class="msg wordwrap">ETBlue: 看來這邊也是兩點後才會到...0rz</span>
+              </li>
+            
+              
+              <li id="12">
+                <a class="time" href="2013-06-24#12" target="_self" title="#12">01:02:30</a>
+                <a class="nick" href="2013-06-24/12" target="_self" title="quote">hychen</a>
+                <span class="msg wordwrap">clkao, <a href="https://github.com/hychen/pgrest/commit/6148da00b938d43b0027a7c135507c41cecef34e">https://github.com/hychen/pgrest/commit/6148da00b938d43b0027a7c135507c41cecef34e</a></span>
+              </li>
+            
+              
+              <li id="13">
+                <a class="time" href="2013-06-24#13" target="_self" title="#13">01:02:32</a>
+                <a class="nick" href="2013-06-24/13" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">hychen's url: [Auto serial id generation support when user post data. · 6148da0 · hychen/pgrest · GitHub]</span>
+              </li>
+            
+              
+              <li id="14">
+                <a class="time" href="2013-06-24#14" target="_self" title="#14">01:03:22</a>
+                <a class="nick" href="2013-06-24/14" target="_self" title="quote">hychen</a>
+                <span class="msg wordwrap">clkao, auto id generation ; 剛測過會動, 不過這個x-pgrest-create-identity-key要改個名字嗎? ;p</span>
+              </li>
+            
+              
+              <li id="15">
+                <a class="time" href="2013-06-24#15" target="_self" title="#15">10:04:06</a>
+                <a class="nick" href="2013-06-24/15" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">logbot_g0v_tw 也碼頭化了 # docker run -e 'LOGBOT_NICK=logbot_g0v_tw' -e 'LOGBOT_CHANNELS=#g0v.tw' audreyt/logbot</span>
+              </li>
+            
+              
+              <li id="16">
+                <a class="time" href="2013-06-24#16" target="_self" title="#16">10:06:23</a>
+                <a class="nick" href="2013-06-24/16" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">woot</span>
+              </li>
+            
+              
+              <li id="17">
+                <a class="time" href="2013-06-24#17" target="_self" title="#17">10:06:26</a>
+                <a class="nick" href="2013-06-24/17" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">接下來是 a-tsioh 的網頁版拼音輸入法 su-lip ... 拜碼頭之賜，opalang+mongodb 一大包完全可以當作黑盒子處理。</span>
+              </li>
+            
+              
+              <li id="18">
+                <a class="time" href="2013-06-24#18" target="_self" title="#18">10:10:33</a>
+                <a class="nick" href="2013-06-24/18" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">au++</span>
+              </li>
+            
+              
+              <li id="19">
+                <a class="time" href="2013-06-24#19" target="_self" title="#19">11:02:50</a>
+                <a class="nick" href="2013-06-24/19" target="_self" title="quote">FourDollars</a>
+                <span class="msg wordwrap">au++</span>
+              </li>
+            
+              
+              <li id="20">
+                <a class="time" href="2013-06-24#20" target="_self" title="#20">15:05:38</a>
+                <a class="nick" href="2013-06-24/20" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">ipa</span>&nbsp;@match cafe</span>
+              </li>
+            
+              
+              <li id="21">
+                <a class="time" href="2013-06-24#21" target="_self" title="#21">15:36:20</a>
+                <a class="nick" href="2013-06-24/21" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">ipa: moqup 需要箭頭怎麼辦 上傳自己的image?</span>
+              </li>
+            
+              
+              <li id="22">
+                <a class="time" href="2013-06-24#22" target="_self" title="#22">15:38:15</a>
+                <a class="nick" href="2013-06-24/22" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">發現有ios button XD</span>
+              </li>
+            
+              
+              <li id="23">
+                <a class="time" href="2013-06-24#23" target="_self" title="#23">15:42:18</a>
+                <a class="nick" href="2013-06-24/23" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">yhsiang: icon裡可以選箭頭</span>
+              </li>
+            
+              
+              <li id="24">
+                <a class="time" href="2013-06-24#24" target="_self" title="#24">16:03:29</a>
+                <a class="nick" href="2013-06-24/24" target="_self" title="quote">thschee_</a>
+                <span class="msg wordwrap">data weekend #04 可能會有這個主題 <a href="http://www.socialexplorer.com/">http://www.socialexplorer.com/</a></span>
+              </li>
+            
+              
+              <li id="25">
+                <a class="time" href="2013-06-24#25" target="_self" title="#25">16:04:35</a>
+                <a class="nick" href="2013-06-24/25" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">thschee_</span>&nbsp;oops sorry wrong channel</span>
+              </li>
+            
+              
+              <li id="26">
+                <a class="time" href="2013-06-24#26" target="_self" title="#26">16:04:57</a>
+                <a class="nick" href="2013-06-24/26" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">thschee_</span>&nbsp;被大雨淋到暈</span>
+              </li>
+            
+              
+              <li id="27">
+                <a class="time" href="2013-06-24#27" target="_self" title="#27">16:20:06</a>
+                <a class="nick" href="2013-06-24/27" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">ipa: 噢噢 感謝 :)</span>
+              </li>
+            
+              
+              <li id="28">
+                <a class="time" href="2013-06-24#28" target="_self" title="#28">17:06:16</a>
+                <a class="nick" href="2013-06-24/28" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">au: /_/g0v-hackath3n/csv is hanging</span>
+              </li>
+            
+              
+              <li id="29">
+                <a class="time" href="2013-06-24#29" target="_self" title="#29">17:14:12</a>
+                <a class="nick" href="2013-06-24/29" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">clkao: <a href="https://g0v.hackpad.com/nOWhTpJPKx7">https://g0v.hackpad.com/nOWhTpJPKx7</a></span>
+              </li>
+            
+              
+              <li id="30">
+                <a class="time" href="2013-06-24#30" target="_self" title="#30">17:14:16</a>
+                <a class="nick" href="2013-06-24/30" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">ipa's url: [公務員考察追蹤網 - g0v.hackpad.com]</span>
+              </li>
+            
+              
+              <li id="31">
+                <a class="time" href="2013-06-24#31" target="_self" title="#31">17:14:18</a>
+                <a class="nick" href="2013-06-24/31" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">整理好了</span>
+              </li>
+            
+              
+              <li id="32">
+                <a class="time" href="2013-06-24#32" target="_self" title="#32">17:16:45</a>
+                <a class="nick" href="2013-06-24/32" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">來自前陣子呼籲大家打電話給立委，流量太大搞掛自己網站的rusrule.com提案</span>
+              </li>
+            
+              
+              <li id="33">
+                <a class="time" href="2013-06-24#33" target="_self" title="#33">17:44:29</a>
+                <a class="nick" href="2013-06-24/33" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">clkao: crontab checker reenacted</span>
+              </li>
+            
+              
+              <li id="34">
+                <a class="time" href="2013-06-24#34" target="_self" title="#34">17:45:06</a>
+                <a class="nick" href="2013-06-24/34" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">au: ta</span>
+              </li>
+            
+              
+              <li id="35">
+                <a class="time" href="2013-06-24#35" target="_self" title="#35">17:59:04</a>
+                <a class="nick" href="2013-06-24/35" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">au: CTE seems better suited for pgrest acl</span>
+              </li>
+            
+              
+              <li id="36">
+                <a class="time" href="2013-06-24#36" target="_self" title="#36">18:02:21</a>
+                <a class="nick" href="2013-06-24/36" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">CTE?</span>
+              </li>
+            
+              
+              <li id="37">
+                <a class="time" href="2013-06-24#37" target="_self" title="#37">18:04:47</a>
+                <a class="nick" href="2013-06-24/37" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">WITH...</span>
+              </li>
+            
+              
+              <li id="38">
+                <a class="time" href="2013-06-24#38" target="_self" title="#38">18:06:29</a>
+                <a class="nick" href="2013-06-24/38" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">still a bit lame: with member_id as (select pgrest_param('member_id')::int as member_id) select * from member_contingent_left where member_contingent_left.member_id = (select member_id from member_id);</span>
+              </li>
+            
+              
+              <li id="39">
+                <a class="time" href="2013-06-24#39" target="_self" title="#39">18:07:09</a>
+                <a class="nick" href="2013-06-24/39" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">this works too though: select * from member_contingent_left where member_contingent_left.member_id = (select pgrest_param('member_id')::int)</span>
+              </li>
+            
+              
+              <li id="40">
+                <a class="time" href="2013-06-24#40" target="_self" title="#40">18:15:15</a>
+                <a class="nick" href="2013-06-24/40" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">pretty nice!</span>
+              </li>
+            
+              
+              <li id="41">
+                <a class="time" href="2013-06-24#41" target="_self" title="#41">18:16:22</a>
+                <a class="nick" href="2013-06-24/41" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">i want a way to error out nicely</span>
+              </li>
+            
+              
+              <li id="42">
+                <a class="time" href="2013-06-24#42" target="_self" title="#42">21:24:30</a>
+                <a class="nick" href="2013-06-24/42" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">clkao ipa: 台中迷你松繼續跟 caasiHuang 奮鬥到現在，告一段落，準備離開默契咖啡（水）</span>
+              </li>
+            
+              
+              <li id="43">
+                <a class="time" href="2013-06-24#43" target="_self" title="#43">22:11:54</a>
+                <a class="nick" href="2013-06-24/43" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">au: this feels right: with auth as (select ensure_member() as member_id) select * from member_contingent_left where member_contingent_left.member_id = (select member_id from auth);</span>
+              </li>
+            
+              
+              <li id="44">
+                <a class="time" href="2013-06-24#44" target="_self" title="#44">22:12:47</a>
+                <a class="nick" href="2013-06-24/44" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">ditto for ensure_unit_member(), ensure_initiative_owner()  etc</span>
+              </li>
+            
+              
+              <li id="45">
+                <a class="time" href="2013-06-24#45" target="_self" title="#45">22:15:18</a>
+                <a class="nick" href="2013-06-24/45" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">"WITH auth AS NULL ..." returns null?</span>
+              </li>
+            
+              
+              <li id="46">
+                <a class="time" href="2013-06-24#46" target="_self" title="#46">22:15:25</a>
+                <a class="nick" href="2013-06-24/46" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">oh, returns empty row</span>
+              </li>
+            
+              
+              <li id="47">
+                <a class="time" href="2013-06-24#47" target="_self" title="#47">22:15:29</a>
+                <a class="nick" href="2013-06-24/47" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">*rows. great</span>
+              </li>
+            
+              
+              <li id="48">
+                <a class="time" href="2013-06-24#48" target="_self" title="#48">22:15:56</a>
+                <a class="nick" href="2013-06-24/48" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">au: the ensure_member() can throw</span>
+              </li>
+            
+              
+              <li id="49">
+                <a class="time" href="2013-06-24#49" target="_self" title="#49">22:16:01</a>
+                <a class="nick" href="2013-06-24/49" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">I see</span>
+              </li>
+            
+              
+              <li id="50">
+                <a class="time" href="2013-06-24#50" target="_self" title="#50">22:16:08</a>
+                <a class="nick" href="2013-06-24/50" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">see src/index.ls of g0v/lfrest</span>
+              </li>
+            
+              
+              <li id="51">
+                <a class="time" href="2013-06-24#51" target="_self" title="#51">22:16:34</a>
+                <a class="nick" href="2013-06-24/51" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">got it</span>
+              </li>
+            
+              
+              <li id="52">
+                <a class="time" href="2013-06-24#52" target="_self" title="#52">22:16:43</a>
+                <a class="nick" href="2013-06-24/52" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">clkao++ # 善用尖端科技，昇級海賊引擎</span>
+              </li>
+            
+              
+              <li id="53">
+                <a class="time" href="2013-06-24#53" target="_self" title="#53">22:17:00</a>
+                <a class="nick" href="2013-06-24/53" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">enterprise</span>
+              </li>
+            
+              
+              <li id="54">
+                <a class="time" href="2013-06-24#54" target="_self" title="#54">22:17:34</a>
+                <a class="nick" href="2013-06-24/54" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">pirate flagship!</span>
+              </li>
+            
+              
+              <li id="55">
+                <a class="time" href="2013-06-24#55" target="_self" title="#55">22:18:04</a>
+                <a class="nick" href="2013-06-24/55" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">好有 FTL 的 fu</span>
+              </li>
+            
+              
+              <li id="56">
+                <a class="time" href="2013-06-24#56" target="_self" title="#56">22:18:06</a>
+                <a class="nick" href="2013-06-24/56" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">this feels almost alright. the firebase auth system is pretty much just what we did</span>
+              </li>
+            
+              
+              <li id="57">
+                <a class="time" href="2013-06-24#57" target="_self" title="#57">22:18:13</a>
+                <a class="nick" href="2013-06-24/57" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">*nod*</span>
+              </li>
+            
+              
+              <li id="58">
+                <a class="time" href="2013-06-24#58" target="_self" title="#58">22:18:40</a>
+                <a class="nick" href="2013-06-24/58" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">different rule for write as well</span>
+              </li>
+            
+              
+              <li id="59">
+                <a class="time" href="2013-06-24#59" target="_self" title="#59">22:24:41</a>
+                <a class="nick" href="2013-06-24/59" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">ok this is officially quite awesome</span>
+              </li>
+            
+              
+              <li id="60">
+                <a class="time" href="2013-06-24#60" target="_self" title="#60">22:33:33</a>
+                <a class="nick" href="2013-06-24/60" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">Jedi_: 話說要來寫點動民主介紹嗎 :p</span>
+              </li>
+            
+              
+              <li id="61">
+                <a class="time" href="2013-06-24#61" target="_self" title="#61">23:38:06</a>
+                <a class="nick" href="2013-06-24/61" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap"><a href="http://woundero.wordpress.com/2013/06/24/rational-ignorance/">http://woundero.wordpress.com/2013/06/24/rational-ignorance/</a></span>
+              </li>
+            
+              
+              <li id="62">
+                <a class="time" href="2013-06-24#62" target="_self" title="#62">23:38:08</a>
+                <a class="nick" href="2013-06-24/62" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">ipa's url: [理性忽略（Rational Ignorance)：服務貿易協定、ECFA、WTO的冷感由來——作為一個民主社會的公民，何苦如此奴隸？ | WO! 世界需要一個驚嘆！]</span>
+              </li>
+            
+              
+              <li id="63">
+                <a class="time" href="2013-06-24#63" target="_self" title="#63">23:40:04</a>
+                <a class="nick" href="2013-06-24/63" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">昨天hychen 提到鄉民關心你可以呈現雙方觀點，所以不想做follow功能（容易同類相聚），跟這篇有相似之處</span>
+              </li>
+            
+              
+              <li id="64">
+                <a class="time" href="2013-06-24#64" target="_self" title="#64">23:41:08</a>
+                <a class="nick" href="2013-06-24/64" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">再用動民主，可以練習如何提方案。</span>
+              </li>
+            
+              
+              <li id="65">
+                <a class="time" href="2013-06-24#65" target="_self" title="#65">23:42:43</a>
+                <a class="nick" href="2013-06-24/65" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">hychen: lfrest 加了神秘的 pgrest auth 功能，可以先看一下，看是否符合需求</span>
+              </li>
+            
+              
+              <li id="66">
+                <a class="time" href="2013-06-24#66" target="_self" title="#66">23:43:01</a>
+                <a class="nick" href="2013-06-24/66" target="_self" title="quote">hychen</a>
+                <span class="msg wordwrap">clkao, ok</span>
+              </li>
+            
+              
+              <li id="67">
+                <a class="time" href="2013-06-24#67" target="_self" title="#67">23:44:48</a>
+                <a class="nick" href="2013-06-24/67" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">hychen: 基本上先下一次 select pgrest_param('{"member_id": 1}'::json)</span>
+              </li>
+            
+              
+              <li id="68">
+                <a class="time" href="2013-06-24#68" target="_self" title="#68">23:45:32</a>
+                <a class="nick" href="2013-06-24/68" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">hychen: 之後的 view 可以用 pgrest_param('member_id') 作為 constraint. 然後 src 裡面的 helper 可以拿來疊東西... 合用的話 就應該把 pgrest_param 搬到 pgrest core 進去</span>
+              </li>
+            
+              
+              <li id="69">
+                <a class="time" href="2013-06-24#69" target="_self" title="#69">07:06:30</a>
+                <a class="nick" href="2013-06-24/69" target="_self" title="quote">Jedi_</a>
+                <span class="msg wordwrap">clkao: 好啊 :D  不過我應該自己先弄懂現在動民主的狀況 KD</span>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="footer">
+  <p>Powered by Logbot 2013 | <a href="https://github.com/g0v/Logbot">GitHub Repo</a></p>
+</div>
+
+    </div>
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script>
+      var channel = "g0v.tw";
+    </script>
+    <script src="/assets/applications.js"></script>
+    
+  </body>
+</html>

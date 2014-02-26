@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Logbot | #g0v.tw</title>
+    <link rel="stylesheet" type="text/css" href="/assets/screen.css">
+    <base target="_blank" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1>Logbot</h1>
+      </div>
+      <div class="quick-nav">
+        <div class="nav_page-up" onclick="pageScrollTop(0);">⬆</div>
+        <div class="nav_page-down" onclick="pageScrollTop($(document).height());">⬇</div>
+      </div>
+      <div class="body">
+        <div class="channel">#g0v.tw</div>
+        
+        
+        <select id="date-picker" class="date">
+          
+            <option value="2014-02-01">2014-02-01</option>
+          
+          <optgroup label="Today">
+            <option id="today" value="today" >2014-02-26</option>
+          </optgroup>
+          <optgroup label="Earlier logs">
+            
+              <option value="2014-02-25" >2014-02-25</option>
+            
+              <option value="2014-02-24" >2014-02-24</option>
+            
+              <option value="2014-02-23" >2014-02-23</option>
+            
+              <option value="2014-02-22" >2014-02-22</option>
+            
+          </optgroup>
+        </select>
+
+        <div class="scroll_switch">AUTO⬇ </div>
+       
+        <div>
+          <ul class="logs">
+            
+              
+              <li id="0">
+                <a class="time" href="2014-02-01#0" target="_self" title="#0">00:57:02</a>
+                <a class="nick" href="2014-02-01/0" target="_self" title="quote">travis-ci</a>
+                <span class="msg wordwrap">[travis-ci] Change view : <a href="https://github.com/g0v/ly.g0v.tw/commit/591e7743eb9f">https://github.com/g0v/ly.g0v.tw/commit/591e7743eb9f</a></span>
+              </li>
+            
+              
+              <li id="1">
+                <a class="time" href="2014-02-01#1" target="_self" title="#1">00:57:02</a>
+                <a class="nick" href="2014-02-01/1" target="_self" title="quote">travis-ci</a>
+                <span class="msg wordwrap">[travis-ci] g0v/ly.g0v.tw#184 (gulp-protractor - 591e774 : Poga Po): The build passed.</span>
+              </li>
+            
+              
+              <li id="2">
+                <a class="time" href="2014-02-01#2" target="_self" title="#2">00:57:02</a>
+                <a class="nick" href="2014-02-01/2" target="_self" title="quote">travis-ci</a>
+                <span class="msg wordwrap">[travis-ci] Build details : <a href="http://travis-ci.org/g0v/ly.g0v.tw/builds/17988164">http://travis-ci.org/g0v/ly.g0v.tw/builds/17988164</a></span>
+              </li>
+            
+              
+              <li id="3">
+                <a class="time" href="2014-02-01#3" target="_self" title="#3">02:26:29</a>
+                <a class="nick" href="2014-02-01/3" target="_self" title="quote">jimyhuang_</a>
+                <span class="msg wordwrap">nchild: 回來了，又遇到 nodejs too many open files 的error.</span>
+              </li>
+            
+              
+              <li id="4">
+                <a class="time" href="2014-02-01#4" target="_self" title="#4">02:27:47</a>
+                <a class="nick" href="2014-02-01/4" target="_self" title="quote">jimyhuang_</a>
+                <span class="msg wordwrap">nchild: wikipedia條目，若是政誌首頁有的，每24小時會自行更新。應該是為了補充正確的資訊去編輯維基... 畢竟政誌是維基的眾多輔助工具之一。</span>
+              </li>
+            
+              
+              <li id="5">
+                <a class="time" href="2014-02-01#5" target="_self" title="#5">02:29:41</a>
+                <a class="nick" href="2014-02-01/5" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">用 pm2 / forever ?</span>
+              </li>
+            
+              
+              <li id="6">
+                <a class="time" href="2014-02-01#6" target="_self" title="#6">02:39:37</a>
+                <a class="nick" href="2014-02-01/6" target="_self" title="quote">jimyhuang_</a>
+                <span class="msg wordwrap">au: pm2很怪，會卡在這個error後不會restart，但其他error都會自動restart</span>
+              </li>
+            
+              
+              <li id="7">
+                <a class="time" href="2014-02-01#7" target="_self" title="#7">02:53:53</a>
+                <a class="nick" href="2014-02-01/7" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">jimyhuang_: ulimit -n unlimited ?</span>
+              </li>
+            
+              
+              <li id="8">
+                <a class="time" href="2014-02-01#8" target="_self" title="#8">02:54:45</a>
+                <a class="nick" href="2014-02-01/8" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">(或 -n 819200 之類)</span>
+              </li>
+            
+              
+              <li id="9">
+                <a class="time" href="2014-02-01#9" target="_self" title="#9">12:19:22</a>
+                <a class="nick" href="2014-02-01/9" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">Err, 送 docker PR 居然獲得 bitcoin tip</span>
+              </li>
+            
+              
+              <li id="10">
+                <a class="time" href="2014-02-01#10" target="_self" title="#10">14:01:43</a>
+                <a class="nick" href="2014-02-01/10" target="_self" title="quote">nchild</a>
+                <span class="msg wordwrap">jimyhuang_: 首頁有，2013年5月1日的條目「電信法第九條」，但我不太確定之前是這條怎麼來的（來源是 Need to create）。</span>
+              </li>
+            
+              
+              <li id="11">
+                <a class="time" href="2014-02-01#11" target="_self" title="#11">14:02:08</a>
+                <a class="nick" href="2014-02-01/11" target="_self" title="quote">nchild</a>
+                <span class="msg wordwrap">jimyhuang_: 其實在維基上這條目是叫做「國家通訊傳播委員會電信法T9修法爭議事件」，之前被重導向智財局封網那個事件，ˊˇ</span>
+              </li>
+            
+              
+              <li id="12">
+                <a class="time" href="2014-02-01#12" target="_self" title="#12">14:02:48</a>
+                <a class="nick" href="2014-02-01/12" target="_self" title="quote">nchild</a>
+                <span class="msg wordwrap">jimyhuang_: 抱歉沒打完，我遲至昨晚才硬著頭皮學 wikipedia 用法將它切出來。</span>
+              </li>
+            
+              
+              <li id="13">
+                <a class="time" href="2014-02-01#13" target="_self" title="#13">17:03:23</a>
+                <a class="nick" href="2014-02-01/13" target="_self" title="quote">a-tsioh</a>
+                <span class="msg wordwrap">新年快樂！</span>
+              </li>
+            
+              
+              <li id="14">
+                <a class="time" href="2014-02-01#14" target="_self" title="#14">17:04:52</a>
+                <a class="nick" href="2014-02-01/14" target="_self" title="quote">a-tsioh</a>
+                <span class="msg wordwrap">下次黑客松是什麼時候申請？</span>
+              </li>
+            
+              
+              <li id="15">
+                <a class="time" href="2014-02-01#15" target="_self" title="#15">17:16:04</a>
+                <a class="nick" href="2014-02-01/15" target="_self" title="quote">clkao_</a>
+                <span class="msg wordwrap">一般是兩週前報名</span>
+              </li>
+            
+              
+              <li id="16">
+                <a class="time" href="2014-02-01#16" target="_self" title="#16">17:27:06</a>
+                <a class="nick" href="2014-02-01/16" target="_self" title="quote">a-tsioh</a>
+                <span class="msg wordwrap">ok</span>
+              </li>
+            
+              
+              <li id="17">
+                <a class="time" href="2014-02-01#17" target="_self" title="#17">18:33:08</a>
+                <a class="nick" href="2014-02-01/17" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">嗯嗯……在 mockup 加入一些真實頭像以後感覺越來越具體了 <a href="http://g0v.github.io/don-republic/public/">http://g0v.github.io/don-republic/public/</a></span>
+              </li>
+            
+              
+              <li id="18">
+                <a class="time" href="2014-02-01#18" target="_self" title="#18">18:33:12</a>
+                <a class="nick" href="2014-02-01/18" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">ETBlue's url: [首頁| 動民主]</span>
+              </li>
+            
+              
+              <li id="19">
+                <a class="time" href="2014-02-01#19" target="_self" title="#19">18:48:31</a>
+                <a class="nick" href="2014-02-01/19" target="_self" title="quote">sb-enneve</a>
+                <span class="msg wordwrap">hihi</span>
+              </li>
+            
+              
+              <li id="20">
+                <a class="time" href="2014-02-01#20" target="_self" title="#20">18:48:32</a>
+                <a class="nick" href="2014-02-01/20" target="_self" title="quote">sb-enneve</a>
+                <span class="msg wordwrap">au, 我有把 cwtex 試出來了</span>
+              </li>
+            
+              
+              <li id="21">
+                <a class="time" href="2014-02-01#21" target="_self" title="#21">18:49:54</a>
+                <a class="nick" href="2014-02-01/21" target="_self" title="quote">sb-enneve</a>
+                <span class="msg wordwrap">用 <a href="https://code.google.com/p/cwtex-q-fonts/">https://code.google.com/p/cwtex-q-fonts/</a></span>
+              </li>
+            
+              
+              <li id="22">
+                <a class="time" href="2014-02-01#22" target="_self" title="#22">18:49:57</a>
+                <a class="nick" href="2014-02-01/22" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">sb-enneve's url: [cwtex-q-fonts - 修正後的 cwTeX TTF 字型 - Google Project Hosting]</span>
+              </li>
+            
+              
+              <li id="23">
+                <a class="time" href="2014-02-01#23" target="_self" title="#23">18:51:21</a>
+                <a class="nick" href="2014-02-01/23" target="_self" title="quote">seventeen</a>
+                <span class="msg wordwrap">但是要把 字型名字改一下</span>
+              </li>
+            
+              
+              <li id="24">
+                <a class="time" href="2014-02-01#24" target="_self" title="#24">18:51:21</a>
+                <a class="nick" href="2014-02-01/24" target="_self" title="quote">seventeen</a>
+                <span class="msg wordwrap">cd /usr/share/fonts/truetype/cwtex/ sudo mv cwTeXQFangsong-Medium.ttf cwTeXQFangsong.ttf sudo mv cwTeXQHei-Bold.ttf cwTeXQHei.ttf sudo mv cwTeXQKai-Medium.ttf cwTeXQKai.ttf sudo mv cwTeXQMing-Medium.ttf cwTeXQMing.ttf sudo mv cwTeXQYuan-Medium.ttf cwTeXQYuan.ttf</span>
+              </li>
+            
+              
+              <li id="25">
+                <a class="time" href="2014-02-01#25" target="_self" title="#25">18:51:23</a>
+                <a class="nick" href="2014-02-01/25" target="_self" title="quote">seventeen</a>
+                <span class="msg wordwrap">sudo fc-cache -v -f</span>
+              </li>
+            
+              
+              <li id="26">
+                <a class="time" href="2014-02-01#26" target="_self" title="#26">18:51:34</a>
+                <a class="nick" href="2014-02-01/26" target="_self" title="quote">seventeen</a>
+                <span class="msg wordwrap">$ diff server.ls.ori server.ls.cwtexq  52a53,57 >   return 'cwTeXQMing' if it is /cwming/i >   return 'cwTeXQHei' if it is /cwhei/i >   return 'cwTeXQYuan' if it is /cwyen/i >   return 'cwTeXQKai' if it is /cwkai/i >   return 'cwTeXQFangsong' if it is /cwfs/i 259a265,270 >             optgroup label:'cwTeX', -> >               option value:'?font=cwkai', \楷書 >               option selected:(png-suffix is '.png?font=cwming'), val</span>
+              </li>
+            
+              
+              <li id="27">
+                <a class="time" href="2014-02-01#27" target="_self" title="#27">18:51:35</a>
+                <a class="nick" href="2014-02-01/27" target="_self" title="quote">seventeen</a>
+                <span class="msg wordwrap">cwhei'), value:\?font=cwhei, \黑體 >               option selected:(png-suffix is '.png?font=cwyen'), value:\?font=cwyen, \圓體 >               option selected:(png-suffix is '.png?font=cwfs'), value:\?font=cwfs, \仿宋</span>
+              </li>
+            
+              
+              <li id="28">
+                <a class="time" href="2014-02-01#28" target="_self" title="#28">18:51:50</a>
+                <a class="nick" href="2014-02-01/28" target="_self" title="quote">seventeen</a>
+                <span class="msg wordwrap">這樣就能動了</span>
+              </li>
+            
+              
+              <li id="29">
+                <a class="time" href="2014-02-01#29" target="_self" title="#29">18:51:58</a>
+                <a class="nick" href="2014-02-01/29" target="_self" title="quote">seventeen</a>
+                <span class="msg wordwrap">git 暫時還沒設定好</span>
+              </li>
+            
+              
+              <li id="30">
+                <a class="time" href="2014-02-01#30" target="_self" title="#30">19:08:05</a>
+                <a class="nick" href="2014-02-01/30" target="_self" title="quote">clkao_</a>
+                <span class="msg wordwrap">w</span>
+              </li>
+            
+              
+              <li id="31">
+                <a class="time" href="2014-02-01#31" target="_self" title="#31">21:36:34</a>
+                <a class="nick" href="2014-02-01/31" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">seventeen++ # great! 交稿之後就來 merge</span>
+              </li>
+            
+              
+              <li id="32">
+                <a class="time" href="2014-02-01#32" target="_self" title="#32">21:41:09</a>
+                <a class="nick" href="2014-02-01/32" target="_self" title="quote">clkao_</a>
+                <span class="msg wordwrap"><a href="http://fossasia.org/">http://fossasia.org/</a></span>
+              </li>
+            
+              
+              <li id="33">
+                <a class="time" href="2014-02-01#33" target="_self" title="#33">21:41:13</a>
+                <a class="nick" href="2014-02-01/33" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">clkao_'s url: [FOSSASIA]</span>
+              </li>
+            
+              
+              <li id="34">
+                <a class="time" href="2014-02-01#34" target="_self" title="#34">21:41:15</a>
+                <a class="nick" href="2014-02-01/34" target="_self" title="quote">clkao_</a>
+                <span class="msg wordwrap">有人想去嗎</span>
+              </li>
+            
+              
+              <li id="35">
+                <a class="time" href="2014-02-01#35" target="_self" title="#35">21:45:00</a>
+                <a class="nick" href="2014-02-01/35" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">發現歷史上 Don Republic 真有其國 <a href="http://en.wikipedia.org/wiki/Don_Republic">http://en.wikipedia.org/wiki/Don_Republic</a></span>
+              </li>
+            
+              
+              <li id="36">
+                <a class="time" href="2014-02-01#36" target="_self" title="#36">21:45:03</a>
+                <a class="nick" href="2014-02-01/36" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">au's url: [Don Republic - Wikipedia, the free encyclopedia]</span>
+              </li>
+            
+              
+              <li id="37">
+                <a class="time" href="2014-02-01#37" target="_self" title="#37">21:45:18</a>
+                <a class="nick" href="2014-02-01/37" target="_self" title="quote">au</a>
+                <span class="msg wordwrap"># 「頓河共和國」</span>
+              </li>
+            
+              
+              <li id="38">
+                <a class="time" href="2014-02-01#38" target="_self" title="#38">21:48:18</a>
+                <a class="nick" href="2014-02-01/38" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">clkao_: 不是在金邊嗎 XD</span>
+              </li>
+            
+              
+              <li id="39">
+                <a class="time" href="2014-02-01#39" target="_self" title="#39">21:55:41</a>
+                <a class="nick" href="2014-02-01/39" target="_self" title="quote">clkao_</a>
+                <span class="msg wordwrap">yhsiang: 是啊」</span>
+              </li>
+            
+              
+              <li id="40">
+                <a class="time" href="2014-02-01#40" target="_self" title="#40">22:36:30</a>
+                <a class="nick" href="2014-02-01/40" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">fossasia!</span>
+              </li>
+            
+              
+              <li id="41">
+                <a class="time" href="2014-02-01#41" target="_self" title="#41">22:36:43</a>
+                <a class="nick" href="2014-02-01/41" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">don republic!</span>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="footer">
+  <p>Powered by Logbot 2013 | <a href="https://github.com/g0v/Logbot">GitHub Repo</a></p>
+</div>
+
+    </div>
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script>
+      var channel = "g0v.tw";
+    </script>
+    <script src="/assets/applications.js"></script>
+    
+  </body>
+</html>

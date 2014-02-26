@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Logbot | #g0v.tw</title>
+    <link rel="stylesheet" type="text/css" href="/assets/screen.css">
+    <base target="_blank" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1>Logbot</h1>
+      </div>
+      <div class="quick-nav">
+        <div class="nav_page-up" onclick="pageScrollTop(0);">⬆</div>
+        <div class="nav_page-down" onclick="pageScrollTop($(document).height());">⬇</div>
+      </div>
+      <div class="body">
+        <div class="channel">#g0v.tw</div>
+        
+        
+        <select id="date-picker" class="date">
+          
+            <option value="2013-06-28">2013-06-28</option>
+          
+          <optgroup label="Today">
+            <option id="today" value="today" >2014-02-26</option>
+          </optgroup>
+          <optgroup label="Earlier logs">
+            
+              <option value="2014-02-25" >2014-02-25</option>
+            
+              <option value="2014-02-24" >2014-02-24</option>
+            
+              <option value="2014-02-23" >2014-02-23</option>
+            
+              <option value="2014-02-22" >2014-02-22</option>
+            
+          </optgroup>
+        </select>
+
+        <div class="scroll_switch">AUTO⬇ </div>
+       
+        <div>
+          <ul class="logs">
+            
+              
+              <li id="0">
+                <a class="time" href="2013-06-28#0" target="_self" title="#0">10:26:47</a>
+                <a class="nick" href="2013-06-28/0" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">鹿野圖書館網路斷了 手機只有 gprs... zzz</span>
+              </li>
+            
+              
+              <li id="1">
+                <a class="time" href="2013-06-28#1" target="_self" title="#1">10:49:11</a>
+                <a class="nick" href="2013-06-28/1" target="_self" title="quote">lijung</a>
+                <span class="msg wordwrap">clkao: 我可以問一下你們 db都怎麼處理嗎？我只的是放再哪裡還是自行架設？</span>
+              </li>
+            
+              
+              <li id="2">
+                <a class="time" href="2013-06-28#2" target="_self" title="#2">10:49:44</a>
+                <a class="nick" href="2013-06-28/2" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">有些 (例如 <a href="http://hack.g0v.tw/people">http://hack.g0v.tw/people</a> ) 是放在 firebase</span>
+              </li>
+            
+              
+              <li id="3">
+                <a class="time" href="2013-06-28#3" target="_self" title="#3">10:50:20</a>
+                <a class="nick" href="2013-06-28/3" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">有些 (例如 logbot.g0v.tw) 是自行架設 (linode + docker)</span>
+              </li>
+            
+              
+              <li id="4">
+                <a class="time" href="2013-06-28#4" target="_self" title="#4">10:51:19</a>
+                <a class="nick" href="2013-06-28/4" target="_self" title="quote">lijung</a>
+                <span class="msg wordwrap">au: ok thanks!</span>
+              </li>
+            
+              
+              <li id="5">
+                <a class="time" href="2013-06-28#5" target="_self" title="#5">10:51:52</a>
+                <a class="nick" href="2013-06-28/5" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">有些 (例如 <a href="http://ly.g0v.tw.jit.su">http://ly.g0v.tw.jit.su</a> ) 是放在 Node.js PaaS 上 (jit.su) ... 另外還有些如 <a href="http://api.ly.g0v.tw">http://api.ly.g0v.tw</a> 是放在 digital ocean + pgrest</span>
+              </li>
+            
+              
+              <li id="6">
+                <a class="time" href="2013-06-28#6" target="_self" title="#6">10:51:53</a>
+                <a class="nick" href="2013-06-28/6" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">au's url (2/2): [Welcome to nginx!]</span>
+              </li>
+            
+              
+              <li id="7">
+                <a class="time" href="2013-06-28#7" target="_self" title="#7">10:52:00</a>
+                <a class="nick" href="2013-06-28/7" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">np :)</span>
+              </li>
+            
+              
+              <li id="8">
+                <a class="time" href="2013-06-28#8" target="_self" title="#8">10:52:06</a>
+                <a class="nick" href="2013-06-28/8" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">也有用 heroku with mongolab: (budget.g0v.tw)</span>
+              </li>
+            
+              
+              <li id="9">
+                <a class="time" href="2013-06-28#9" target="_self" title="#9">10:52:23</a>
+                <a class="nick" href="2013-06-28/9" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">9600bps 的復古感... orz</span>
+              </li>
+            
+              
+              <li id="10">
+                <a class="time" href="2013-06-28#10" target="_self" title="#10">10:52:38</a>
+                <a class="nick" href="2013-06-28/10" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">後端平均分散，族繁不及被宰</span>
+              </li>
+            
+              
+              <li id="11">
+                <a class="time" href="2013-06-28#11" target="_self" title="#11">10:52:56</a>
+                <a class="nick" href="2013-06-28/11" target="_self" title="quote">lijung</a>
+                <span class="msg wordwrap">ok! 那我了解了！</span>
+              </li>
+            
+              
+              <li id="12">
+                <a class="time" href="2013-06-28#12" target="_self" title="#12">10:59:54</a>
+                <a class="nick" href="2013-06-28/12" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">au: 備載？被宰? :p</span>
+              </li>
+            
+              
+              <li id="13">
+                <a class="time" href="2013-06-28#13" target="_self" title="#13">11:01:40</a>
+                <a class="nick" href="2013-06-28/13" target="_self" title="quote">miaout17</a>
+                <span class="msg wordwrap">故意的雙官梗吧，一個service被DoS掛了其他不受影響 XD</span>
+              </li>
+            
+              
+              <li id="14">
+                <a class="time" href="2013-06-28#14" target="_self" title="#14">11:01:44</a>
+                <a class="nick" href="2013-06-28/14" target="_self" title="quote">miaout17</a>
+                <span class="msg wordwrap">雙關</span>
+              </li>
+            
+              
+              <li id="15">
+                <a class="time" href="2013-06-28#15" target="_self" title="#15">11:05:59</a>
+                <a class="nick" href="2013-06-28/15" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">喔！了解</span>
+              </li>
+            
+              
+              <li id="16">
+                <a class="time" href="2013-06-28#16" target="_self" title="#16">11:17:02</a>
+                <a class="nick" href="2013-06-28/16" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">woot 網路好了！</span>
+              </li>
+            
+              
+              <li id="17">
+                <a class="time" href="2013-06-28#17" target="_self" title="#17">11:24:05</a>
+                <a class="nick" href="2013-06-28/17" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">nchild++ # 跳坑動民主簡報</span>
+              </li>
+            
+              
+              <li id="18">
+                <a class="time" href="2013-06-28#18" target="_self" title="#18">12:12:35</a>
+                <a class="nick" href="2013-06-28/18" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">下週要講 angularjs: <a href="http://registrano.com/events/angularjstw3">http://registrano.com/events/angularjstw3</a></span>
+              </li>
+            
+              
+              <li id="19">
+                <a class="time" href="2013-06-28#19" target="_self" title="#19">12:12:36</a>
+                <a class="nick" href="2013-06-28/19" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">clkao's url: [AngularJS.tw 第三次社群聚會 | Registrano]</span>
+              </li>
+            
+              
+              <li id="20">
+                <a class="time" href="2013-06-28#20" target="_self" title="#20">12:13:59</a>
+                <a class="nick" href="2013-06-28/20" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">clkao: 推坑!</span>
+              </li>
+            
+              
+              <li id="21">
+                <a class="time" href="2013-06-28#21" target="_self" title="#21">18:12:28</a>
+                <a class="nick" href="2013-06-28/21" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">tkirby: <a href="https://twitter.com/the_foolz/status/349731446866468864/">https://twitter.com/the_foolz/status/349731446866468864/</a> # 這根本應該用人物關係圖</span>
+              </li>
+            
+              
+              <li id="22">
+                <a class="time" href="2013-06-28#22" target="_self" title="#22">18:12:29</a>
+                <a class="nick" href="2013-06-28/22" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">clkao's url: [Twitter / the_foolz: AngularJS conceptual map... ...]</span>
+              </li>
+            
+              
+              <li id="23">
+                <a class="time" href="2013-06-28#23" target="_self" title="#23">18:49:23</a>
+                <a class="nick" href="2013-06-28/23" target="_self" title="quote">hychen</a>
+                <span class="msg wordwrap">現在VPS推薦用linode  or digital ocean?</span>
+              </li>
+            
+              
+              <li id="24">
+                <a class="time" href="2013-06-28#24" target="_self" title="#24">18:50:28</a>
+                <a class="nick" href="2013-06-28/24" target="_self" title="quote">S3p_lin</a>
+                <span class="msg wordwrap">自己用的還是架站給人用的? 給人用的話, 連線來源主要是哪裡?</span>
+              </li>
+            
+              
+              <li id="25">
+                <a class="time" href="2013-06-28#25" target="_self" title="#25">18:52:58</a>
+                <a class="nick" href="2013-06-28/25" target="_self" title="quote">hychen</a>
+                <span class="msg wordwrap">自己用的, 台灣</span>
+              </li>
+            
+              
+              <li id="26">
+                <a class="time" href="2013-06-28#26" target="_self" title="#26">18:53:08</a>
+                <a class="nick" href="2013-06-28/26" target="_self" title="quote">S3p_lin</a>
+                <span class="msg wordwrap">linode japan</span>
+              </li>
+            
+              
+              <li id="27">
+                <a class="time" href="2013-06-28#27" target="_self" title="#27">18:58:55</a>
+                <a class="nick" href="2013-06-28/27" target="_self" title="quote">edwardc</a>
+                <span class="msg wordwrap">linode+1</span>
+              </li>
+            
+              
+              <li id="28">
+                <a class="time" href="2013-06-28#28" target="_self" title="#28">19:46:05</a>
+                <a class="nick" href="2013-06-28/28" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">clkao: 改天把登入功能加入就可以讓大家編輯自己的圖了 XD</span>
+              </li>
+            
+              
+              <li id="29">
+                <a class="time" href="2013-06-28#29" target="_self" title="#29">21:07:05</a>
+                <a class="nick" href="2013-06-28/29" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">hlb: 今天進度: <a href="http://bootstrap.moedict.tw">http://bootstrap.moedict.tw</a></span>
+              </li>
+            
+              
+              <li id="30">
+                <a class="time" href="2013-06-28#30" target="_self" title="#30">21:07:05</a>
+                <a class="nick" href="2013-06-28/30" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">au's url: [萌典〔教育部國+臺+客語有聲辭典〕（民間線上版）]</span>
+              </li>
+            
+              
+              <li id="31">
+                <a class="time" href="2013-06-28#31" target="_self" title="#31">21:07:39</a>
+                <a class="nick" href="2013-06-28/31" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">(tooltip &amp; autocomplete 修正，仍然還沒寫 responsive &amp; language toggle)</span>
+              </li>
+            
+              
+              <li id="32">
+                <a class="time" href="2013-06-28#32" target="_self" title="#32">22:37:44</a>
+                <a class="nick" href="2013-06-28/32" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">嗯... responsive 也自己寫... <a href="http://bootstrap.moedict.tw/#無所不能">http://bootstrap.moedict.tw/#無所不能</a></span>
+              </li>
+            
+              
+              <li id="33">
+                <a class="time" href="2013-06-28#33" target="_self" title="#33">22:43:57</a>
+                <a class="nick" href="2013-06-28/33" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">au: 英德法的 button 好像比較高？</span>
+              </li>
+            
+              
+              <li id="34">
+                <a class="time" href="2013-06-28#34" target="_self" title="#34">22:45:32</a>
+                <a class="nick" href="2013-06-28/34" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap"><a href="http://bootstrap.moedict.tw/#:暴筍">http://bootstrap.moedict.tw/#:暴筍</a></span>
+              </li>
+            
+              
+              <li id="35">
+                <a class="time" href="2013-06-28#35" target="_self" title="#35">22:45:36</a>
+                <a class="nick" href="2013-06-28/35" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">好暴</span>
+              </li>
+            
+              
+              <li id="36">
+                <a class="time" href="2013-06-28#36" target="_self" title="#36">23:03:35</a>
+                <a class="nick" href="2013-06-28/36" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">feedly 左欄的作法好像蠻適合 hackfoldr ?</span>
+              </li>
+            
+              
+              <li id="37">
+                <a class="time" href="2013-06-28#37" target="_self" title="#37">23:05:00</a>
+                <a class="nick" href="2013-06-28/37" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">au: moedict android - if audio file takes too long to play, the ui became not responsive at all</span>
+              </li>
+            
+              
+              <li id="38">
+                <a class="time" href="2013-06-28#38" target="_self" title="#38">23:05:14</a>
+                <a class="nick" href="2013-06-28/38" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">clkao: huh it's semi-synchronous?</span>
+              </li>
+            
+              
+              <li id="39">
+                <a class="time" href="2013-06-28#39" target="_self" title="#39">23:05:15</a>
+                <a class="nick" href="2013-06-28/39" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">noted</span>
+              </li>
+            
+              
+              <li id="40">
+                <a class="time" href="2013-06-28#40" target="_self" title="#40">23:05:47</a>
+                <a class="nick" href="2013-06-28/40" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">看來只好來寫 howler.js port for PhoneGap Media</span>
+              </li>
+            
+              
+              <li id="41">
+                <a class="time" href="2013-06-28#41" target="_self" title="#41">23:05:54</a>
+                <a class="nick" href="2013-06-28/41" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">++</span>
+              </li>
+            
+              
+              <li id="42">
+                <a class="time" href="2013-06-28#42" target="_self" title="#42">23:05:57</a>
+                <a class="nick" href="2013-06-28/42" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">clkao</span>&nbsp;-> zz</span>
+              </li>
+            
+              
+              <li id="43">
+                <a class="time" href="2013-06-28#43" target="_self" title="#43">01:54:09</a>
+                <a class="nick" href="2013-06-28/43" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">本日進度 <a href="http://etblue.github.io/pirate_feedback_ui_redesign/issue.html">http://etblue.github.io/pirate_feedback_ui_redesign/issue.html</a> 明天來寫 jquery 讓他動</span>
+              </li>
+            
+              
+              <li id="44">
+                <a class="time" href="2013-06-28#44" target="_self" title="#44">01:54:11</a>
+                <a class="nick" href="2013-06-28/44" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">ETBlue's url: [Issue Page | pirate feedback ui redesign]</span>
+              </li>
+            
+              
+              <li id="45">
+                <a class="time" href="2013-06-28#45" target="_self" title="#45">01:54:25</a>
+                <a class="nick" href="2013-06-28/45" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">ETBlue</span>&nbsp;zz</span>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="footer">
+  <p>Powered by Logbot 2013 | <a href="https://github.com/g0v/Logbot">GitHub Repo</a></p>
+</div>
+
+    </div>
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script>
+      var channel = "g0v.tw";
+    </script>
+    <script src="/assets/applications.js"></script>
+    
+  </body>
+</html>

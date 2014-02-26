@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Logbot | #g0v.tw</title>
+    <link rel="stylesheet" type="text/css" href="/assets/screen.css">
+    <base target="_blank" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1>Logbot</h1>
+      </div>
+      <div class="quick-nav">
+        <div class="nav_page-up" onclick="pageScrollTop(0);">⬆</div>
+        <div class="nav_page-down" onclick="pageScrollTop($(document).height());">⬇</div>
+      </div>
+      <div class="body">
+        <div class="channel">#g0v.tw</div>
+        
+        
+        <select id="date-picker" class="date">
+          
+            <option value="2013-09-22">2013-09-22</option>
+          
+          <optgroup label="Today">
+            <option id="today" value="today" >2014-02-26</option>
+          </optgroup>
+          <optgroup label="Earlier logs">
+            
+              <option value="2014-02-25" >2014-02-25</option>
+            
+              <option value="2014-02-24" >2014-02-24</option>
+            
+              <option value="2014-02-23" >2014-02-23</option>
+            
+              <option value="2014-02-22" >2014-02-22</option>
+            
+          </optgroup>
+        </select>
+
+        <div class="scroll_switch">AUTO⬇ </div>
+       
+        <div>
+          <ul class="logs">
+            
+              
+              <li id="0">
+                <a class="time" href="2013-09-22#0" target="_self" title="#0">00:39:30</a>
+                <a class="nick" href="2013-09-22/0" target="_self" title="quote">bobchao</a>
+                <span class="msg wordwrap">clkao: 這才看到你昨天叫我... 有什麼事嗎？</span>
+              </li>
+            
+              
+              <li id="1">
+                <a class="time" href="2013-09-22#1" target="_self" title="#1">00:46:04</a>
+                <a class="nick" href="2013-09-22/1" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">bobchao: 呃 我忘了 應該沒什麼重要的事情</span>
+              </li>
+            
+              
+              <li id="2">
+                <a class="time" href="2013-09-22#2" target="_self" title="#2">00:46:20</a>
+                <a class="nick" href="2013-09-22/2" target="_self" title="quote">bobchao</a>
+                <span class="msg wordwrap">clkao: 好 XD</span>
+              </li>
+            
+              
+              <li id="3">
+                <a class="time" href="2013-09-22#3" target="_self" title="#3">01:28:25</a>
+                <a class="nick" href="2013-09-22/3" target="_self" title="quote">pm5cloud</a>
+                <span class="msg wordwrap">我想來寫一支 bot 串接到動民主 1.0</span>
+              </li>
+            
+              
+              <li id="4">
+                <a class="time" href="2013-09-22#4" target="_self" title="#4">01:30:04</a>
+                <a class="nick" href="2013-09-22/4" target="_self" title="quote">pm5cloud</a>
+                <span class="msg wordwrap">會來 irc 提醒大家投票要截止了 有新提案了 什麼的</span>
+              </li>
+            
+              
+              <li id="5">
+                <a class="time" href="2013-09-22#5" target="_self" title="#5">01:33:35</a>
+                <a class="nick" href="2013-09-22/5" target="_self" title="quote">pm5cloud</a>
+                <span class="msg wordwrap">用 python 寫 ircbot 有什麼推薦的嗎?</span>
+              </li>
+            
+              
+              <li id="6">
+                <a class="time" href="2013-09-22#6" target="_self" title="#6">01:34:05</a>
+                <a class="nick" href="2013-09-22/6" target="_self" title="quote">pm5cloud</a>
+                <span class="msg wordwrap">我看到有 willie 但是沒用過</span>
+              </li>
+            
+              
+              <li id="7">
+                <a class="time" href="2013-09-22#7" target="_self" title="#7">01:36:55</a>
+                <a class="nick" href="2013-09-22/7" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">willie 看來不錯, 是古早的 phenny 的分支</span>
+              </li>
+            
+              
+              <li id="8">
+                <a class="time" href="2013-09-22#8" target="_self" title="#8">01:36:58</a>
+                <a class="nick" href="2013-09-22/8" target="_self" title="quote">au</a>
+                <span class="msg wordwrap"># <a href="https://github.com/mikeywaites/willie/wiki/How-To-Create-a-Willie-Module">https://github.com/mikeywaites/willie/wiki/How-To-Create-a-Willie-Module</a></span>
+              </li>
+            
+              
+              <li id="9">
+                <a class="time" href="2013-09-22#9" target="_self" title="#9">01:37:00</a>
+                <a class="nick" href="2013-09-22/9" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">au's url: [How To Create a Willie Module · mikeywaites/willie Wiki · GitHub]</span>
+              </li>
+            
+              
+              <li id="10">
+                <a class="time" href="2013-09-22#10" target="_self" title="#10">01:47:53</a>
+                <a class="nick" href="2013-09-22/10" target="_self" title="quote">pm5cloud</a>
+                <span class="msg wordwrap">au: 好像不錯</span>
+              </li>
+            
+              
+              <li id="11">
+                <a class="time" href="2013-09-22#11" target="_self" title="#11">01:49:08</a>
+                <a class="nick" href="2013-09-22/11" target="_self" title="quote">pm5cloud</a>
+                <span class="msg wordwrap">再問一下 測試的時候應該找哪個 channel 比較好？</span>
+              </li>
+            
+              
+              <li id="12">
+                <a class="time" href="2013-09-22#12" target="_self" title="#12">01:49:55</a>
+                <a class="nick" href="2013-09-22/12" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">自己開一個 test channel?</span>
+              </li>
+            
+              
+              <li id="13">
+                <a class="time" href="2013-09-22#13" target="_self" title="#13">01:50:19</a>
+                <a class="nick" href="2013-09-22/13" target="_self" title="quote">pm5cloud</a>
+                <span class="msg wordwrap">喔</span>
+              </li>
+            
+              
+              <li id="14">
+                <a class="time" href="2013-09-22#14" target="_self" title="#14">01:50:31</a>
+                <a class="nick" href="2013-09-22/14" target="_self" title="quote">pm5cloud</a>
+                <span class="msg wordwrap">也對</span>
+              </li>
+            
+              
+              <li id="15">
+                <a class="time" href="2013-09-22#15" target="_self" title="#15">08:06:22</a>
+                <a class="nick" href="2013-09-22/15" target="_self" title="quote">weitsai</a>
+                <span class="msg wordwrap">請問連江縣算台灣的嘛 ＠＠？</span>
+              </li>
+            
+              
+              <li id="16">
+                <a class="time" href="2013-09-22#16" target="_self" title="#16">08:18:17</a>
+                <a class="nick" href="2013-09-22/16" target="_self" title="quote">Jedi_</a>
+                <span class="msg wordwrap">中華民國（台灣）福建省連江縣</span>
+              </li>
+            
+              
+              <li id="17">
+                <a class="time" href="2013-09-22#17" target="_self" title="#17">10:38:42</a>
+                <a class="nick" href="2013-09-22/17" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">請問一下  該如何架個IRC的討論區呀?</span>
+              </li>
+            
+              
+              <li id="18">
+                <a class="time" href="2013-09-22#18" target="_self" title="#18">10:43:04</a>
+                <a class="nick" href="2013-09-22/18" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">allenlinli: IRC的討論區，是說像 #g0v.tw 這樣的頻道嗎?</span>
+              </li>
+            
+              
+              <li id="19">
+                <a class="time" href="2013-09-22#19" target="_self" title="#19">10:43:25</a>
+                <a class="nick" href="2013-09-22/19" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">對</span>
+              </li>
+            
+              
+              <li id="20">
+                <a class="time" href="2013-09-22#20" target="_self" title="#20">10:44:04</a>
+                <a class="nick" href="2013-09-22/20" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">可以直接打 /join #頻道名稱</span>
+              </li>
+            
+              
+              <li id="21">
+                <a class="time" href="2013-09-22#21" target="_self" title="#21">10:44:20</a>
+                <a class="nick" href="2013-09-22/21" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">「頻道名稱」換成你想要的英數字名稱即可</span>
+              </li>
+            
+              
+              <li id="22">
+                <a class="time" href="2013-09-22#22" target="_self" title="#22">10:46:26</a>
+                <a class="nick" href="2013-09-22/22" target="_self" title="quote">mindos_cloud</a>
+                <span class="msg wordwrap">au++</span>
+              </li>
+            
+              
+              <li id="23">
+                <a class="time" href="2013-09-22#23" target="_self" title="#23">10:47:50</a>
+                <a class="nick" href="2013-09-22/23" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">貧道曰：...</span>
+              </li>
+            
+              
+              <li id="24">
+                <a class="time" href="2013-09-22#24" target="_self" title="#24">10:47:59</a>
+                <a class="nick" href="2013-09-22/24" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">好像還要註冊頻道的樣子?</span>
+              </li>
+            
+              
+              <li id="25">
+                <a class="time" href="2013-09-22#25" target="_self" title="#25">10:48:13</a>
+                <a class="nick" href="2013-09-22/25" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">google到的  <a href="http://maxyang2012.blog.163.com/blog/static/1663602802011325724461/">http://maxyang2012.blog.163.com/blog/static/1663602802011325724461/</a></span>
+              </li>
+            
+              
+              <li id="26">
+                <a class="time" href="2013-09-22#26" target="_self" title="#26">10:48:14</a>
+                <a class="nick" href="2013-09-22/26" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">allenlinli's url: [建立自己的irc频道和 - maxyang2012的日志 - 网易博客]</span>
+              </li>
+            
+              
+              <li id="27">
+                <a class="time" href="2013-09-22#27" target="_self" title="#27">10:50:18</a>
+                <a class="nick" href="2013-09-22/27" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">他說"10:50 AM &lt;ChanServ> You are not logged in."</span>
+              </li>
+            
+              
+              <li id="28">
+                <a class="time" href="2013-09-22#28" target="_self" title="#28">10:50:22</a>
+                <a class="nick" href="2013-09-22/28" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">應該是沒成功</span>
+              </li>
+            
+              
+              <li id="29">
+                <a class="time" href="2013-09-22#29" target="_self" title="#29">10:50:57</a>
+                <a class="nick" href="2013-09-22/29" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">allenlinli: 如果要註冊頻道，要先註冊用戶</span>
+              </li>
+            
+              
+              <li id="30">
+                <a class="time" href="2013-09-22#30" target="_self" title="#30">10:51:13</a>
+                <a class="nick" href="2013-09-22/30" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">/msg nickserv register your-password your-email@address</span>
+              </li>
+            
+              
+              <li id="31">
+                <a class="time" href="2013-09-22#31" target="_self" title="#31">10:51:27</a>
+                <a class="nick" href="2013-09-22/31" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">之後上線時 /msg nickserv identify your-password</span>
+              </li>
+            
+              
+              <li id="32">
+                <a class="time" href="2013-09-22#32" target="_self" title="#32">10:52:10</a>
+                <a class="nick" href="2013-09-22/32" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap"> /msg NickServ REGISTER 97914l75 allenlinli@gmail.com</span>
+              </li>
+            
+              
+              <li id="33">
+                <a class="time" href="2013-09-22#33" target="_self" title="#33">10:52:28</a>
+                <a class="nick" href="2013-09-22/33" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">/ 前面沒有空白</span>
+              </li>
+            
+              
+              <li id="34">
+                <a class="time" href="2013-09-22#34" target="_self" title="#34">10:52:31</a>
+                <a class="nick" href="2013-09-22/34" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">蠢了ＱＱ</span>
+              </li>
+            
+              
+              <li id="35">
+                <a class="time" href="2013-09-22#35" target="_self" title="#35">10:52:41</a>
+                <a class="nick" href="2013-09-22/35" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">...然後可能要再挑個新密碼</span>
+              </li>
+            
+              
+              <li id="36">
+                <a class="time" href="2013-09-22#36" target="_self" title="#36">10:52:56</a>
+                <a class="nick" href="2013-09-22/36" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">有辦法刪留言嗎?</span>
+              </li>
+            
+              
+              <li id="37">
+                <a class="time" href="2013-09-22#37" target="_self" title="#37">10:53:14</a>
+                <a class="nick" href="2013-09-22/37" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">可能沒辦法，換密碼吧 :p</span>
+              </li>
+            
+              
+              <li id="38">
+                <a class="time" href="2013-09-22#38" target="_self" title="#38">10:53:41</a>
+                <a class="nick" href="2013-09-22/38" target="_self" title="quote">Michael-</a>
+                <span class="msg wordwrap">［插嘴］提醒，帳號的密碼，不要用電郵的密碼。</span>
+              </li>
+            
+              
+              <li id="39">
+                <a class="time" href="2013-09-22#39" target="_self" title="#39">10:54:10</a>
+                <a class="nick" href="2013-09-22/39" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">Michael-++</span>
+              </li>
+            
+              
+              <li id="40">
+                <a class="time" href="2013-09-22#40" target="_self" title="#40">10:54:36</a>
+                <a class="nick" href="2013-09-22/40" target="_self" title="quote">Michael-</a>
+                <span class="msg wordwrap">au 我好幾天都沒上來了</span>
+              </li>
+            
+              
+              <li id="41">
+                <a class="time" href="2013-09-22#41" target="_self" title="#41">10:54:44</a>
+                <a class="nick" href="2013-09-22/41" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">所以沒辦法刪留言嘛?</span>
+              </li>
+            
+              
+              <li id="42">
+                <a class="time" href="2013-09-22#42" target="_self" title="#42">10:54:52</a>
+                <a class="nick" href="2013-09-22/42" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">allenlinli: wayne930242 他們前陣子也開了一個頻道，要幫忙把這個過程寫一篇出來嗎？</span>
+              </li>
+            
+              
+              <li id="43">
+                <a class="time" href="2013-09-22#43" target="_self" title="#43">10:55:10</a>
+                <a class="nick" href="2013-09-22/43" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">irc 不是留言，無法刪除</span>
+              </li>
+            
+              
+              <li id="44">
+                <a class="time" href="2013-09-22#44" target="_self" title="#44">10:55:19</a>
+                <a class="nick" href="2013-09-22/44" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">allenlinli: 主要是因為大家同時都收到了你的訊息，所以即使在 logbot 刪了，這裡有不少人都會自動存備份</span>
+              </li>
+            
+              
+              <li id="45">
+                <a class="time" href="2013-09-22#45" target="_self" title="#45">10:55:39</a>
+                <a class="nick" href="2013-09-22/45" target="_self" title="quote">Michael-</a>
+                <span class="msg wordwrap">應該要寫一下，以後讓大家查詢教學頁面。</span>
+              </li>
+            
+              
+              <li id="46">
+                <a class="time" href="2013-09-22#46" target="_self" title="#46">10:55:58</a>
+                <a class="nick" href="2013-09-22/46" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">I see 謝謝</span>
+              </li>
+            
+              
+              <li id="47">
+                <a class="time" href="2013-09-22#47" target="_self" title="#47">10:56:30</a>
+                <a class="nick" href="2013-09-22/47" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">我應該已經註冊了  只是沒有logged in</span>
+              </li>
+            
+              
+              <li id="48">
+                <a class="time" href="2013-09-22#48" target="_self" title="#48">10:56:32</a>
+                <a class="nick" href="2013-09-22/48" target="_self" title="quote">Michael-</a>
+                <span class="msg wordwrap">在網路上的言論要謹慎</span>
+              </li>
+            
+              
+              <li id="49">
+                <a class="time" href="2013-09-22#49" target="_self" title="#49">11:00:09</a>
+                <a class="nick" href="2013-09-22/49" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">我嘗試註冊頻道，可是他說我沒有logged in</span>
+              </li>
+            
+              
+              <li id="50">
+                <a class="time" href="2013-09-22#50" target="_self" title="#50">11:00:38</a>
+                <a class="nick" href="2013-09-22/50" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">XDDDDDD  這讓我想到ptt 推文釣密碼的笑話</span>
+              </li>
+            
+              
+              <li id="51">
+                <a class="time" href="2013-09-22#51" target="_self" title="#51">11:01:05</a>
+                <a class="nick" href="2013-09-22/51" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">這邊打密碼會自動出現********耶</span>
+              </li>
+            
+              
+              <li id="52">
+                <a class="time" href="2013-09-22#52" target="_self" title="#52">11:02:04</a>
+                <a class="nick" href="2013-09-22/52" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">哈哈</span>
+              </li>
+            
+              
+              <li id="53">
+                <a class="time" href="2013-09-22#53" target="_self" title="#53">11:02:18</a>
+                <a class="nick" href="2013-09-22/53" target="_self" title="quote">au</a>
+                <span class="msg wordwrap"># <a href="http://bash.org/?244321">http://bash.org/?244321</a></span>
+              </li>
+            
+              
+              <li id="54">
+                <a class="time" href="2013-09-22#54" target="_self" title="#54">11:02:20</a>
+                <a class="nick" href="2013-09-22/54" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">au's url: [QDB: Quote #244321]</span>
+              </li>
+            
+              
+              <li id="55">
+                <a class="time" href="2013-09-22#55" target="_self" title="#55">11:03:17</a>
+                <a class="nick" href="2013-09-22/55" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">au: XD</span>
+              </li>
+            
+              
+              <li id="56">
+                <a class="time" href="2013-09-22#56" target="_self" title="#56">11:03:28</a>
+                <a class="nick" href="2013-09-22/56" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">allenlinli: /msg nickserv identify your-password</span>
+              </li>
+            
+              
+              <li id="57">
+                <a class="time" href="2013-09-22#57" target="_self" title="#57">11:03:46</a>
+                <a class="nick" href="2013-09-22/57" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">(以上為 login 指令)</span>
+              </li>
+            
+              
+              <li id="58">
+                <a class="time" href="2013-09-22#58" target="_self" title="#58">11:05:11</a>
+                <a class="nick" href="2013-09-22/58" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap"><a href="http://www.ptt.cc/bbs/joke/M.1379689583.A.C3F.html">http://www.ptt.cc/bbs/joke/M.1379689583.A.C3F.html</a></span>
+              </li>
+            
+              
+              <li id="59">
+                <a class="time" href="2013-09-22#59" target="_self" title="#59">11:09:02</a>
+                <a class="nick" href="2013-09-22/59" target="_self" title="quote">Michael_LI</a>
+                <span class="msg wordwrap">allenlinli ［網路上的言論會變成法庭上的呈堂證供］<a href="https://www.facebook.com/lihsingyu/posts/715907301756244">https://www.facebook.com/lihsingyu/posts/715907301756244</a></span>
+              </li>
+            
+              
+              <li id="60">
+                <a class="time" href="2013-09-22#60" target="_self" title="#60">11:09:05</a>
+                <a class="nick" href="2013-09-22/60" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">Michael_LI's url: [Hsingyu Li - 「像我們這種高級知識份子，又是老師，本來是不需要跟他們這種流氓計較，但是我就是要他們背前科，... | Facebook]</span>
+              </li>
+            
+              
+              <li id="61">
+                <a class="time" href="2013-09-22#61" target="_self" title="#61">11:15:47</a>
+                <a class="nick" href="2013-09-22/61" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">我打/msg nickserv identify your-password  可是他說invalid command耶</span>
+              </li>
+            
+              
+              <li id="62">
+                <a class="time" href="2013-09-22#62" target="_self" title="#62">11:26:10</a>
+                <a class="nick" href="2013-09-22/62" target="_self" title="quote">mindos_cloud</a>
+                <span class="msg wordwrap">allenlinli : 有沒有截圖呢</span>
+              </li>
+            
+              
+              <li id="63">
+                <a class="time" href="2013-09-22#63" target="_self" title="#63">11:28:40</a>
+                <a class="nick" href="2013-09-22/63" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">NickServ> Invalid command. Use /msg NickServ help for a command listing.</span>
+              </li>
+            
+              
+              <li id="64">
+                <a class="time" href="2013-09-22#64" target="_self" title="#64">11:29:08</a>
+                <a class="nick" href="2013-09-22/64" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">  /msg nickserv identify your-password     identify應該是只我的id沒錯吧</span>
+              </li>
+            
+              
+              <li id="65">
+                <a class="time" href="2013-09-22#65" target="_self" title="#65">11:29:34</a>
+                <a class="nick" href="2013-09-22/65" target="_self" title="quote">mindos_cloud</a>
+                <span class="msg wordwrap">"identify" 要照著打 不是打你的 id</span>
+              </li>
+            
+              
+              <li id="66">
+                <a class="time" href="2013-09-22#66" target="_self" title="#66">11:30:05</a>
+                <a class="nick" href="2013-09-22/66" target="_self" title="quote">allenlinli</a>
+                <span class="msg wordwrap">XD</span>
+              </li>
+            
+              
+              <li id="67">
+                <a class="time" href="2013-09-22#67" target="_self" title="#67">11:30:21</a>
+                <a class="nick" href="2013-09-22/67" target="_self" title="quote">mindos_cloud</a>
+                <span class="msg wordwrap">XD</span>
+              </li>
+            
+              
+              <li id="68">
+                <a class="time" href="2013-09-22#68" target="_self" title="#68">12:00:33</a>
+                <a class="nick" href="2013-09-22/68" target="_self" title="quote">Michael_LI</a>
+                <span class="msg wordwrap">clkao 昨天夜裡我查閱前兩天對話log，看到１９８５的發起人來這裡對話，之後 gov 會有些計畫跟他們配合嗎？</span>
+              </li>
+            
+              
+              <li id="69">
+                <a class="time" href="2013-09-22#69" target="_self" title="#69">12:49:34</a>
+                <a class="nick" href="2013-09-22/69" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">Michael_LI: 這個問題好像應該不是問我... 有相關專案、有人參加的話就有</span>
+              </li>
+            
+              
+              <li id="70">
+                <a class="time" href="2013-09-22#70" target="_self" title="#70">12:50:24</a>
+                <a class="nick" href="2013-09-22/70" target="_self" title="quote">Michael_LI</a>
+                <span class="msg wordwrap">：Ｐ　小抱歉，頭腦沒轉過來</span>
+              </li>
+            
+              
+              <li id="71">
+                <a class="time" href="2013-09-22#71" target="_self" title="#71">12:54:42</a>
+                <a class="nick" href="2013-09-22/71" target="_self" title="quote">pm5cloud</a>
+                <span class="msg wordwrap">irc 註冊教學已經有精美圖文版 <a href="https://github.com/g0v/dev/wiki/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-IRC">https://github.com/g0v/dev/wiki/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-IRC</a></span>
+              </li>
+            
+              
+              <li id="72">
+                <a class="time" href="2013-09-22#72" target="_self" title="#72">12:54:44</a>
+                <a class="nick" href="2013-09-22/72" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">pm5cloud's url: [如何使用 IRC · g0v/dev Wiki · GitHub]</span>
+              </li>
+            
+              
+              <li id="73">
+                <a class="time" href="2013-09-22#73" target="_self" title="#73">12:55:02</a>
+                <a class="nick" href="2013-09-22/73" target="_self" title="quote">pm5cloud</a>
+                <span class="msg wordwrap">下次可以推薦新手看一下</span>
+              </li>
+            
+              
+              <li id="74">
+                <a class="time" href="2013-09-22#74" target="_self" title="#74">12:56:13</a>
+                <a class="nick" href="2013-09-22/74" target="_self" title="quote">pm5cloud</a>
+                <span class="msg wordwrap">再來寫個如何開頻道好了</span>
+              </li>
+            
+              
+              <li id="75">
+                <a class="time" href="2013-09-22#75" target="_self" title="#75">12:56:59</a>
+                <a class="nick" href="2013-09-22/75" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">pm5cloud++</span>
+              </li>
+            
+              
+              <li id="76">
+                <a class="time" href="2013-09-22#76" target="_self" title="#76">14:21:37</a>
+                <a class="nick" href="2013-09-22/76" target="_self" title="quote">nikktan</a>
+                <span class="msg wordwrap">請問有人有遇過angular 的文件網頁在safari 裡面不能上下捲的問題嗎？然後我在chrome裡面就可以</span>
+              </li>
+            
+              
+              <li id="77">
+                <a class="time" href="2013-09-22#77" target="_self" title="#77">14:22:35</a>
+                <a class="nick" href="2013-09-22/77" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">nikktan: url?</span>
+              </li>
+            
+              
+              <li id="78">
+                <a class="time" href="2013-09-22#78" target="_self" title="#78">14:23:16</a>
+                <a class="nick" href="2013-09-22/78" target="_self" title="quote">nikktan</a>
+                <span class="msg wordwrap"><a href="http://docs.angularjs.org/api/ng.directive:ngClass">http://docs.angularjs.org/api/ng.directive:ngClass</a></span>
+              </li>
+            
+              
+              <li id="79">
+                <a class="time" href="2013-09-22#79" target="_self" title="#79">14:23:17</a>
+                <a class="nick" href="2013-09-22/79" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">nikktan's url: [AngularJS]</span>
+              </li>
+            
+              
+              <li id="80">
+                <a class="time" href="2013-09-22#80" target="_self" title="#80">14:26:28</a>
+                <a class="nick" href="2013-09-22/80" target="_self" title="quote">nikkki_</a>
+                <span class="msg wordwrap">這個也不能卷：<a href="http://docs.angularjs.org/api/ng.directive:ngHref">http://docs.angularjs.org/api/ng.directive:ngHref</a></span>
+              </li>
+            
+              
+              <li id="81">
+                <a class="time" href="2013-09-22#81" target="_self" title="#81">14:27:10</a>
+                <a class="nick" href="2013-09-22/81" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">nikkki_: 我在 Mac OSX 10.9 Safari 7.0 (9537.71) 捲動沒問題</span>
+              </li>
+            
+              
+              <li id="82">
+                <a class="time" href="2013-09-22#82" target="_self" title="#82">14:28:38</a>
+                <a class="nick" href="2013-09-22/82" target="_self" title="quote">nikkki_</a>
+                <span class="msg wordwrap">是喔，我是mac os 10.8.5 and safari 6.0.5</span>
+              </li>
+            
+              
+              <li id="83">
+                <a class="time" href="2013-09-22#83" target="_self" title="#83">14:28:55</a>
+                <a class="nick" href="2013-09-22/83" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">*nod*</span>
+              </li>
+            
+              
+              <li id="84">
+                <a class="time" href="2013-09-22#84" target="_self" title="#84">14:29:34</a>
+                <a class="nick" href="2013-09-22/84" target="_self" title="quote">nikkki_</a>
+                <span class="msg wordwrap">真不方便</span>
+              </li>
+            
+              
+              <li id="85">
+                <a class="time" href="2013-09-22#85" target="_self" title="#85">14:36:15</a>
+                <a class="nick" href="2013-09-22/85" target="_self" title="quote">nikkki_</a>
+                <span class="msg wordwrap">au:所以現在已經有mac os 10.9買了嗎？</span>
+              </li>
+            
+              
+              <li id="86">
+                <a class="time" href="2013-09-22#86" target="_self" title="#86">14:41:13</a>
+                <a class="nick" href="2013-09-22/86" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">nikkki_: 目前還在 developer preview，不過快了</span>
+              </li>
+            
+              
+              <li id="87">
+                <a class="time" href="2013-09-22#87" target="_self" title="#87">14:43:06</a>
+                <a class="nick" href="2013-09-22/87" target="_self" title="quote">nikkki_</a>
+                <span class="msg wordwrap">恩我有看到在developer center</span>
+              </li>
+            
+              
+              <li id="88">
+                <a class="time" href="2013-09-22#88" target="_self" title="#88">14:48:04</a>
+                <a class="nick" href="2013-09-22/88" target="_self" title="quote">nikkki_</a>
+                <span class="msg wordwrap">而且我現在才仔細看一下上個月apple developer 有一封信說有safari 6.1 可以下載 ：Ｐ</span>
+              </li>
+            
+              
+              <li id="89">
+                <a class="time" href="2013-09-22#89" target="_self" title="#89">14:49:13</a>
+                <a class="nick" href="2013-09-22/89" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">那測看看吧 :p</span>
+              </li>
+            
+              
+              <li id="90">
+                <a class="time" href="2013-09-22#90" target="_self" title="#90">14:53:45</a>
+                <a class="nick" href="2013-09-22/90" target="_self" title="quote">nikkki_</a>
+                <span class="msg wordwrap">對啊！</span>
+              </li>
+            
+              
+              <li id="91">
+                <a class="time" href="2013-09-22#91" target="_self" title="#91">14:53:49</a>
+                <a class="nick" href="2013-09-22/91" target="_self" title="quote">nikkki_</a>
+                <span class="msg wordwrap">正在裝</span>
+              </li>
+            
+              
+              <li id="92">
+                <a class="time" href="2013-09-22#92" target="_self" title="#92">14:57:23</a>
+                <a class="nick" href="2013-09-22/92" target="_self" title="quote">pm5cloud</a>
+                <span class="msg wordwrap"><a href="https://github.com/g0v/dev/wiki/%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B2%E7%9A%84-IRC-%E9%A0%BB%E9%81%93">https://github.com/g0v/dev/wiki/%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B2%E7%9A%84-IRC-%E9%A0%BB%E9%81%93</a></span>
+              </li>
+            
+              
+              <li id="93">
+                <a class="time" href="2013-09-22#93" target="_self" title="#93">14:57:24</a>
+                <a class="nick" href="2013-09-22/93" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">pm5cloud's url: [如何建立自已的 IRC 頻道 · g0v/dev Wiki · GitHub]</span>
+              </li>
+            
+              
+              <li id="94">
+                <a class="time" href="2013-09-22#94" target="_self" title="#94">14:57:54</a>
+                <a class="nick" href="2013-09-22/94" target="_self" title="quote">nikkki_</a>
+                <span class="msg wordwrap">safari 6.1 可以卷了！</span>
+              </li>
+            
+              
+              <li id="95">
+                <a class="time" href="2013-09-22#95" target="_self" title="#95">14:58:11</a>
+                <a class="nick" href="2013-09-22/95" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">cool</span>
+              </li>
+            
+              
+              <li id="96">
+                <a class="time" href="2013-09-22#96" target="_self" title="#96">14:58:26</a>
+                <a class="nick" href="2013-09-22/96" target="_self" title="quote">nikkki_</a>
+                <span class="msg wordwrap">:D</span>
+              </li>
+            
+              
+              <li id="97">
+                <a class="time" href="2013-09-22#97" target="_self" title="#97">14:58:43</a>
+                <a class="nick" href="2013-09-22/97" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">pm5cloud++ # 詳細</span>
+              </li>
+            
+              
+              <li id="98">
+                <a class="time" href="2013-09-22#98" target="_self" title="#98">15:24:37</a>
+                <a class="nick" href="2013-09-22/98" target="_self" title="quote">nikkki_</a>
+                <span class="msg wordwrap">clkao: 我剛發了一個新pr 有我新增的醜about us page</span>
+              </li>
+            
+              
+              <li id="99">
+                <a class="time" href="2013-09-22#99" target="_self" title="#99">15:24:49</a>
+                <a class="nick" href="2013-09-22/99" target="_self" title="quote">nikkki_</a>
+                <span class="msg wordwrap">你看看如果不ok再跟我說</span>
+              </li>
+            
+              
+              <li id="100">
+                <a class="time" href="2013-09-22#100" target="_self" title="#100">15:25:48</a>
+                <a class="nick" href="2013-09-22/100" target="_self" title="quote">nikkki_</a>
+                <span class="msg wordwrap">不好意思上星期有點忙然後放假又有事所以到今天才弄</span>
+              </li>
+            
+              
+              <li id="101">
+                <a class="time" href="2013-09-22#101" target="_self" title="#101">15:26:47</a>
+                <a class="nick" href="2013-09-22/101" target="_self" title="quote">nikkki_</a>
+                <span class="msg wordwrap">我是直接把你在hackpad的那篇拿來用沒有多做什麼別的更動</span>
+              </li>
+            
+              
+              <li id="102">
+                <a class="time" href="2013-09-22#102" target="_self" title="#102">18:58:24</a>
+                <a class="nick" href="2013-09-22/102" target="_self" title="quote">wayne930242</a>
+                <span class="msg wordwrap"><a href="http://newshelper.g0v.tw/index/log/387">http://newshelper.g0v.tw/index/log/387</a></span>
+              </li>
+            
+              
+              <li id="103">
+                <a class="time" href="2013-09-22#103" target="_self" title="#103">18:58:25</a>
+                <a class="nick" href="2013-09-22/103" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">wayne930242's url: [民生社會專題 - 今周刊 這是做給客人的 師傅叫我千萬別吃！ - 今周刊 新聞小幫手]</span>
+              </li>
+            
+              
+              <li id="104">
+                <a class="time" href="2013-09-22#104" target="_self" title="#104">18:58:52</a>
+                <a class="nick" href="2013-09-22/104" target="_self" title="quote">wayne930242</a>
+                <span class="msg wordwrap">這篇的新聞重點這樣寫讓人無法掌握重點</span>
+              </li>
+            
+              
+              <li id="105">
+                <a class="time" href="2013-09-22#105" target="_self" title="#105">21:39:15</a>
+                <a class="nick" href="2013-09-22/105" target="_self" title="quote">Michael_LI</a>
+                <span class="msg wordwrap"> &lt;wayne930242> 我看到了，吃飽烤肉睡覺前來改善一下，結束今天一回合。</span>
+              </li>
+            
+              
+              <li id="106">
+                <a class="time" href="2013-09-22#106" target="_self" title="#106">22:38:42</a>
+                <a class="nick" href="2013-09-22/106" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">pm5cloud 寫的 irc 註冊教學真是非常地清楚又有條有理（按讚</span>
+              </li>
+            
+              
+              <li id="107">
+                <a class="time" href="2013-09-22#107" target="_self" title="#107">22:39:11</a>
+                <a class="nick" href="2013-09-22/107" target="_self" title="quote">wayne930242</a>
+                <span class="msg wordwrap">我也要看</span>
+              </li>
+            
+              
+              <li id="108">
+                <a class="time" href="2013-09-22#108" target="_self" title="#108">22:39:15</a>
+                <a class="nick" href="2013-09-22/108" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">（我說的是「如何建立自已的 IRC 頻道」這則） XD</span>
+              </li>
+            
+              
+              <li id="109">
+                <a class="time" href="2013-09-22#109" target="_self" title="#109">22:39:18</a>
+                <a class="nick" href="2013-09-22/109" target="_self" title="quote">wayne930242</a>
+                <span class="msg wordwrap">看到了</span>
+              </li>
+            
+              
+              <li id="110">
+                <a class="time" href="2013-09-22#110" target="_self" title="#110">22:51:19</a>
+                <a class="nick" href="2013-09-22/110" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">billy3321 在 google groups 貼的旗幟設計網站蠻好用的，隨便弄了一張公民旗 XD <a href="http://flag-designer.appspot.com/#d=0&amp;c1=0&amp;c2=1&amp;c3=0&amp;o=8&amp;c4=0&amp;s=4&amp;c5=1">http://flag-designer.appspot.com/#d=0&amp;c1=0&amp;c2=1&amp;c3=0&amp;o=8&amp;c4=0&amp;s=4&amp;c5=1</a></span>
+              </li>
+            
+              
+              <li id="111">
+                <a class="time" href="2013-09-22#111" target="_self" title="#111">22:51:20</a>
+                <a class="nick" href="2013-09-22/111" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">ETBlue's url: [Flag Designer]</span>
+              </li>
+            
+              
+              <li id="112">
+                <a class="time" href="2013-09-22#112" target="_self" title="#112">22:51:42</a>
+                <a class="nick" href="2013-09-22/112" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">噢，網址會跑掉</span>
+              </li>
+            
+              
+              <li id="113">
+                <a class="time" href="2013-09-22#113" target="_self" title="#113">22:51:46</a>
+                <a class="nick" href="2013-09-22/113" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">ETBlue: 那是我以前玩遊戲用的XD</span>
+              </li>
+            
+              
+              <li id="114">
+                <a class="time" href="2013-09-22#114" target="_self" title="#114">22:52:51</a>
+                <a class="nick" href="2013-09-22/114" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">貼 svg 好像就可以 <a href="http://flag-designer.appspot.com/gwtflags/SvgFileService?d=0&amp;c1=0&amp;c2=1&amp;c3=0&amp;o=8&amp;c4=0&amp;s=4&amp;c5=1">http://flag-designer.appspot.com/gwtflags/SvgFileService?d=0&amp;c1=0&amp;c2=1&amp;c3=0&amp;o=8&amp;c4=0&amp;s=4&amp;c5=1</a></span>
+              </li>
+            
+              
+              <li id="115">
+                <a class="time" href="2013-09-22#115" target="_self" title="#115">22:54:06</a>
+                <a class="nick" href="2013-09-22/115" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">好陰暗的旗子喔</span>
+              </li>
+            
+              
+              <li id="116">
+                <a class="time" href="2013-09-22#116" target="_self" title="#116">22:56:38</a>
+                <a class="nick" href="2013-09-22/116" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">不過其實這個網站可以看到很多靈感</span>
+              </li>
+            
+              
+              <li id="117">
+                <a class="time" href="2013-09-22#117" target="_self" title="#117">22:56:47</a>
+                <a class="nick" href="2013-09-22/117" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">比如說切半不一定要左右切</span>
+              </li>
+            
+              
+              <li id="118">
+                <a class="time" href="2013-09-22#118" target="_self" title="#118">22:56:50</a>
+                <a class="nick" href="2013-09-22/118" target="_self" title="quote">billy3321</a>
+                <span class="msg wordwrap">可以左上右下這樣</span>
+              </li>
+            
+              
+              <li id="119">
+                <a class="time" href="2013-09-22#119" target="_self" title="#119">23:00:16</a>
+                <a class="nick" href="2013-09-22/119" target="_self" title="quote">Michael_LI</a>
+                <span class="msg wordwrap">wayne930242 剛才那則回報單387號，我已經研究資料出處，並且改良了。一不小心也跟原作者Honu Wu臉書對話過，謝謝她。</span>
+              </li>
+            
+              
+              <li id="120">
+                <a class="time" href="2013-09-22#120" target="_self" title="#120">23:31:49</a>
+                <a class="nick" href="2013-09-22/120" target="_self" title="quote">Michael_LI</a>
+                <span class="msg wordwrap">另外、我記得２年有看過公共電視介紹過「廚師的調味料秘密」，我還沒去翻錄影存檔，就在網路上看到公視已經上傳了，有興趣了解「如何吃到餐廳新鮮美味佳餚」的人可以來看這段新聞專題。</span>
+              </li>
+            
+              
+              <li id="121">
+                <a class="time" href="2013-09-22#121" target="_self" title="#121">23:31:50</a>
+                <a class="nick" href="2013-09-22/121" target="_self" title="quote">Michael_LI</a>
+                <span class="msg wordwrap">（超鏈接）公視／獨立特派員192集：料理魔法師／　<a href="https://youtube.googleapis.com/v/4NsSC81-VfA">https://youtube.googleapis.com/v/4NsSC81-VfA</a></span>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="footer">
+  <p>Powered by Logbot 2013 | <a href="https://github.com/g0v/Logbot">GitHub Repo</a></p>
+</div>
+
+    </div>
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script>
+      var channel = "g0v.tw";
+    </script>
+    <script src="/assets/applications.js"></script>
+    
+  </body>
+</html>

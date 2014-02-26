@@ -1,0 +1,2750 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Logbot | #g0v.tw</title>
+    <link rel="stylesheet" type="text/css" href="/assets/screen.css">
+    <base target="_blank" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1>Logbot</h1>
+      </div>
+      <div class="quick-nav">
+        <div class="nav_page-up" onclick="pageScrollTop(0);">⬆</div>
+        <div class="nav_page-down" onclick="pageScrollTop($(document).height());">⬇</div>
+      </div>
+      <div class="body">
+        <div class="channel">#g0v.tw</div>
+        
+        
+        <select id="date-picker" class="date">
+          
+            <option value="2013-10-19">2013-10-19</option>
+          
+          <optgroup label="Today">
+            <option id="today" value="today" >2014-02-26</option>
+          </optgroup>
+          <optgroup label="Earlier logs">
+            
+              <option value="2014-02-25" >2014-02-25</option>
+            
+              <option value="2014-02-24" >2014-02-24</option>
+            
+              <option value="2014-02-23" >2014-02-23</option>
+            
+              <option value="2014-02-22" >2014-02-22</option>
+            
+          </optgroup>
+        </select>
+
+        <div class="scroll_switch">AUTO⬇ </div>
+       
+        <div>
+          <ul class="logs">
+            
+              
+              <li id="0">
+                <a class="time" href="2013-10-19#0" target="_self" title="#0">00:10:34</a>
+                <a class="nick" href="2013-10-19/0" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">yhsiang: 想學啊。本想偷懶用 jquery-oembed-all ，但</span>
+              </li>
+            
+              
+              <li id="1">
+                <a class="time" href="2013-10-19#1" target="_self" title="#1">00:11:09</a>
+                <a class="nick" href="2013-10-19/1" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">他會自作主張把網址餵給 yahoo API ，用 localhost 很不方便測試。</span>
+              </li>
+            
+              
+              <li id="2">
+                <a class="time" href="2013-10-19#2" target="_self" title="#2">00:11:56</a>
+                <a class="nick" href="2013-10-19/2" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">得自己寫 embed.js D:</span>
+              </li>
+            
+              
+              <li id="3">
+                <a class="time" href="2013-10-19#3" target="_self" title="#3">00:17:44</a>
+                <a class="nick" href="2013-10-19/3" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">CAA51: 先衝 <a href="https://github.com/leedo/noembed">https://github.com/leedo/noembed</a> helper ? :p</span>
+              </li>
+            
+              
+              <li id="4">
+                <a class="time" href="2013-10-19#4" target="_self" title="#4">00:17:47</a>
+                <a class="nick" href="2013-10-19/4" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">[ leedo/noembed · GitHub ] - github.com</span>
+              </li>
+            
+              
+              <li id="5">
+                <a class="time" href="2013-10-19#5" target="_self" title="#5">00:50:46</a>
+                <a class="nick" href="2013-10-19/5" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">hychen: 出現了劍橋大學動物系 programmer 幫改 pgrest :D</span>
+              </li>
+            
+              
+              <li id="6">
+                <a class="time" href="2013-10-19#6" target="_self" title="#6">00:51:20</a>
+                <a class="nick" href="2013-10-19/6" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">(y)</span>
+              </li>
+            
+              
+              <li id="7">
+                <a class="time" href="2013-10-19#7" target="_self" title="#7">00:56:24</a>
+                <a class="nick" href="2013-10-19/7" target="_self" title="quote">kcliu</a>
+                <span class="msg wordwrap">(y)</span>
+              </li>
+            
+              
+              <li id="8">
+                <a class="time" href="2013-10-19#8" target="_self" title="#8">01:06:50</a>
+                <a class="nick" href="2013-10-19/8" target="_self" title="quote">hychen</a>
+                <span class="msg wordwrap">clkao: coool</span>
+              </li>
+            
+              
+              <li id="9">
+                <a class="time" href="2013-10-19#9" target="_self" title="#9">01:32:47</a>
+                <a class="nick" href="2013-10-19/9" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">clkao: Perl 耶，好想玩玩看XDD</span>
+              </li>
+            
+              
+              <li id="10">
+                <a class="time" href="2013-10-19#10" target="_self" title="#10">01:33:15</a>
+                <a class="nick" href="2013-10-19/10" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">如果到時 moedict 那邊用 noembed ，還是得做個 什麼.js 來把 embedData.html 畫出來？</span>
+              </li>
+            
+              
+              <li id="11">
+                <a class="time" href="2013-10-19#11" target="_self" title="#11">01:34:04</a>
+                <a class="nick" href="2013-10-19/11" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">劍橋大學動物系真是太奇妙了...，是來幫忙管推坑填坑動物園的嗎XD</span>
+              </li>
+            
+              
+              <li id="12">
+                <a class="time" href="2013-10-19#12" target="_self" title="#12">01:35:04</a>
+                <a class="nick" href="2013-10-19/12" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">CAA51: 應該是css就可以了 ?</span>
+              </li>
+            
+              
+              <li id="13">
+                <a class="time" href="2013-10-19#13" target="_self" title="#13">01:37:40</a>
+                <a class="nick" href="2013-10-19/13" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">喔 我錯了 orz..</span>
+              </li>
+            
+              
+              <li id="14">
+                <a class="time" href="2013-10-19#14" target="_self" title="#14">01:39:44</a>
+                <a class="nick" href="2013-10-19/14" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">yhsiang: 我也希望 CSS 就可以，這樣要 embed 的網頁只要多加一個 CSS</span>
+              </li>
+            
+              
+              <li id="15">
+                <a class="time" href="2013-10-19#15" target="_self" title="#15">01:40:08</a>
+                <a class="nick" href="2013-10-19/15" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">反正本來也得加個 js 才能得到資料了。</span>
+              </li>
+            
+              
+              <li id="16">
+                <a class="time" href="2013-10-19#16" target="_self" title="#16">01:40:40</a>
+                <a class="nick" href="2013-10-19/16" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">看 twitter 是拿到一個 blockquote 配他們的 widget.js ，</span>
+              </li>
+            
+              
+              <li id="17">
+                <a class="time" href="2013-10-19#17" target="_self" title="#17">01:41:02</a>
+                <a class="nick" href="2013-10-19/17" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">接著讓該 js 把 blockquote 換成 iframe...</span>
+              </li>
+            
+              
+              <li id="18">
+                <a class="time" href="2013-10-19#18" target="_self" title="#18">01:41:53</a>
+                <a class="nick" href="2013-10-19/18" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">猜好處是 server-side 拿到結果也能靠 js 畫出來。</span>
+              </li>
+            
+              
+              <li id="19">
+                <a class="time" href="2013-10-19#19" target="_self" title="#19">01:42:08</a>
+                <a class="nick" href="2013-10-19/19" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">只是要是都在 client-side 做就有點多此一舉XD</span>
+              </li>
+            
+              
+              <li id="20">
+                <a class="time" href="2013-10-19#20" target="_self" title="#20">01:49:24</a>
+                <a class="nick" href="2013-10-19/20" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">好像應該先轉成 jade 再套 angular ... 前者比較簡單 = ="</span>
+              </li>
+            
+              
+              <li id="21">
+                <a class="time" href="2013-10-19#21" target="_self" title="#21">13:51:36</a>
+                <a class="nick" href="2013-10-19/21" target="_self" title="quote">mindos_cloud</a>
+                <span class="msg wordwrap">剛看到這個 <a href="http://okfn.jp/2013/08/22/taiwan-open-data-alliance-founded/">http://okfn.jp/2013/08/22/taiwan-open-data-alliance-founded/</a></span>
+              </li>
+            
+              
+              <li id="22">
+                <a class="time" href="2013-10-19#22" target="_self" title="#22">13:51:38</a>
+                <a class="nick" href="2013-10-19/22" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">[ 台湾、Open Data Alliance結成、150の企業・機関が参加 | オープンデータとオープンガバメントを推進する Open Knowledge Foundation Japan ] - okfn.jp</span>
+              </li>
+            
+              
+              <li id="23">
+                <a class="time" href="2013-10-19#23" target="_self" title="#23">14:03:16</a>
+                <a class="nick" href="2013-10-19/23" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">Lee1092: 明天還會有新聞局專案嗎 :D</span>
+              </li>
+            
+              
+              <li id="24">
+                <a class="time" href="2013-10-19#24" target="_self" title="#24">14:07:33</a>
+                <a class="nick" href="2013-10-19/24" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">Lee1092: 上次採訪完後續完稿的動力有點弱，想說要不要讓採訪組成員各自以個人身份發表在自己的 sns 上，不要求完整，簡介就好，這樣活動當天就可以發，免得回去以後沒力完稿… XD</span>
+              </li>
+            
+              
+              <li id="25">
+                <a class="time" href="2013-10-19#25" target="_self" title="#25">14:08:45</a>
+                <a class="nick" href="2013-10-19/25" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">Lee1092: sns 上的短文有下 #g0v tag 的話 ipa 跟 venev 應該就可以直接轉載或彙整了</span>
+              </li>
+            
+              
+              <li id="26">
+                <a class="time" href="2013-10-19#26" target="_self" title="#26">14:09:49</a>
+                <a class="nick" href="2013-10-19/26" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">sns是...  @@</span>
+              </li>
+            
+              
+              <li id="27">
+                <a class="time" href="2013-10-19#27" target="_self" title="#27">14:10:13</a>
+                <a class="nick" href="2013-10-19/27" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">Lee1092: 啊，社交網站…</span>
+              </li>
+            
+              
+              <li id="28">
+                <a class="time" href="2013-10-19#28" target="_self" title="#28">14:10:29</a>
+                <a class="nick" href="2013-10-19/28" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">Lee1092: twitter, facebook, google+ 這種的.. XD</span>
+              </li>
+            
+              
+              <li id="29">
+                <a class="time" href="2013-10-19#29" target="_self" title="#29">14:10:32</a>
+                <a class="nick" href="2013-10-19/29" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">Lee1092</span>&nbsp;對撰稿動力偏弱 orz</span>
+              </li>
+            
+              
+              <li id="30">
+                <a class="time" href="2013-10-19#30" target="_self" title="#30">14:10:42</a>
+                <a class="nick" href="2013-10-19/30" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">ETBlue: 喔喔喔  了改</span>
+              </li>
+            
+              
+              <li id="31">
+                <a class="time" href="2013-10-19#31" target="_self" title="#31">14:11:31</a>
+                <a class="nick" href="2013-10-19/31" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">ETBlue:  就相關動態貼文加上  #g0v ?   還是  #g0v-hackath5n  XD</span>
+              </li>
+            
+              
+              <li id="32">
+                <a class="time" href="2013-10-19#32" target="_self" title="#32">14:11:36</a>
+                <a class="nick" href="2013-10-19/32" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">明天應該沒辦法去了</span>
+              </li>
+            
+              
+              <li id="33">
+                <a class="time" href="2013-10-19#33" target="_self" title="#33">14:11:43</a>
+                <a class="nick" href="2013-10-19/33" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">tkirby: 賀</span>
+              </li>
+            
+              
+              <li id="34">
+                <a class="time" href="2013-10-19#34" target="_self" title="#34">14:12:27</a>
+                <a class="nick" href="2013-10-19/34" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">Lee1092: 問問看 ipa 好了 XD # 明天的 tag</span>
+              </li>
+            
+              
+              <li id="35">
+                <a class="time" href="2013-10-19#35" target="_self" title="#35">14:13:04</a>
+                <a class="nick" href="2013-10-19/35" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">Lee1092: 好像有些地方 - 號會讓 tag 斷掉</span>
+              </li>
+            
+              
+              <li id="36">
+                <a class="time" href="2013-10-19#36" target="_self" title="#36">14:13:38</a>
+                <a class="nick" href="2013-10-19/36" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">噢，twitter 就是</span>
+              </li>
+            
+              
+              <li id="37">
+                <a class="time" href="2013-10-19#37" target="_self" title="#37">14:14:53</a>
+                <a class="nick" href="2013-10-19/37" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">tkirby: 所以明天兒童合唱團的新成員就會出現了嗎 :D :D</span>
+              </li>
+            
+              
+              <li id="38">
+                <a class="time" href="2013-10-19#38" target="_self" title="#38">14:15:20</a>
+                <a class="nick" href="2013-10-19/38" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">hmm...</span>
+              </li>
+            
+              
+              <li id="39">
+                <a class="time" href="2013-10-19#39" target="_self" title="#39">14:23:40</a>
+                <a class="nick" href="2013-10-19/39" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kcwu: ivod index 好多發言人是「無 委員」喔 XD</span>
+              </li>
+            
+              
+              <li id="40">
+                <a class="time" href="2013-10-19#40" target="_self" title="#40">14:24:23</a>
+                <a class="nick" href="2013-10-19/40" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">tkirby: 賀坐鎮～</span>
+              </li>
+            
+              
+              <li id="41">
+                <a class="time" href="2013-10-19#41" target="_self" title="#41">14:24:34</a>
+                <a class="nick" href="2013-10-19/41" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">tkirby: 還是因為炸雞換成雞排，你就不來了？</span>
+              </li>
+            
+              
+              <li id="42">
+                <a class="time" href="2013-10-19#42" target="_self" title="#42">14:28:24</a>
+                <a class="nick" href="2013-10-19/42" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">看起來還沒要生.. 可是亂跑沒的話老婆應該會怒.. XD</span>
+              </li>
+            
+              
+              <li id="43">
+                <a class="time" href="2013-10-19#43" target="_self" title="#43">14:28:34</a>
+                <a class="nick" href="2013-10-19/43" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">s/沒//</span>
+              </li>
+            
+              
+              <li id="44">
+                <a class="time" href="2013-10-19#44" target="_self" title="#44">14:28:35</a>
+                <a class="nick" href="2013-10-19/44" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">tkirby meant to say: 看起來還要生.. 可是亂跑沒的話老婆應該會怒.. XD</span>
+              </li>
+            
+              
+              <li id="45">
+                <a class="time" href="2013-10-19#45" target="_self" title="#45">14:28:56</a>
+                <a class="nick" href="2013-10-19/45" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">XD XD</span>
+              </li>
+            
+              
+              <li id="46">
+                <a class="time" href="2013-10-19#46" target="_self" title="#46">14:29:03</a>
+                <a class="nick" href="2013-10-19/46" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">s/沒(.+)沒/沒(1)/</span>
+              </li>
+            
+              
+              <li id="47">
+                <a class="time" href="2013-10-19#47" target="_self" title="#47">14:29:07</a>
+                <a class="nick" href="2013-10-19/47" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">LOL</span>
+              </li>
+            
+              
+              <li id="48">
+                <a class="time" href="2013-10-19#48" target="_self" title="#48">14:29:10</a>
+                <a class="nick" href="2013-10-19/48" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">還要生</span>
+              </li>
+            
+              
+              <li id="49">
+                <a class="time" href="2013-10-19#49" target="_self" title="#49">14:29:11</a>
+                <a class="nick" href="2013-10-19/49" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">xDD</span>
+              </li>
+            
+              
+              <li id="50">
+                <a class="time" href="2013-10-19#50" target="_self" title="#50">14:29:35</a>
+                <a class="nick" href="2013-10-19/50" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">fb的話 tag g0v粉絲頁可以，貼文小幫手群組會看到。或者貼到後勤。</span>
+              </li>
+            
+              
+              <li id="51">
+                <a class="time" href="2013-10-19#51" target="_self" title="#51">14:30:43</a>
+                <a class="nick" href="2013-10-19/51" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">s/沒(.+)沒/沒$1/   這樣才對..orz</span>
+              </li>
+            
+              
+              <li id="52">
+                <a class="time" href="2013-10-19#52" target="_self" title="#52">14:31:02</a>
+                <a class="nick" href="2013-10-19/52" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">ETBlue: Lee1092 上次有人有寫嗎？</span>
+              </li>
+            
+              
+              <li id="53">
+                <a class="time" href="2013-10-19#53" target="_self" title="#53">14:31:12</a>
+                <a class="nick" href="2013-10-19/53" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">tkirby: 你在玩bot喔？XDD</span>
+              </li>
+            
+              
+              <li id="54">
+                <a class="time" href="2013-10-19#54" target="_self" title="#54">14:31:38</a>
+                <a class="nick" href="2013-10-19/54" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">ipa: 沒有, 我不知道他會幫翻譯, 所以寫得不夠精確.. 可是認真寫以後他都不理我.. XD</span>
+              </li>
+            
+              
+              <li id="55">
+                <a class="time" href="2013-10-19#55" target="_self" title="#55">14:32:43</a>
+                <a class="nick" href="2013-10-19/55" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ipa: Lee1092: google drive 裡有一些，但好像是寫到一半的 XD</span>
+              </li>
+            
+              
+              <li id="56">
+                <a class="time" href="2013-10-19#56" target="_self" title="#56">14:33:22</a>
+                <a class="nick" href="2013-10-19/56" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">tkirby: 那你要在後勤問一下誰要幫忙拍照片嗎？（抓個交替）</span>
+              </li>
+            
+              
+              <li id="57">
+                <a class="time" href="2013-10-19#57" target="_self" title="#57">14:34:05</a>
+                <a class="nick" href="2013-10-19/57" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">正要發文說</span>
+              </li>
+            
+              
+              <li id="58">
+                <a class="time" href="2013-10-19#58" target="_self" title="#58">14:34:22</a>
+                <a class="nick" href="2013-10-19/58" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">小朋友被約翰史特勞斯催眠了[C</span>
+              </li>
+            
+              
+              <li id="59">
+                <a class="time" href="2013-10-19#59" target="_self" title="#59">14:38:40</a>
+                <a class="nick" href="2013-10-19/59" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">ipa: 對.算一半，上次弄完.就沒碰過了，只有分類完，沒有專職寫手～</span>
+              </li>
+            
+              
+              <li id="60">
+                <a class="time" href="2013-10-19#60" target="_self" title="#60">14:42:45</a>
+                <a class="nick" href="2013-10-19/60" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">Lee1092: 我很能理解這種富奸的感覺…</span>
+              </li>
+            
+              
+              <li id="61">
+                <a class="time" href="2013-10-19#61" target="_self" title="#61">14:43:27</a>
+                <a class="nick" href="2013-10-19/61" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">寫文章原本就是一件容易讓人沒力的事情（點頭</span>
+              </li>
+            
+              
+              <li id="62">
+                <a class="time" href="2013-10-19#62" target="_self" title="#62">14:47:52</a>
+                <a class="nick" href="2013-10-19/62" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">噢噢 看了一下幾篇，還不錯啊。之前好像完全沒注意到 @@</span>
+              </li>
+            
+              
+              <li id="63">
+                <a class="time" href="2013-10-19#63" target="_self" title="#63">14:48:57</a>
+                <a class="nick" href="2013-10-19/63" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">可以順便作為天下供稿庫... ?</span>
+              </li>
+            
+              
+              <li id="64">
+                <a class="time" href="2013-10-19#64" target="_self" title="#64">14:49:33</a>
+                <a class="nick" href="2013-10-19/64" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">ETBlue: Lee1092 明天討論一下怎麼樣弄，變成天下部落格供稿系統。有登出應該會有刺激寫作的動力</span>
+              </li>
+            
+              
+              <li id="65">
+                <a class="time" href="2013-10-19#65" target="_self" title="#65">14:51:21</a>
+                <a class="nick" href="2013-10-19/65" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ipa: Lee1092: ++ # 天下供稿庫</span>
+              </li>
+            
+              
+              <li id="66">
+                <a class="time" href="2013-10-19#66" target="_self" title="#66">14:51:43</a>
+                <a class="nick" href="2013-10-19/66" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ipa: 之前沒注意到應該是因為還沒完稿所以都沒發佈的關係 XD</span>
+              </li>
+            
+              
+              <li id="67">
+                <a class="time" href="2013-10-19#67" target="_self" title="#67">14:51:47</a>
+                <a class="nick" href="2013-10-19/67" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">還有我發現貼在 hackpad比較容易有小精靈一起寫完，速度超快的。覺得再過一年等各個成果兜起來，說不定可以來發起一個g0v寫作出版計畫了。</span>
+              </li>
+            
+              
+              <li id="68">
+                <a class="time" href="2013-10-19#68" target="_self" title="#68">14:52:24</a>
+                <a class="nick" href="2013-10-19/68" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">可能是因為 hackpad 左邊會顯示 id，有一種喇賽的感覺</span>
+              </li>
+            
+              
+              <li id="69">
+                <a class="time" href="2013-10-19#69" target="_self" title="#69">14:52:34</a>
+                <a class="nick" href="2013-10-19/69" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">gdoc 寫起來就比較孤單…</span>
+              </li>
+            
+              
+              <li id="70">
+                <a class="time" href="2013-10-19#70" target="_self" title="#70">14:53:29</a>
+                <a class="nick" href="2013-10-19/70" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">ETBlue: hackpad 的 comment 有 ptt 推文的 fu</span>
+              </li>
+            
+              
+              <li id="71">
+                <a class="time" href="2013-10-19#71" target="_self" title="#71">14:57:10</a>
+                <a class="nick" href="2013-10-19/71" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">真的XD</span>
+              </li>
+            
+              
+              <li id="72">
+                <a class="time" href="2013-10-19#72" target="_self" title="#72">15:01:17</a>
+                <a class="nick" href="2013-10-19/72" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">ipa:  對耶  有登出會有動力  (y)</span>
+              </li>
+            
+              
+              <li id="73">
+                <a class="time" href="2013-10-19#73" target="_self" title="#73">15:02:00</a>
+                <a class="nick" href="2013-10-19/73" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">ETBlue: ipa  g0v每篇產出</span>
+              </li>
+            
+              
+              <li id="74">
+                <a class="time" href="2013-10-19#74" target="_self" title="#74">15:02:12</a>
+                <a class="nick" href="2013-10-19/74" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">這樣 g0v 每篇產出  都是好幾位協作者xd</span>
+              </li>
+            
+              
+              <li id="75">
+                <a class="time" href="2013-10-19#75" target="_self" title="#75">15:08:49</a>
+                <a class="nick" href="2013-10-19/75" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">ETBlue: dropdown的bug 在 0.7.0 會fix # <a href="https://github.com/jlukic/Semantic-UI/issues/256">https://github.com/jlukic/Semantic-UI/issues/256</a></span>
+              </li>
+            
+              
+              <li id="76">
+                <a class="time" href="2013-10-19#76" target="_self" title="#76">15:08:52</a>
+                <a class="nick" href="2013-10-19/76" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">[ Dropdown links not working? · Issue #256 · jlukic/Semantic-UI · GitHub ] - github.com</span>
+              </li>
+            
+              
+              <li id="77">
+                <a class="time" href="2013-10-19#77" target="_self" title="#77">15:11:06</a>
+                <a class="nick" href="2013-10-19/77" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">yhsiang++ semantic ui 小幫手！</span>
+              </li>
+            
+              
+              <li id="78">
+                <a class="time" href="2013-10-19#78" target="_self" title="#78">15:11:43</a>
+                <a class="nick" href="2013-10-19/78" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">ETBlue</span>&nbsp;正在進行一個沒有產值的動作：把 html 轉成 jade</span>
+              </li>
+            
+              
+              <li id="79">
+                <a class="time" href="2013-10-19#79" target="_self" title="#79">15:14:33</a>
+                <a class="nick" href="2013-10-19/79" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">ETBlue: <a href="http://html2jade.aaron-powell.com/">http://html2jade.aaron-powell.com/</a></span>
+              </li>
+            
+              
+              <li id="80">
+                <a class="time" href="2013-10-19#80" target="_self" title="#80">15:14:34</a>
+                <a class="nick" href="2013-10-19/80" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">[ HTML 2 Jade - a converter for HTML ] - html2jade.aaron-powell.com</span>
+              </li>
+            
+              
+              <li id="81">
+                <a class="time" href="2013-10-19#81" target="_self" title="#81">15:15:04</a>
+                <a class="nick" href="2013-10-19/81" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">....對噢 @@"</span>
+              </li>
+            
+              
+              <li id="82">
+                <a class="time" href="2013-10-19#82" target="_self" title="#82">15:16:16</a>
+                <a class="nick" href="2013-10-19/82" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">當當當~當~當~當~~ ETBlue LV UP!</span>
+              </li>
+            
+              
+              <li id="83">
+                <a class="time" href="2013-10-19#83" target="_self" title="#83">15:16:46</a>
+                <a class="nick" href="2013-10-19/83" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">au: 天啊超快的！！！</span>
+              </li>
+            
+              
+              <li id="84">
+                <a class="time" href="2013-10-19#84" target="_self" title="#84">15:17:09</a>
+                <a class="nick" href="2013-10-19/84" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">我剛才是一邊看 tkirby 的動民主 .jade 檔案一邊參考著改……</span>
+              </li>
+            
+              
+              <li id="85">
+                <a class="time" href="2013-10-19#85" target="_self" title="#85">15:17:13</a>
+                <a class="nick" href="2013-10-19/85" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">XDD</span>
+              </li>
+            
+              
+              <li id="86">
+                <a class="time" href="2013-10-19#86" target="_self" title="#86">15:17:24</a>
+                <a class="nick" href="2013-10-19/86" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">現在什麼都有自動化XDDD</span>
+              </li>
+            
+              
+              <li id="87">
+                <a class="time" href="2013-10-19#87" target="_self" title="#87">15:17:27</a>
+                <a class="nick" href="2013-10-19/87" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">嗚嗚嗚還好有上 irc 抱怨 QAQ</span>
+              </li>
+            
+              
+              <li id="88">
+                <a class="time" href="2013-10-19#88" target="_self" title="#88">15:17:36</a>
+                <a class="nick" href="2013-10-19/88" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">手動試過一遍練經驗，第二遍就交給電腦吧 XD</span>
+              </li>
+            
+              
+              <li id="89">
+                <a class="time" href="2013-10-19#89" target="_self" title="#89">15:17:47</a>
+                <a class="nick" href="2013-10-19/89" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">好 \^o^/</span>
+              </li>
+            
+              
+              <li id="90">
+                <a class="time" href="2013-10-19#90" target="_self" title="#90">15:18:08</a>
+                <a class="nick" href="2013-10-19/90" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">socal search++</span>
+              </li>
+            
+              
+              <li id="91">
+                <a class="time" href="2013-10-19#91" target="_self" title="#91">15:18:11</a>
+                <a class="nick" href="2013-10-19/91" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">...</span>
+              </li>
+            
+              
+              <li id="92">
+                <a class="time" href="2013-10-19#92" target="_self" title="#92">15:18:14</a>
+                <a class="nick" href="2013-10-19/92" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">s/socal/social/</span>
+              </li>
+            
+              
+              <li id="93">
+                <a class="time" href="2013-10-19#93" target="_self" title="#93">15:18:14</a>
+                <a class="nick" href="2013-10-19/93" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">tkirby meant to say: social search++</span>
+              </li>
+            
+              
+              <li id="94">
+                <a class="time" href="2013-10-19#94" target="_self" title="#94">15:18:17</a>
+                <a class="nick" href="2013-10-19/94" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ㄟ，原來可以用 | 當開頭，剛才不知道怎麼處理整行都是內文的…</span>
+              </li>
+            
+              
+              <li id="95">
+                <a class="time" href="2013-10-19#95" target="_self" title="#95">15:18:22</a>
+                <a class="nick" href="2013-10-19/95" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">xD</span>
+              </li>
+            
+              
+              <li id="96">
+                <a class="time" href="2013-10-19#96" target="_self" title="#96">15:18:24</a>
+                <a class="nick" href="2013-10-19/96" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">| 或 \</span>
+              </li>
+            
+              
+              <li id="97">
+                <a class="time" href="2013-10-19#97" target="_self" title="#97">15:18:34</a>
+                <a class="nick" href="2013-10-19/97" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">挖 bot 好可愛喔</span>
+              </li>
+            
+              
+              <li id="98">
+                <a class="time" href="2013-10-19#98" target="_self" title="#98">15:19:09</a>
+                <a class="nick" href="2013-10-19/98" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">yhsiang:  噢噢… 也就是說不小欣 capslock 也能通？！</span>
+              </li>
+            
+              
+              <li id="99">
+                <a class="time" href="2013-10-19#99" target="_self" title="#99">15:19:22</a>
+                <a class="nick" href="2013-10-19/99" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">s/欣/心</span>
+              </li>
+            
+              
+              <li id="100">
+                <a class="time" href="2013-10-19#100" target="_self" title="#100">15:19:23</a>
+                <a class="nick" href="2013-10-19/100" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">ETBlue meant to say: yhsiang:  噢噢… 也就是說不小心 capslock 也能通？！</span>
+              </li>
+            
+              
+              <li id="101">
+                <a class="time" href="2013-10-19#101" target="_self" title="#101">15:19:58</a>
+                <a class="nick" href="2013-10-19/101" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">自從 tuiry 畫了欣文小幫手後，現在自然輸入法會自動跳小欣 = ="</span>
+              </li>
+            
+              
+              <li id="102">
+                <a class="time" href="2013-10-19#102" target="_self" title="#102">15:20:08</a>
+                <a class="nick" href="2013-10-19/102" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">s/欣/新/</span>
+              </li>
+            
+              
+              <li id="103">
+                <a class="time" href="2013-10-19#103" target="_self" title="#103">15:20:11</a>
+                <a class="nick" href="2013-10-19/103" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">ETBlue: 欸, 我還沒發現過這個耶 XDD</span>
+              </li>
+            
+              
+              <li id="104">
+                <a class="time" href="2013-10-19#104" target="_self" title="#104">15:20:16</a>
+                <a class="nick" href="2013-10-19/104" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">別人的不會幫修..</span>
+              </li>
+            
+              
+              <li id="105">
+                <a class="time" href="2013-10-19#105" target="_self" title="#105">15:20:39</a>
+                <a class="nick" href="2013-10-19/105" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">tkirby: 應該是抓你上一句說的</span>
+              </li>
+            
+              
+              <li id="106">
+                <a class="time" href="2013-10-19#106" target="_self" title="#106">15:20:44</a>
+                <a class="nick" href="2013-10-19/106" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">自己的是不是要緊鄰的上一句才會修</span>
+              </li>
+            
+              
+              <li id="107">
+                <a class="time" href="2013-10-19#107" target="_self" title="#107">15:20:45</a>
+                <a class="nick" href="2013-10-19/107" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">hmm</span>
+              </li>
+            
+              
+              <li id="108">
+                <a class="time" href="2013-10-19#108" target="_self" title="#108">15:20:49</a>
+                <a class="nick" href="2013-10-19/108" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">試試看</span>
+              </li>
+            
+              
+              <li id="109">
+                <a class="time" href="2013-10-19#109" target="_self" title="#109">15:20:53</a>
+                <a class="nick" href="2013-10-19/109" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">s/hmm/hmmhmm/</span>
+              </li>
+            
+              
+              <li id="110">
+                <a class="time" href="2013-10-19#110" target="_self" title="#110">15:20:53</a>
+                <a class="nick" href="2013-10-19/110" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">tkirby meant to say: hmmhmm</span>
+              </li>
+            
+              
+              <li id="111">
+                <a class="time" href="2013-10-19#111" target="_self" title="#111">15:20:56</a>
+                <a class="nick" href="2013-10-19/111" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">hmm</span>
+              </li>
+            
+              
+              <li id="112">
+                <a class="time" href="2013-10-19#112" target="_self" title="#112">15:21:06</a>
+                <a class="nick" href="2013-10-19/112" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ㄟ兩句也行…</span>
+              </li>
+            
+              
+              <li id="113">
+                <a class="time" href="2013-10-19#113" target="_self" title="#113">15:21:31</a>
+                <a class="nick" href="2013-10-19/113" target="_self" title="quote">yhsiang</a>
+                <span class="msg wordwrap">喔喔 我在想s/,//g</span>
+              </li>
+            
+              
+              <li id="114">
+                <a class="time" href="2013-10-19#114" target="_self" title="#114">15:46:47</a>
+                <a class="nick" href="2013-10-19/114" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">s/m//g</span>
+              </li>
+            
+              
+              <li id="115">
+                <a class="time" href="2013-10-19#115" target="_self" title="#115">15:46:48</a>
+                <a class="nick" href="2013-10-19/115" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">tkirby meant to say: h</span>
+              </li>
+            
+              
+              <li id="116">
+                <a class="time" href="2013-10-19#116" target="_self" title="#116">15:49:07</a>
+                <a class="nick" href="2013-10-19/116" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">ETBlue: 感謝au賜名</span>
+              </li>
+            
+              
+              <li id="117">
+                <a class="time" href="2013-10-19#117" target="_self" title="#117">15:59:54</a>
+                <a class="nick" href="2013-10-19/117" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">天啊改用 jade 以後覺得結構一目了然，思緒都變清楚了…</span>
+              </li>
+            
+              
+              <li id="118">
+                <a class="time" href="2013-10-19#118" target="_self" title="#118">16:01:54</a>
+                <a class="nick" href="2013-10-19/118" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">因為可以用更少符號代表在腦中操作的概念</span>
+              </li>
+            
+              
+              <li id="119">
+                <a class="time" href="2013-10-19#119" target="_self" title="#119">16:02:27</a>
+                <a class="nick" href="2013-10-19/119" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">tuiry: 說到這個，其實跟這個也沒什麼關係的是，明天…你用我的電腦好了，反正我每次都在喇賽，沒做事 orz</span>
+              </li>
+            
+              
+              <li id="120">
+                <a class="time" href="2013-10-19#120" target="_self" title="#120">16:22:39</a>
+                <a class="nick" href="2013-10-19/120" target="_self" title="quote">superbil</a>
+                <span class="msg wordwrap">幫忙測試一下 <a href="http://oid.nat.gov.tw/infobox1/personindex.jsp">http://oid.nat.gov.tw/infobox1/personindex.jsp</a> 下面的資料除了第一筆之外，是否可以看到其他的</span>
+              </li>
+            
+              
+              <li id="121">
+                <a class="time" href="2013-10-19#121" target="_self" title="#121">16:22:39</a>
+                <a class="nick" href="2013-10-19/121" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">[ 政府組織 ] - oid.nat.gov.tw</span>
+              </li>
+            
+              
+              <li id="122">
+                <a class="time" href="2013-10-19#122" target="_self" title="#122">16:34:16</a>
+                <a class="nick" href="2013-10-19/122" target="_self" title="quote">superbil</a>
+                <span class="msg wordwrap">好像伺服器掛點惹?!</span>
+              </li>
+            
+              
+              <li id="123">
+                <a class="time" href="2013-10-19#123" target="_self" title="#123">16:47:24</a>
+                <a class="nick" href="2013-10-19/123" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">orz</span>
+              </li>
+            
+              
+              <li id="124">
+                <a class="time" href="2013-10-19#124" target="_self" title="#124">16:52:58</a>
+                <a class="nick" href="2013-10-19/124" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">還差六條延長線</span>
+              </li>
+            
+              
+              <li id="125">
+                <a class="time" href="2013-10-19#125" target="_self" title="#125">17:04:28</a>
+                <a class="nick" href="2013-10-19/125" target="_self" title="quote">lanfon72</a>
+                <span class="msg wordwrap">+2</span>
+              </li>
+            
+              
+              <li id="126">
+                <a class="time" href="2013-10-19#126" target="_self" title="#126">18:28:18</a>
+                <a class="nick" href="2013-10-19/126" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">@o@</span>
+              </li>
+            
+              
+              <li id="127">
+                <a class="time" href="2013-10-19#127" target="_self" title="#127">18:30:42</a>
+                <a class="nick" href="2013-10-19/127" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">walkingice</span>&nbsp;認領一條延長線</span>
+              </li>
+            
+              
+              <li id="128">
+                <a class="time" href="2013-10-19#128" target="_self" title="#128">18:49:59</a>
+                <a class="nick" href="2013-10-19/128" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">mindos_cloud</span>&nbsp;看成 walkingice 認領一條領帶。</span>
+              </li>
+            
+              
+              <li id="129">
+                <a class="time" href="2013-10-19#129" target="_self" title="#129">18:57:40</a>
+                <a class="nick" href="2013-10-19/129" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">XD</span>
+              </li>
+            
+              
+              <li id="130">
+                <a class="time" href="2013-10-19#130" target="_self" title="#130">19:03:00</a>
+                <a class="nick" href="2013-10-19/130" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">jade 能不能呼叫另一個 jade 讓自己被包在對方的像是 yield 的區塊裡面？還是只能把別人 include 進來..</span>
+              </li>
+            
+              
+              <li id="131">
+                <a class="time" href="2013-10-19#131" target="_self" title="#131">19:07:00</a>
+                <a class="nick" href="2013-10-19/131" target="_self" title="quote">yhsiangCloud</a>
+                <span class="msg wordwrap">extend ?</span>
+              </li>
+            
+              
+              <li id="132">
+                <a class="time" href="2013-10-19#132" target="_self" title="#132">19:09:09</a>
+                <a class="nick" href="2013-10-19/132" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">我試試看 @@"</span>
+              </li>
+            
+              
+              <li id="133">
+                <a class="time" href="2013-10-19#133" target="_self" title="#133">19:13:08</a>
+                <a class="nick" href="2013-10-19/133" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">ETblue O口O!!!!!</span>
+              </li>
+            
+              
+              <li id="134">
+                <a class="time" href="2013-10-19#134" target="_self" title="#134">19:13:47</a>
+                <a class="nick" href="2013-10-19/134" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">謝謝....不過明天也不知道要畫什麼吧，可能也會一起喇賽(?</span>
+              </li>
+            
+              
+              <li id="135">
+                <a class="time" href="2013-10-19#135" target="_self" title="#135">19:14:43</a>
+                <a class="nick" href="2013-10-19/135" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">tuiry: 一起喇賽++ XD</span>
+              </li>
+            
+              
+              <li id="136">
+                <a class="time" href="2013-10-19#136" target="_self" title="#136">19:14:55</a>
+                <a class="nick" href="2013-10-19/136" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">hackathon 現場速寫！</span>
+              </li>
+            
+              
+              <li id="137">
+                <a class="time" href="2013-10-19#137" target="_self" title="#137">19:15:55</a>
+                <a class="nick" href="2013-10-19/137" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">yhsiang: 好像不太行的樣子，好在現在也沒幾頁，明天再看看 >"&lt; 而且感覺這大量的插畫作品頁面用手動產生似乎不太對勁…</span>
+              </li>
+            
+              
+              <li id="138">
+                <a class="time" href="2013-10-19#138" target="_self" title="#138">19:22:08</a>
+                <a class="nick" href="2013-10-19/138" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">XDDDDDDD 覺得會聊天聊到沒時間畫</span>
+              </li>
+            
+              
+              <li id="139">
+                <a class="time" href="2013-10-19#139" target="_self" title="#139">19:25:35</a>
+                <a class="nick" href="2013-10-19/139" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">(y)</span>
+              </li>
+            
+              
+              <li id="140">
+                <a class="time" href="2013-10-19#140" target="_self" title="#140">19:34:02</a>
+                <a class="nick" href="2013-10-19/140" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">第一次上線，有點像bbs</span>
+              </li>
+            
+              
+              <li id="141">
+                <a class="time" href="2013-10-19#141" target="_self" title="#141">19:34:28</a>
+                <a class="nick" href="2013-10-19/141" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">不清楚怎麼用？</span>
+              </li>
+            
+              
+              <li id="142">
+                <a class="time" href="2013-10-19#142" target="_self" title="#142">19:34:51</a>
+                <a class="nick" href="2013-10-19/142" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">hoyentan: irc?</span>
+              </li>
+            
+              
+              <li id="143">
+                <a class="time" href="2013-10-19#143" target="_self" title="#143">19:35:19</a>
+                <a class="nick" href="2013-10-19/143" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">irc是什麼？</span>
+              </li>
+            
+              
+              <li id="144">
+                <a class="time" href="2013-10-19#144" target="_self" title="#144">19:35:56</a>
+                <a class="nick" href="2013-10-19/144" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">internet relay chat，又稱聊天室 XD</span>
+              </li>
+            
+              
+              <li id="145">
+                <a class="time" href="2013-10-19#145" target="_self" title="#145">19:36:35</a>
+                <a class="nick" href="2013-10-19/145" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">喔，了解，謝謝！</span>
+              </li>
+            
+              
+              <li id="146">
+                <a class="time" href="2013-10-19#146" target="_self" title="#146">19:38:15</a>
+                <a class="nick" href="2013-10-19/146" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">目前網路使用頂多用gmail, facebook, 對gov很陌生</span>
+              </li>
+            
+              
+              <li id="147">
+                <a class="time" href="2013-10-19#147" target="_self" title="#147">19:39:02</a>
+                <a class="nick" href="2013-10-19/147" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">打錯了，是g0v</span>
+              </li>
+            
+              
+              <li id="148">
+                <a class="time" href="2013-10-19#148" target="_self" title="#148">19:39:15</a>
+                <a class="nick" href="2013-10-19/148" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">只要會打字聊天就好啦XD(自以為</span>
+              </li>
+            
+              
+              <li id="149">
+                <a class="time" href="2013-10-19#149" target="_self" title="#149">19:40:10</a>
+                <a class="nick" href="2013-10-19/149" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">irc 就是專門聊天的囉，差異只有阿宅比例極度高 XD</span>
+              </li>
+            
+              
+              <li id="150">
+                <a class="time" href="2013-10-19#150" target="_self" title="#150">19:41:27</a>
+                <a class="nick" href="2013-10-19/150" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">hoyentan 最簡單就是 打某人的ID可以呼喚某人</span>
+              </li>
+            
+              
+              <li id="151">
+                <a class="time" href="2013-10-19#151" target="_self" title="#151">19:41:51</a>
+                <a class="nick" href="2013-10-19/151" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">tuiry</span>
+              </li>
+            
+              
+              <li id="152">
+                <a class="time" href="2013-10-19#152" target="_self" title="#152">19:42:16</a>
+                <a class="nick" href="2013-10-19/152" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">是這樣嗎？</span>
+              </li>
+            
+              
+              <li id="153">
+                <a class="time" href="2013-10-19#153" target="_self" title="#153">19:42:17</a>
+                <a class="nick" href="2013-10-19/153" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">打 /help 會有指令，譬如說 /help me</span>
+              </li>
+            
+              
+              <li id="154">
+                <a class="time" href="2013-10-19#154" target="_self" title="#154">19:42:22</a>
+                <a class="nick" href="2013-10-19/154" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">tuiry</span>&nbsp;從山坡山輕輕地滾下來了</span>
+              </li>
+            
+              
+              <li id="155">
+                <a class="time" href="2013-10-19#155" target="_self" title="#155">19:42:36</a>
+                <a class="nick" href="2013-10-19/155" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">tuiry++</span>
+              </li>
+            
+              
+              <li id="156">
+                <a class="time" href="2013-10-19#156" target="_self" title="#156">19:42:57</a>
+                <a class="nick" href="2013-10-19/156" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">tuiry++</span>
+              </li>
+            
+              
+              <li id="157">
+                <a class="time" href="2013-10-19#157" target="_self" title="#157">19:43:47</a>
+                <a class="nick" href="2013-10-19/157" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">:)</span>
+              </li>
+            
+              
+              <li id="158">
+                <a class="time" href="2013-10-19#158" target="_self" title="#158">19:44:36</a>
+                <a class="nick" href="2013-10-19/158" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">剛剛有成功呼喚嗎？</span>
+              </li>
+            
+              
+              <li id="159">
+                <a class="time" href="2013-10-19#159" target="_self" title="#159">19:48:06</a>
+                <a class="nick" href="2013-10-19/159" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">有的 :D</span>
+              </li>
+            
+              
+              <li id="160">
+                <a class="time" href="2013-10-19#160" target="_self" title="#160">19:50:04</a>
+                <a class="nick" href="2013-10-19/160" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">hoyentan ++  XD</span>
+              </li>
+            
+              
+              <li id="161">
+                <a class="time" href="2013-10-19#161" target="_self" title="#161">19:50:12</a>
+                <a class="nick" href="2013-10-19/161" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">是打tuiry++這樣就呼喚到了嗎？</span>
+              </li>
+            
+              
+              <li id="162">
+                <a class="time" href="2013-10-19#162" target="_self" title="#162">19:50:36</a>
+                <a class="nick" href="2013-10-19/162" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">++ = 讚 打ID就可以</span>
+              </li>
+            
+              
+              <li id="163">
+                <a class="time" href="2013-10-19#163" target="_self" title="#163">19:50:36</a>
+                <a class="nick" href="2013-10-19/163" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">IndexError: pop from empty list (file "/home/ircbot/.willie/modules/karma.py", line 56, in meet_karma)</span>
+              </li>
+            
+              
+              <li id="164">
+                <a class="time" href="2013-10-19#164" target="_self" title="#164">19:51:18</a>
+                <a class="nick" href="2013-10-19/164" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">gg 了，fire.app 不能 build jade</span>
+              </li>
+            
+              
+              <li id="165">
+                <a class="time" href="2013-10-19#165" target="_self" title="#165">19:52:13</a>
+                <a class="nick" href="2013-10-19/165" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">對流動式民主感興趣，但有點被介面打敗</span>
+              </li>
+            
+              
+              <li id="166">
+                <a class="time" href="2013-10-19#166" target="_self" title="#166">19:53:03</a>
+                <a class="nick" href="2013-10-19/166" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">只好把重感冒中的 fire.app 作者挖起床改 code（誤）</span>
+              </li>
+            
+              
+              <li id="167">
+                <a class="time" href="2013-10-19#167" target="_self" title="#167">19:53:11</a>
+                <a class="nick" href="2013-10-19/167" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">tuiry 對流動式民主感興趣，但有點被介面打敗, 你有用過嗎？</span>
+              </li>
+            
+              
+              <li id="168">
+                <a class="time" href="2013-10-19#168" target="_self" title="#168">19:53:34</a>
+                <a class="nick" href="2013-10-19/168" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">hoyentan: 好消息， yhsiang 正在架可愛版的流動式民主系統 airesis</span>
+              </li>
+            
+              
+              <li id="169">
+                <a class="time" href="2013-10-19#169" target="_self" title="#169">19:54:08</a>
+                <a class="nick" href="2013-10-19/169" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">hoyentan 我的專長是畫圖，程式是天書XP</span>
+              </li>
+            
+              
+              <li id="170">
+                <a class="time" href="2013-10-19#170" target="_self" title="#170">19:55:08</a>
+                <a class="nick" href="2013-10-19/170" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">etblue 現在已經可以上去看了嗎？</span>
+              </li>
+            
+              
+              <li id="171">
+                <a class="time" href="2013-10-19#171" target="_self" title="#171">19:55:42</a>
+                <a class="nick" href="2013-10-19/171" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">tuiry  程式對我也是天書</span>
+              </li>
+            
+              
+              <li id="172">
+                <a class="time" href="2013-10-19#172" target="_self" title="#172">19:55:59</a>
+                <a class="nick" href="2013-10-19/172" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">hoyentan: 目前進度 <a href="http://hack.g0v.tw/meta/lhUMItDUIZw">http://hack.g0v.tw/meta/lhUMItDUIZw</a> 應該是還沒…才剛翻譯完 XD</span>
+              </li>
+            
+              
+              <li id="173">
+                <a class="time" href="2013-10-19#173" target="_self" title="#173">19:56:01</a>
+                <a class="nick" href="2013-10-19/173" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">[ hack.g0v.tw ] - hack.g0v.tw</span>
+              </li>
+            
+              
+              <li id="174">
+                <a class="time" href="2013-10-19#174" target="_self" title="#174">19:56:33</a>
+                <a class="nick" href="2013-10-19/174" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">etblue 感謝</span>
+              </li>
+            
+              
+              <li id="175">
+                <a class="time" href="2013-10-19#175" target="_self" title="#175">19:57:53</a>
+                <a class="nick" href="2013-10-19/175" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">hoyentan: 據 ttcat 說上線後翻譯還要橋一下，可以問他需要啥幫忙</span>
+              </li>
+            
+              
+              <li id="176">
+                <a class="time" href="2013-10-19#176" target="_self" title="#176">19:58:37</a>
+                <a class="nick" href="2013-10-19/176" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">etblue 了解</span>
+              </li>
+            
+              
+              <li id="177">
+                <a class="time" href="2013-10-19#177" target="_self" title="#177">19:58:59</a>
+                <a class="nick" href="2013-10-19/177" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">hoyentan: 要不要加入文化部 XD</span>
+              </li>
+            
+              
+              <li id="178">
+                <a class="time" href="2013-10-19#178" target="_self" title="#178">19:59:59</a>
+                <a class="nick" href="2013-10-19/178" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">hoyentan: ipa 跟 Lee1092 那邊也很需要不寫程式的人 >o&lt;</span>
+              </li>
+            
+              
+              <li id="179">
+                <a class="time" href="2013-10-19#179" target="_self" title="#179">20:00:25</a>
+                <a class="nick" href="2013-10-19/179" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">etblue 有興趣，但門檻會很高嗎？很不熟悉這種網路文化</span>
+              </li>
+            
+              
+              <li id="180">
+                <a class="time" href="2013-10-19#180" target="_self" title="#180">20:01:08</a>
+                <a class="nick" href="2013-10-19/180" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">hoyentan: 採訪組的主要門檻是…打嘴砲 XDXD 會打字就可以了 XD</span>
+              </li>
+            
+              
+              <li id="181">
+                <a class="time" href="2013-10-19#181" target="_self" title="#181">20:01:40</a>
+                <a class="nick" href="2013-10-19/181" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">ETBlue: Fire.app 看來也可以自己寫 helper ，可能可以把每個作品頁面的資訊放 yml 中，</span>
+              </li>
+            
+              
+              <li id="182">
+                <a class="time" href="2013-10-19#182" target="_self" title="#182">20:02:11</a>
+                <a class="nick" href="2013-10-19/182" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">然後每一頁要它根據 yml 生？</span>
+              </li>
+            
+              
+              <li id="183">
+                <a class="time" href="2013-10-19#183" target="_self" title="#183">20:02:22</a>
+                <a class="nick" href="2013-10-19/183" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">CAA51: 聽起來好難……</span>
+              </li>
+            
+              
+              <li id="184">
+                <a class="time" href="2013-10-19#184" target="_self" title="#184">20:03:09</a>
+                <a class="nick" href="2013-10-19/184" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">有事要先離線，如何離線？</span>
+              </li>
+            
+              
+              <li id="185">
+                <a class="time" href="2013-10-19#185" target="_self" title="#185">20:03:14</a>
+                <a class="nick" href="2013-10-19/185" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">hoyentan: 還有這種限定新朋友加入的專案 XD <a href="http://hack.g0v.tw/g0vMOE/AidRZhn8kzP">http://hack.g0v.tw/g0vMOE/AidRZhn8kzP</a></span>
+              </li>
+            
+              
+              <li id="186">
+                <a class="time" href="2013-10-19#186" target="_self" title="#186">20:03:16</a>
+                <a class="nick" href="2013-10-19/186" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">[ hack.g0v.tw ] - hack.g0v.tw</span>
+              </li>
+            
+              
+              <li id="187">
+                <a class="time" href="2013-10-19#187" target="_self" title="#187">20:03:29</a>
+                <a class="nick" href="2013-10-19/187" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">hoyentan: 關掉視窗？</span>
+              </li>
+            
+              
+              <li id="188">
+                <a class="time" href="2013-10-19#188" target="_self" title="#188">20:04:05</a>
+                <a class="nick" href="2013-10-19/188" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">關掉視窗就可以了？</span>
+              </li>
+            
+              
+              <li id="189">
+                <a class="time" href="2013-10-19#189" target="_self" title="#189">20:04:13</a>
+                <a class="nick" href="2013-10-19/189" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">hoyentan: 離開時的訊息可以到 <a href="http://logbot.g0v.tw/">http://logbot.g0v.tw/</a> 讀</span>
+              </li>
+            
+              
+              <li id="190">
+                <a class="time" href="2013-10-19#190" target="_self" title="#190">20:04:14</a>
+                <a class="nick" href="2013-10-19/190" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">[ Logbot | #g0v.tw ] - logbot.g0v.tw</span>
+              </li>
+            
+              
+              <li id="191">
+                <a class="time" href="2013-10-19#191" target="_self" title="#191">20:04:41</a>
+                <a class="nick" href="2013-10-19/191" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">hoyentan: 對壓</span>
+              </li>
+            
+              
+              <li id="192">
+                <a class="time" href="2013-10-19#192" target="_self" title="#192">20:04:47</a>
+                <a class="nick" href="2013-10-19/192" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">了</span>
+              </li>
+            
+              
+              <li id="193">
+                <a class="time" href="2013-10-19#193" target="_self" title="#193">20:05:04</a>
+                <a class="nick" href="2013-10-19/193" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">etblue 謝謝</span>
+              </li>
+            
+              
+              <li id="194">
+                <a class="time" href="2013-10-19#194" target="_self" title="#194">20:05:12</a>
+                <a class="nick" href="2013-10-19/194" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">hoyentan: ^o^</span>
+              </li>
+            
+              
+              <li id="195">
+                <a class="time" href="2013-10-19#195" target="_self" title="#195">20:05:20</a>
+                <a class="nick" href="2013-10-19/195" target="_self" title="quote">hoyentan</a>
+                <span class="msg wordwrap">logout</span>
+              </li>
+            
+              
+              <li id="196">
+                <a class="time" href="2013-10-19#196" target="_self" title="#196">20:12:41</a>
+                <a class="nick" href="2013-10-19/196" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">github 獨角獸了</span>
+              </li>
+            
+              
+              <li id="197">
+                <a class="time" href="2013-10-19#197" target="_self" title="#197">20:13:48</a>
+                <a class="nick" href="2013-10-19/197" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">ETBlue: 來更新一下我的 Fire.app ...XD</span>
+              </li>
+            
+              
+              <li id="198">
+                <a class="time" href="2013-10-19#198" target="_self" title="#198">20:13:59</a>
+                <a class="nick" href="2013-10-19/198" target="_self" title="quote">mindos_cloud</a>
+                <span class="msg wordwrap">遇到 superbil !!!</span>
+              </li>
+            
+              
+              <li id="199">
+                <a class="time" href="2013-10-19#199" target="_self" title="#199">20:14:19</a>
+                <a class="nick" href="2013-10-19/199" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">CAA51: fire.app 的 jade 支援正在產生中 XD</span>
+              </li>
+            
+              
+              <li id="200">
+                <a class="time" href="2013-10-19#200" target="_self" title="#200">20:14:29</a>
+                <a class="nick" href="2013-10-19/200" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">ETBlue++</span>
+              </li>
+            
+              
+              <li id="201">
+                <a class="time" href="2013-10-19#201" target="_self" title="#201">20:14:52</a>
+                <a class="nick" href="2013-10-19/201" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">ETBlue++ tkalu++</span>
+              </li>
+            
+              
+              <li id="202">
+                <a class="time" href="2013-10-19#202" target="_self" title="#202">20:14:56</a>
+                <a class="nick" href="2013-10-19/202" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">walkingice: 不是我弄的，是坐我對面那位弄的… XD</span>
+              </li>
+            
+              
+              <li id="203">
+                <a class="time" href="2013-10-19#203" target="_self" title="#203">20:14:58</a>
+                <a class="nick" href="2013-10-19/203" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">作者好心苦 XD</span>
+              </li>
+            
+              
+              <li id="204">
+                <a class="time" href="2013-10-19#204" target="_self" title="#204">20:15:02</a>
+                <a class="nick" href="2013-10-19/204" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">辛苦</span>
+              </li>
+            
+              
+              <li id="205">
+                <a class="time" href="2013-10-19#205" target="_self" title="#205">20:15:17</a>
+                <a class="nick" href="2013-10-19/205" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">ETBlue: 對，我有感受到那種被 PM 追殺的感覺</span>
+              </li>
+            
+              
+              <li id="206">
+                <a class="time" href="2013-10-19#206" target="_self" title="#206">20:15:27</a>
+                <a class="nick" href="2013-10-19/206" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">XDDD</span>
+              </li>
+            
+              
+              <li id="207">
+                <a class="time" href="2013-10-19#207" target="_self" title="#207">20:16:16</a>
+                <a class="nick" href="2013-10-19/207" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">我家太座上次的一句「這個網頁不會有手機版嗎？」然後我就連續一週睡眠不足了 orz</span>
+              </li>
+            
+              
+              <li id="208">
+                <a class="time" href="2013-10-19#208" target="_self" title="#208">20:16:38</a>
+                <a class="nick" href="2013-10-19/208" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">walkingice++ 優良行為值得鼓勵 XD</span>
+              </li>
+            
+              
+              <li id="209">
+                <a class="time" href="2013-10-19#209" target="_self" title="#209">20:18:08</a>
+                <a class="nick" href="2013-10-19/209" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">我家的上次說新酷音不好用...XDDD # 還好不會寫輸入法</span>
+              </li>
+            
+              
+              <li id="210">
+                <a class="time" href="2013-10-19#210" target="_self" title="#210">20:18:23</a>
+                <a class="nick" href="2013-10-19/210" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">XDDDDDDDDDDD</span>
+              </li>
+            
+              
+              <li id="211">
+                <a class="time" href="2013-10-19#211" target="_self" title="#211">20:18:24</a>
+                <a class="nick" href="2013-10-19/211" target="_self" title="quote">superbil</a>
+                <span class="msg wordwrap">mindos_cloud: 太巧！</span>
+              </li>
+            
+              
+              <li id="212">
+                <a class="time" href="2013-10-19#212" target="_self" title="#212">20:18:33</a>
+                <a class="nick" href="2013-10-19/212" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">程式對我也是天書</span>
+              </li>
+            
+              
+              <li id="213">
+                <a class="time" href="2013-10-19#213" target="_self" title="#213">20:19:36</a>
+                <a class="nick" href="2013-10-19/213" target="_self" title="quote">clkaoud</a>
+                <span class="msg wordwrap">walkingice: 手機版 哪個網頁</span>
+              </li>
+            
+              
+              <li id="214">
+                <a class="time" href="2013-10-19#214" target="_self" title="#214">20:20:43</a>
+                <a class="nick" href="2013-10-19/214" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">我常問這個都沒xx功能嗎？只會得到"那只好看有沒有人跳坑"的答案。。。</span>
+              </li>
+            
+              
+              <li id="215">
+                <a class="time" href="2013-10-19#215" target="_self" title="#215">20:25:55</a>
+                <a class="nick" href="2013-10-19/215" target="_self" title="quote">mindos_cloud</a>
+                <span class="msg wordwrap">walkingice : 尊夫人++</span>
+              </li>
+            
+              
+              <li id="216">
+                <a class="time" href="2013-10-19#216" target="_self" title="#216">20:28:14</a>
+                <a class="nick" href="2013-10-19/216" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">clkaoud: 以前剛開始練習寫網頁的時候寫的一個電影筆記網站</span>
+              </li>
+            
+              
+              <li id="217">
+                <a class="time" href="2013-10-19#217" target="_self" title="#217">20:28:24</a>
+                <a class="nick" href="2013-10-19/217" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">最近從 jQuery base -> angular base  Q__Q</span>
+              </li>
+            
+              
+              <li id="218">
+                <a class="time" href="2013-10-19#218" target="_self" title="#218">20:29:45</a>
+                <a class="nick" href="2013-10-19/218" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">CAA51: 可以跳進輸入法的坑 XD   # kanru</span>
+              </li>
+            
+              
+              <li id="219">
+                <a class="time" href="2013-10-19#219" target="_self" title="#219">20:32:14</a>
+                <a class="nick" href="2013-10-19/219" target="_self" title="quote">clkaoud</a>
+                <span class="msg wordwrap">walkingice: 我還以為是 hack.g0v.tw</span>
+              </li>
+            
+              
+              <li id="220">
+                <a class="time" href="2013-10-19#220" target="_self" title="#220">20:32:30</a>
+                <a class="nick" href="2013-10-19/220" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">walkingice: 這坑太深，跳了會摔死...XD</span>
+              </li>
+            
+              
+              <li id="221">
+                <a class="time" href="2013-10-19#221" target="_self" title="#221">20:33:24</a>
+                <a class="nick" href="2013-10-19/221" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">CAA51: 搞不好身高很夠，跳下去發現其實也沒多伸嘛！ *grin*</span>
+              </li>
+            
+              
+              <li id="222">
+                <a class="time" href="2013-10-19#222" target="_self" title="#222">20:33:42</a>
+                <a class="nick" href="2013-10-19/222" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">clkaoud: 我還沒用手機開過 hack.g0v.tw 耶！ (窮苦孩子還在用 n1)</span>
+              </li>
+            
+              
+              <li id="223">
+                <a class="time" href="2013-10-19#223" target="_self" title="#223">20:36:01</a>
+                <a class="nick" href="2013-10-19/223" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">!roll d20</span>
+              </li>
+            
+              
+              <li id="224">
+                <a class="time" href="2013-10-19#224" target="_self" title="#224">20:36:33</a>
+                <a class="nick" href="2013-10-19/224" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">!roll 1d20</span>
+              </li>
+            
+              
+              <li id="225">
+                <a class="time" href="2013-10-19#225" target="_self" title="#225">20:37:33</a>
+                <a class="nick" href="2013-10-19/225" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">CAA51</span>&nbsp;想說來做個意志檢定的說XD</span>
+              </li>
+            
+              
+              <li id="226">
+                <a class="time" href="2013-10-19#226" target="_self" title="#226">20:38:06</a>
+                <a class="nick" href="2013-10-19/226" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">CAA51: you rolled a natural 20</span>
+              </li>
+            
+              
+              <li id="227">
+                <a class="time" href="2013-10-19#227" target="_self" title="#227">20:38:24</a>
+                <a class="nick" href="2013-10-19/227" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">ETBlue: 你如果仔細看 don-republic 的 master branch, 我裡面都是用 extend 在寫 jade...</span>
+              </li>
+            
+              
+              <li id="228">
+                <a class="time" href="2013-10-19#228" target="_self" title="#228">20:40:21</a>
+                <a class="nick" href="2013-10-19/228" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">au: XDDDD</span>
+              </li>
+            
+              
+              <li id="229">
+                <a class="time" href="2013-10-19#229" target="_self" title="#229">20:40:52</a>
+                <a class="nick" href="2013-10-19/229" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">CAA51: <a href="http://i.imgur.com/HvEMpHH.jpg">http://i.imgur.com/HvEMpHH.jpg</a> #有圖有真相</span>
+              </li>
+            
+              
+              <li id="230">
+                <a class="time" href="2013-10-19#230" target="_self" title="#230">20:42:18</a>
+                <a class="nick" href="2013-10-19/230" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ipa: 你搞錯了，你才是那個填坑的啊 XDDDD</span>
+              </li>
+            
+              
+              <li id="231">
+                <a class="time" href="2013-10-19#231" target="_self" title="#231">20:43:44</a>
+                <a class="nick" href="2013-10-19/231" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">tkirby: 疑！！看到了 @@ 因為在第一行所以之前都沒注意………</span>
+              </li>
+            
+              
+              <li id="232">
+                <a class="time" href="2013-10-19#232" target="_self" title="#232">20:45:07</a>
+                <a class="nick" href="2013-10-19/232" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">tkirby: 看起來 jade 的 block 就是 erb 的 yield 的意思</span>
+              </li>
+            
+              
+              <li id="233">
+                <a class="time" href="2013-10-19#233" target="_self" title="#233">20:47:16</a>
+                <a class="nick" href="2013-10-19/233" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">tkirby: ... 還有什麼 var ... 我研究一下 orz</span>
+              </li>
+            
+              
+              <li id="234">
+                <a class="time" href="2013-10-19#234" target="_self" title="#234">20:49:31</a>
+                <a class="nick" href="2013-10-19/234" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">au: 想到這個：</span>
+              </li>
+            
+              
+              <li id="235">
+                <a class="time" href="2013-10-19#235" target="_self" title="#235">20:49:36</a>
+                <a class="nick" href="2013-10-19/235" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">...you are faced with no threats or distractions,</span>
+              </li>
+            
+              
+              <li id="236">
+                <a class="time" href="2013-10-19#236" target="_self" title="#236">20:49:48</a>
+                <a class="nick" href="2013-10-19/236" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">and the skill being attempted carries no penalties for failure,</span>
+              </li>
+            
+              
+              <li id="237">
+                <a class="time" href="2013-10-19#237" target="_self" title="#237">20:49:56</a>
+                <a class="nick" href="2013-10-19/237" target="_self" title="quote">CAA51</a>
+                <span class="msg wordwrap">you can take 20...</span>
+              </li>
+            
+              
+              <li id="238">
+                <a class="time" href="2013-10-19#238" target="_self" title="#238">20:49:57</a>
+                <a class="nick" href="2013-10-19/238" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">yeah :)</span>
+              </li>
+            
+              
+              <li id="239">
+                <a class="time" href="2013-10-19#239" target="_self" title="#239">20:58:42</a>
+                <a class="nick" href="2013-10-19/239" target="_self" title="quote">au</a>
+                <span class="msg wordwrap">#tweeted</span>
+              </li>
+            
+              
+              <li id="240">
+                <a class="time" href="2013-10-19#240" target="_self" title="#240">21:12:20</a>
+                <a class="nick" href="2013-10-19/240" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">又要做投影片了</span>
+              </li>
+            
+              
+              <li id="241">
+                <a class="time" href="2013-10-19#241" target="_self" title="#241">21:13:22</a>
+                <a class="nick" href="2013-10-19/241" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">tkirby: 呃啊～ ircstat 好像都沒有更新</span>
+              </li>
+            
+              
+              <li id="242">
+                <a class="time" href="2013-10-19#242" target="_self" title="#242">21:17:30</a>
+                <a class="nick" href="2013-10-19/242" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">ETBlue: 還沒填專案報告～</span>
+              </li>
+            
+              
+              <li id="243">
+                <a class="time" href="2013-10-19#243" target="_self" title="#243">21:17:36</a>
+                <a class="nick" href="2013-10-19/243" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">Lee1092: 還沒填專案報告～</span>
+              </li>
+            
+              
+              <li id="244">
+                <a class="time" href="2013-10-19#244" target="_self" title="#244">21:18:13</a>
+                <a class="nick" href="2013-10-19/244" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">呃被推了</span>
+              </li>
+            
+              
+              <li id="245">
+                <a class="time" href="2013-10-19#245" target="_self" title="#245">21:18:38</a>
+                <a class="nick" href="2013-10-19/245" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">是說我好像沒什麼好報告的 @@" 就每次都一樣是動民主，然後報告完以後都喇賽沒做事 orz</span>
+              </li>
+            
+              
+              <li id="246">
+                <a class="time" href="2013-10-19#246" target="_self" title="#246">21:19:22</a>
+                <a class="nick" href="2013-10-19/246" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">說一下動民主現況跟需要幫忙處... ?</span>
+              </li>
+            
+              
+              <li id="247">
+                <a class="time" href="2013-10-19#247" target="_self" title="#247">21:19:31</a>
+                <a class="nick" href="2013-10-19/247" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">感覺有很多人有興趣阿，電腦給我玩，喇賽就交給你了(拍</span>
+              </li>
+            
+              
+              <li id="248">
+                <a class="time" href="2013-10-19#248" target="_self" title="#248">21:21:22</a>
+                <a class="nick" href="2013-10-19/248" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">Lee1092: ipa: txt 組要開一個專案嗎？</span>
+              </li>
+            
+              
+              <li id="249">
+                <a class="time" href="2013-10-19#249" target="_self" title="#249">21:22:11</a>
+                <a class="nick" href="2013-10-19/249" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">tuiry: 沒問題，我一定會認真喇賽…</span>
+              </li>
+            
+              
+              <li id="250">
+                <a class="time" href="2013-10-19#250" target="_self" title="#250">21:23:27</a>
+                <a class="nick" href="2013-10-19/250" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">clkao: 那我把動民主系列四個分支跟目前的坑主列出來好了 @@"</span>
+              </li>
+            
+              
+              <li id="251">
+                <a class="time" href="2013-10-19#251" target="_self" title="#251">21:24:01</a>
+                <a class="nick" href="2013-10-19/251" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">糟</span>
+              </li>
+            
+              
+              <li id="252">
+                <a class="time" href="2013-10-19#252" target="_self" title="#252">21:24:38</a>
+                <a class="nick" href="2013-10-19/252" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">tkirby: yhsiang: extends 真的很好用耶省了好幾個 .jade 檔案</span>
+              </li>
+            
+              
+              <li id="253">
+                <a class="time" href="2013-10-19#253" target="_self" title="#253">21:24:57</a>
+                <a class="nick" href="2013-10-19/253" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">ETBlue++</span>
+              </li>
+            
+              
+              <li id="254">
+                <a class="time" href="2013-10-19#254" target="_self" title="#254">21:25:00</a>
+                <a class="nick" href="2013-10-19/254" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">ETBlue: Lee1092 我開了一個天下部落格專案，把你們兩個也列入坑中了</span>
+              </li>
+            
+              
+              <li id="255">
+                <a class="time" href="2013-10-19#255" target="_self" title="#255">21:25:13</a>
+                <a class="nick" href="2013-10-19/255" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">ETBlue: Lee1092 明明就有立院人事部專案</span>
+              </li>
+            
+              
+              <li id="256">
+                <a class="time" href="2013-10-19#256" target="_self" title="#256">21:25:21</a>
+                <a class="nick" href="2013-10-19/256" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">不過當然一人可以入多坑 XD</span>
+              </li>
+            
+              
+              <li id="257">
+                <a class="time" href="2013-10-19#257" target="_self" title="#257">21:25:43</a>
+                <a class="nick" href="2013-10-19/257" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ipa: 你明天可以報告嗎？還是要錄影 @@</span>
+              </li>
+            
+              
+              <li id="258">
+                <a class="time" href="2013-10-19#258" target="_self" title="#258">21:25:58</a>
+                <a class="nick" href="2013-10-19/258" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">tuiry: 其實你可以來幫忙設計 g0vis</span>
+              </li>
+            
+              
+              <li id="259">
+                <a class="time" href="2013-10-19#259" target="_self" title="#259">21:26:06</a>
+                <a class="nick" href="2013-10-19/259" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ipa: 真是推坑於無形 orz</span>
+              </li>
+            
+              
+              <li id="260">
+                <a class="time" href="2013-10-19#260" target="_self" title="#260">21:26:15</a>
+                <a class="nick" href="2013-10-19/260" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">超需要視覺設計!</span>
+              </li>
+            
+              
+              <li id="261">
+                <a class="time" href="2013-10-19#261" target="_self" title="#261">21:26:19</a>
+                <a class="nick" href="2013-10-19/261" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">tkirby: 那是什麼</span>
+              </li>
+            
+              
+              <li id="262">
+                <a class="time" href="2013-10-19#262" target="_self" title="#262">21:27:06</a>
+                <a class="nick" href="2013-10-19/262" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">tuiry: 視覺化表現 g0v 的一個基礎建設專案, 目前放在叫做 ircstat 的專案中: <a href="http://g0v.github.io/ircstat/">http://g0v.github.io/ircstat/</a></span>
+              </li>
+            
+              
+              <li id="263">
+                <a class="time" href="2013-10-19#263" target="_self" title="#263">21:27:36</a>
+                <a class="nick" href="2013-10-19/263" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">tuiry: 事實上想做的有點像這樣: <a href="http://visual.ly/cat-person-vs-dog-person">http://visual.ly/cat-person-vs-dog-person</a></span>
+              </li>
+            
+              
+              <li id="264">
+                <a class="time" href="2013-10-19#264" target="_self" title="#264">21:27:39</a>
+                <a class="nick" href="2013-10-19/264" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">[ Cat Person vs. Dog Person | Visual.ly ] - visual.ly</span>
+              </li>
+            
+              
+              <li id="265">
+                <a class="time" href="2013-10-19#265" target="_self" title="#265">21:27:58</a>
+                <a class="nick" href="2013-10-19/265" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">tuiry: 也有文件 XD <a href="http://hack.g0v.tw/meta/8ll51LhCloZ">http://hack.g0v.tw/meta/8ll51LhCloZ</a></span>
+              </li>
+            
+              
+              <li id="266">
+                <a class="time" href="2013-10-19#266" target="_self" title="#266">21:28:00</a>
+                <a class="nick" href="2013-10-19/266" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">[ hack.g0v.tw ] - hack.g0v.tw</span>
+              </li>
+            
+              
+              <li id="267">
+                <a class="time" href="2013-10-19#267" target="_self" title="#267">21:32:24</a>
+                <a class="nick" href="2013-10-19/267" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">tkirby: 那我們是要 vs 什麼... ?</span>
+              </li>
+            
+              
+              <li id="268">
+                <a class="time" href="2013-10-19#268" target="_self" title="#268">21:32:31</a>
+                <a class="nick" href="2013-10-19/268" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">或者像這個.. 一時舉不到好例子 <a href="http://visual.ly/5-reasons-teach-kids-code">http://visual.ly/5-reasons-teach-kids-code</a></span>
+              </li>
+            
+              
+              <li id="269">
+                <a class="time" href="2013-10-19#269" target="_self" title="#269">21:32:33</a>
+                <a class="nick" href="2013-10-19/269" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">[ 5 Reasons to Teach Kids to Code | Visual.ly ] - visual.ly</span>
+              </li>
+            
+              
+              <li id="270">
+                <a class="time" href="2013-10-19#270" target="_self" title="#270">21:32:47</a>
+                <a class="nick" href="2013-10-19/270" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">tkirby: 承襲 ETBlue 大長篇... g0v vs cfT? XD</span>
+              </li>
+            
+              
+              <li id="271">
+                <a class="time" href="2013-10-19#271" target="_self" title="#271">21:32:50</a>
+                <a class="nick" href="2013-10-19/271" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">clkao: 應該說.. vs g0v ? XD</span>
+              </li>
+            
+              
+              <li id="272">
+                <a class="time" href="2013-10-19#272" target="_self" title="#272">21:32:57</a>
+                <a class="nick" href="2013-10-19/272" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">咦 XD</span>
+              </li>
+            
+              
+              <li id="273">
+                <a class="time" href="2013-10-19#273" target="_self" title="#273">21:36:07</a>
+                <a class="nick" href="2013-10-19/273" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">ETBlue: 對啊，我會講一下，想順便把天下專案變成整理小成果的小組 XD</span>
+              </li>
+            
+              
+              <li id="274">
+                <a class="time" href="2013-10-19#274" target="_self" title="#274">21:36:22</a>
+                <a class="nick" href="2013-10-19/274" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">tkirby:</span>
+              </li>
+            
+              
+              <li id="275">
+                <a class="time" href="2013-10-19#275" target="_self" title="#275">21:36:28</a>
+                <a class="nick" href="2013-10-19/275" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">這個是在寫介紹阿</span>
+              </li>
+            
+              
+              <li id="276">
+                <a class="time" href="2013-10-19#276" target="_self" title="#276">21:37:42</a>
+                <a class="nick" href="2013-10-19/276" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">ETBlue: Lee1092 明天要討論一下，因為我沒follow到之前新聞部狀況</span>
+              </li>
+            
+              
+              <li id="277">
+                <a class="time" href="2013-10-19#277" target="_self" title="#277">21:37:56</a>
+                <a class="nick" href="2013-10-19/277" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">做成一個圓形，披薩的形狀怎樣</span>
+              </li>
+            
+              
+              <li id="278">
+                <a class="time" href="2013-10-19#278" target="_self" title="#278">21:38:07</a>
+                <a class="nick" href="2013-10-19/278" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ipa: roger，其實我也沒 follow 到 XDDD</span>
+              </li>
+            
+              
+              <li id="279">
+                <a class="time" href="2013-10-19#279" target="_self" title="#279">21:38:55</a>
+                <a class="nick" href="2013-10-19/279" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">弄得很美味，開趴的感覺</span>
+              </li>
+            
+              
+              <li id="280">
+                <a class="time" href="2013-10-19#280" target="_self" title="#280">21:40:15</a>
+                <a class="nick" href="2013-10-19/280" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">黑客鬆前一晚 瘋狂被cue, lanfon72 其實也可參與討論XD</span>
+              </li>
+            
+              
+              <li id="281">
+                <a class="time" href="2013-10-19#281" target="_self" title="#281">21:40:56</a>
+                <a class="nick" href="2013-10-19/281" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">lanf0n 也可以</span>
+              </li>
+            
+              
+              <li id="282">
+                <a class="time" href="2013-10-19#282" target="_self" title="#282">21:41:01</a>
+                <a class="nick" href="2013-10-19/282" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">clkao: 剛做好投影片，決定改名g0v立法院風雲榜XDD</span>
+              </li>
+            
+              
+              <li id="283">
+                <a class="time" href="2013-10-19#283" target="_self" title="#283">21:41:43</a>
+                <a class="nick" href="2013-10-19/283" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">然後每開一個專案，像是加料一樣疊在披薩上(什麼鬼)</span>
+              </li>
+            
+              
+              <li id="284">
+                <a class="time" href="2013-10-19#284" target="_self" title="#284">21:42:20</a>
+                <a class="nick" href="2013-10-19/284" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">tuiry: 這個主意不錯阿~</span>
+              </li>
+            
+              
+              <li id="285">
+                <a class="time" href="2013-10-19#285" target="_self" title="#285">21:42:31</a>
+                <a class="nick" href="2013-10-19/285" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">Lee1092++</span>
+              </li>
+            
+              
+              <li id="286">
+                <a class="time" href="2013-10-19#286" target="_self" title="#286">21:42:37</a>
+                <a class="nick" href="2013-10-19/286" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">tuiry: 不過加料這個如果太多 project 是不是會變得比較難呈現</span>
+              </li>
+            
+              
+              <li id="287">
+                <a class="time" href="2013-10-19#287" target="_self" title="#287">21:49:55</a>
+                <a class="nick" href="2013-10-19/287" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">tkirby: <a href="https://www.dropbox.com/s/3yhoollrpdkfbpc/pizza.jpg">https://www.dropbox.com/s/3yhoollrpdkfbpc/pizza.jpg</a></span>
+              </li>
+            
+              
+              <li id="288">
+                <a class="time" href="2013-10-19#288" target="_self" title="#288">21:49:57</a>
+                <a class="nick" href="2013-10-19/288" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">[ Dropbox - pizza.jpg ] - www.dropbox.com</span>
+              </li>
+            
+              
+              <li id="289">
+                <a class="time" href="2013-10-19#289" target="_self" title="#289">21:53:08</a>
+                <a class="nick" href="2013-10-19/289" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">披薩專案介紹</span>
+              </li>
+            
+              
+              <li id="290">
+                <a class="time" href="2013-10-19#290" target="_self" title="#290">21:55:29</a>
+                <a class="nick" href="2013-10-19/290" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">yhsiang: ttcat: clkao: tkirby: 動民主家族目前狀態 <a href="https://g0v.hackpad.com/-The-Don-eDemocracy-Family-Ra62eyV02sC">https://g0v.hackpad.com/-The-Don-eDemocracy-Family-Ra62eyV02sC</a> 不曉得有沒有理解錯誤… XD</span>
+              </li>
+            
+              
+              <li id="291">
+                <a class="time" href="2013-10-19#291" target="_self" title="#291">21:55:33</a>
+                <a class="nick" href="2013-10-19/291" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">[ 動民主家族 The Don-eDemocracy Family - g0v.hackpad.com ] - g0v.hackpad.com</span>
+              </li>
+            
+              
+              <li id="292">
+                <a class="time" href="2013-10-19#292" target="_self" title="#292">21:59:40</a>
+                <a class="nick" href="2013-10-19/292" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">tuiry: 動.. 動作真快</span>
+              </li>
+            
+              
+              <li id="293">
+                <a class="time" href="2013-10-19#293" target="_self" title="#293">22:01:50</a>
+                <a class="nick" href="2013-10-19/293" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">tkirby: 你不知道 tuiry 跟你一樣是光速系統的嗎</span>
+              </li>
+            
+              
+              <li id="294">
+                <a class="time" href="2013-10-19#294" target="_self" title="#294">22:02:19</a>
+                <a class="nick" href="2013-10-19/294" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">tkirby: 畫幾個圈圈而已啦.   只是平面設計不算我的專長，也不知道好不好lol</span>
+              </li>
+            
+              
+              <li id="295">
+                <a class="time" href="2013-10-19#295" target="_self" title="#295">22:03:39</a>
+                <a class="nick" href="2013-10-19/295" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">旁邊可以放可樂或刀叉之類的當底圖</span>
+              </li>
+            
+              
+              <li id="296">
+                <a class="time" href="2013-10-19#296" target="_self" title="#296">22:05:33</a>
+                <a class="nick" href="2013-10-19/296" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">XD</span>
+              </li>
+            
+              
+              <li id="297">
+                <a class="time" href="2013-10-19#297" target="_self" title="#297">22:05:43</a>
+                <a class="nick" href="2013-10-19/297" target="_self" title="quote">ttcat</a>
+                <span class="msg wordwrap">ETBlue: 所以明天會有動民主系列的團嗎</span>
+              </li>
+            
+              
+              <li id="298">
+                <a class="time" href="2013-10-19#298" target="_self" title="#298">22:07:37</a>
+                <a class="nick" href="2013-10-19/298" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ttcat: 大概就 yhsiang 這樣… XD</span>
+              </li>
+            
+              
+              <li id="299">
+                <a class="time" href="2013-10-19#299" target="_self" title="#299">22:08:55</a>
+                <a class="nick" href="2013-10-19/299" target="_self" title="quote">ttcat</a>
+                <span class="msg wordwrap">XD</span>
+              </li>
+            
+              
+              <li id="300">
+                <a class="time" href="2013-10-19#300" target="_self" title="#300">22:09:25</a>
+                <a class="nick" href="2013-10-19/300" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">yhsiang 不是要去喜酒</span>
+              </li>
+            
+              
+              <li id="301">
+                <a class="time" href="2013-10-19#301" target="_self" title="#301">22:09:36</a>
+                <a class="nick" href="2013-10-19/301" target="_self" title="quote">ttcat</a>
+                <span class="msg wordwrap">!</span>
+              </li>
+            
+              
+              <li id="302">
+                <a class="time" href="2013-10-19#302" target="_self" title="#302">22:09:39</a>
+                <a class="nick" href="2013-10-19/302" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">!</span>
+              </li>
+            
+              
+              <li id="303">
+                <a class="time" href="2013-10-19#303" target="_self" title="#303">22:10:34</a>
+                <a class="nick" href="2013-10-19/303" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">!</span>
+              </li>
+            
+              
+              <li id="304">
+                <a class="time" href="2013-10-19#304" target="_self" title="#304">22:11:48</a>
+                <a class="nick" href="2013-10-19/304" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">驚嘆號是棒槌</span>
+              </li>
+            
+              
+              <li id="305">
+                <a class="time" href="2013-10-19#305" target="_self" title="#305">22:11:53</a>
+                <a class="nick" href="2013-10-19/305" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">真的耶 yhsiang 明天不在，tkirby 也不在，動民主散團了 XD</span>
+              </li>
+            
+              
+              <li id="306">
+                <a class="time" href="2013-10-19#306" target="_self" title="#306">22:12:25</a>
+                <a class="nick" href="2013-10-19/306" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">還是可以說一下，也許有人能 pickup airesis ?</span>
+              </li>
+            
+              
+              <li id="307">
+                <a class="time" href="2013-10-19#307" target="_self" title="#307">22:12:58</a>
+                <a class="nick" href="2013-10-19/307" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">ETBlue: tkirby 在家remote hack 說不定產量更高？</span>
+              </li>
+            
+              
+              <li id="308">
+                <a class="time" href="2013-10-19#308" target="_self" title="#308">22:13:02</a>
+                <a class="nick" href="2013-10-19/308" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">登記惹 orz</span>
+              </li>
+            
+              
+              <li id="309">
+                <a class="time" href="2013-10-19#309" target="_self" title="#309">22:13:18</a>
+                <a class="nick" href="2013-10-19/309" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">對噢科比是待命中嘛</span>
+              </li>
+            
+              
+              <li id="310">
+                <a class="time" href="2013-10-19#310" target="_self" title="#310">22:13:36</a>
+                <a class="nick" href="2013-10-19/310" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">因為有小孩在家所以...</span>
+              </li>
+            
+              
+              <li id="311">
+                <a class="time" href="2013-10-19#311" target="_self" title="#311">22:13:41</a>
+                <a class="nick" href="2013-10-19/311" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">阿都忘了把名額讓出來</span>
+              </li>
+            
+              
+              <li id="312">
+                <a class="time" href="2013-10-19#312" target="_self" title="#312">22:15:09</a>
+                <a class="nick" href="2013-10-19/312" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">也可以待小孩一起來（疑？）</span>
+              </li>
+            
+              
+              <li id="313">
+                <a class="time" href="2013-10-19#313" target="_self" title="#313">22:15:35</a>
+                <a class="nick" href="2013-10-19/313" target="_self" title="quote">ttcat</a>
+                <span class="msg wordwrap">clkao: 哈哈 babysitter 貼紙？</span>
+              </li>
+            
+              
+              <li id="314">
+                <a class="time" href="2013-10-19#314" target="_self" title="#314">22:15:45</a>
+                <a class="nick" href="2013-10-19/314" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">還可以帶老婆一起來（找死行為） XD</span>
+              </li>
+            
+              
+              <li id="315">
+                <a class="time" href="2013-10-19#315" target="_self" title="#315">22:17:38</a>
+                <a class="nick" href="2013-10-19/315" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">我其實有問.. 好像不太行 XD</span>
+              </li>
+            
+              
+              <li id="316">
+                <a class="time" href="2013-10-19#316" target="_self" title="#316">22:19:11</a>
+                <a class="nick" href="2013-10-19/316" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">噢噢我看到有人跳坑幫科比拍照了…</span>
+              </li>
+            
+              
+              <li id="317">
+                <a class="time" href="2013-10-19#317" target="_self" title="#317">22:19:22</a>
+                <a class="nick" href="2013-10-19/317" target="_self" title="quote">ttcat</a>
+                <span class="msg wordwrap">看看晚上 yhsiang 會不會上來 也許還是可以遠端分配工作 這樣就可以丟 airesis 上去</span>
+              </li>
+            
+              
+              <li id="318">
+                <a class="time" href="2013-10-19#318" target="_self" title="#318">22:21:00</a>
+                <a class="nick" href="2013-10-19/318" target="_self" title="quote">ttcat</a>
+                <span class="msg wordwrap">ETBlue: 9:43 好早噢</span>
+              </li>
+            
+              
+              <li id="319">
+                <a class="time" href="2013-10-19#319" target="_self" title="#319">22:21:17</a>
+                <a class="nick" href="2013-10-19/319" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">ttcat: 早上聽介紹才好玩啊</span>
+              </li>
+            
+              
+              <li id="320">
+                <a class="time" href="2013-10-19#320" target="_self" title="#320">22:22:00</a>
+                <a class="nick" href="2013-10-19/320" target="_self" title="quote">ttcat</a>
+                <span class="msg wordwrap">你們都好早睡早起 XD</span>
+              </li>
+            
+              
+              <li id="321">
+                <a class="time" href="2013-10-19#321" target="_self" title="#321">22:24:19</a>
+                <a class="nick" href="2013-10-19/321" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ttcat: 哪有，我明明是被逼的，平常那時候才綱要睡</span>
+              </li>
+            
+              
+              <li id="322">
+                <a class="time" href="2013-10-19#322" target="_self" title="#322">22:24:47</a>
+                <a class="nick" href="2013-10-19/322" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">lyenliang:  嗨依~</span>
+              </li>
+            
+              
+              <li id="323">
+                <a class="time" href="2013-10-19#323" target="_self" title="#323">22:25:00</a>
+                <a class="nick" href="2013-10-19/323" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">lyenliang:  有收到嗎?XD</span>
+              </li>
+            
+              
+              <li id="324">
+                <a class="time" href="2013-10-19#324" target="_self" title="#324">22:28:41</a>
+                <a class="nick" href="2013-10-19/324" target="_self" title="quote">ttcat</a>
+                <span class="msg wordwrap">ETBlue: 真的阿我今天早上就是那時候剛睡 我現在有點擔心明天我該如何爬起來</span>
+              </li>
+            
+              
+              <li id="325">
+                <a class="time" href="2013-10-19#325" target="_self" title="#325">22:28:46</a>
+                <a class="nick" href="2013-10-19/325" target="_self" title="quote">yhsiangCloud</a>
+                <span class="msg wordwrap">ttcat: 人在台南</span>
+              </li>
+            
+              
+              <li id="326">
+                <a class="time" href="2013-10-19#326" target="_self" title="#326">22:29:03</a>
+                <a class="nick" href="2013-10-19/326" target="_self" title="quote">yhsiangCloud</a>
+                <span class="msg wordwrap">沒辦法遠段參與</span>
+              </li>
+            
+              
+              <li id="327">
+                <a class="time" href="2013-10-19#327" target="_self" title="#327">22:29:42</a>
+                <a class="nick" href="2013-10-19/327" target="_self" title="quote">yhsiangCloud</a>
+                <span class="msg wordwrap">還在喝酒中  抱歉  orz</span>
+              </li>
+            
+              
+              <li id="328">
+                <a class="time" href="2013-10-19#328" target="_self" title="#328">22:29:50</a>
+                <a class="nick" href="2013-10-19/328" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">喝酒！</span>
+              </li>
+            
+              
+              <li id="329">
+                <a class="time" href="2013-10-19#329" target="_self" title="#329">22:30:53</a>
+                <a class="nick" href="2013-10-19/329" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">kcwu: 話說現在 ivod cron 是幾點跑呢？好像可以讓他晚上八九點跑，就會有當天開會所有的了</span>
+              </li>
+            
+              
+              <li id="330">
+                <a class="time" href="2013-10-19#330" target="_self" title="#330">22:30:54</a>
+                <a class="nick" href="2013-10-19/330" target="_self" title="quote">yhsiangCloud</a>
+                <span class="msg wordwrap">在新營</span>
+              </li>
+            
+              
+              <li id="331">
+                <a class="time" href="2013-10-19#331" target="_self" title="#331">22:30:58</a>
+                <a class="nick" href="2013-10-19/331" target="_self" title="quote">ttcat</a>
+                <span class="msg wordwrap">yhsiangCloud: okok!! 那如果有徵到 coder 是可以從 Airesis 的 github 去工作嗎</span>
+              </li>
+            
+              
+              <li id="332">
+                <a class="time" href="2013-10-19#332" target="_self" title="#332">22:31:47</a>
+                <a class="nick" href="2013-10-19/332" target="_self" title="quote">yhsiangCloud</a>
+                <span class="msg wordwrap">可以 請用2.9.2</span>
+              </li>
+            
+              
+              <li id="333">
+                <a class="time" href="2013-10-19#333" target="_self" title="#333">22:32:34</a>
+                <a class="nick" href="2013-10-19/333" target="_self" title="quote">lyenliang_</a>
+                <span class="msg wordwrap">testing</span>
+              </li>
+            
+              
+              <li id="334">
+                <a class="time" href="2013-10-19#334" target="_self" title="#334">22:32:36</a>
+                <a class="nick" href="2013-10-19/334" target="_self" title="quote">yhsiangCloud</a>
+                <span class="msg wordwrap">有徵到 我把原作者給我的連結貼上來</span>
+              </li>
+            
+              
+              <li id="335">
+                <a class="time" href="2013-10-19#335" target="_self" title="#335">22:32:56</a>
+                <a class="nick" href="2013-10-19/335" target="_self" title="quote">ttcat</a>
+                <span class="msg wordwrap">是從這個： <a href="https://github.com/g0v/Airesis？">https://github.com/g0v/Airesis？</a></span>
+              </li>
+            
+              
+              <li id="336">
+                <a class="time" href="2013-10-19#336" target="_self" title="#336">22:33:00</a>
+                <a class="nick" href="2013-10-19/336" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">[ Page not found · GitHub ] - github.com</span>
+              </li>
+            
+              
+              <li id="337">
+                <a class="time" href="2013-10-19#337" target="_self" title="#337">22:33:25</a>
+                <a class="nick" href="2013-10-19/337" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">lyenliang_: 嗨</span>
+              </li>
+            
+              
+              <li id="338">
+                <a class="time" href="2013-10-19#338" target="_self" title="#338">22:36:06</a>
+                <a class="nick" href="2013-10-19/338" target="_self" title="quote">kcwu</a>
+                <span class="msg wordwrap">clkao: 44 4,14,19 * * *</span>
+              </li>
+            
+              
+              <li id="339">
+                <a class="time" href="2013-10-19#339" target="_self" title="#339">22:37:53</a>
+                <a class="nick" href="2013-10-19/339" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">cool</span>
+              </li>
+            
+              
+              <li id="340">
+                <a class="time" href="2013-10-19#340" target="_self" title="#340">22:39:13</a>
+                <a class="nick" href="2013-10-19/340" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">hooray 授權中心用 jade extend 改寫完成（灑花）不過 fire.app 還不能 compile...   先來繼續把 css 改寫成 sass 好惹</span>
+              </li>
+            
+              
+              <li id="341">
+                <a class="time" href="2013-10-19#341" target="_self" title="#341">22:39:25</a>
+                <a class="nick" href="2013-10-19/341" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">ETBlue++</span>
+              </li>
+            
+              
+              <li id="342">
+                <a class="time" href="2013-10-19#342" target="_self" title="#342">22:39:37</a>
+                <a class="nick" href="2013-10-19/342" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">記得先 google css2sass</span>
+              </li>
+            
+              
+              <li id="343">
+                <a class="time" href="2013-10-19#343" target="_self" title="#343">22:40:37</a>
+                <a class="nick" href="2013-10-19/343" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">tkirby: 對噢！！！</span>
+              </li>
+            
+              
+              <li id="344">
+                <a class="time" href="2013-10-19#344" target="_self" title="#344">22:40:53</a>
+                <a class="nick" href="2013-10-19/344" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">XD</span>
+              </li>
+            
+              
+              <li id="345">
+                <a class="time" href="2013-10-19#345" target="_self" title="#345">22:41:14</a>
+                <a class="nick" href="2013-10-19/345" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">差點又要呆呆開幹 orz</span>
+              </li>
+            
+              
+              <li id="346">
+                <a class="time" href="2013-10-19#346" target="_self" title="#346">22:41:24</a>
+                <a class="nick" href="2013-10-19/346" target="_self" title="quote">tkirby</a>
+                <span class="msg wordwrap">XDDDD</span>
+              </li>
+            
+              
+              <li id="347">
+                <a class="time" href="2013-10-19#347" target="_self" title="#347">22:43:06</a>
+                <a class="nick" href="2013-10-19/347" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">ETBlue:  犯規啦  偷偷移到後面!!!!!</span>
+              </li>
+            
+              
+              <li id="348">
+                <a class="time" href="2013-10-19#348" target="_self" title="#348">22:43:26</a>
+                <a class="nick" href="2013-10-19/348" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">Lee1092: 想說立法院的連在一起講比較有整體趕</span>
+              </li>
+            
+              
+              <li id="349">
+                <a class="time" href="2013-10-19#349" target="_self" title="#349">22:43:31</a>
+                <a class="nick" href="2013-10-19/349" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">哈</span>
+              </li>
+            
+              
+              <li id="350">
+                <a class="time" href="2013-10-19#350" target="_self" title="#350">22:43:50</a>
+                <a class="nick" href="2013-10-19/350" target="_self" title="quote">*</a>
+                <span class="msg wordwrap"><span class="nick">Lee1092</span>&nbsp;在村長後頭會很緊張~~</span>
+              </li>
+            
+              
+              <li id="351">
+                <a class="time" href="2013-10-19#351" target="_self" title="#351">22:44:31</a>
+                <a class="nick" href="2013-10-19/351" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">Lee1092: 你需要多來幾次小松，習慣以後就不會緊張了</span>
+              </li>
+            
+              
+              <li id="352">
+                <a class="time" href="2013-10-19#352" target="_self" title="#352">22:45:37</a>
+                <a class="nick" href="2013-10-19/352" target="_self" title="quote">Michael_LI</a>
+                <span class="msg wordwrap">終於看到各提案排程了...</span>
+              </li>
+            
+              
+              <li id="353">
+                <a class="time" href="2013-10-19#353" target="_self" title="#353">22:46:26</a>
+                <a class="nick" href="2013-10-19/353" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">疑 pm5cloud 也還沒登記專案報告</span>
+              </li>
+            
+              
+              <li id="354">
+                <a class="time" href="2013-10-19#354" target="_self" title="#354">22:47:24</a>
+                <a class="nick" href="2013-10-19/354" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">Lee1092: 別緊張 聽眾只有 10/10 的 0.15%</span>
+              </li>
+            
+              
+              <li id="355">
+                <a class="time" href="2013-10-19#355" target="_self" title="#355">22:48:07</a>
+                <a class="nick" href="2013-10-19/355" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">clkao: 拿那個比只會讓人更緊張吧囧</span>
+              </li>
+            
+              
+              <li id="356">
+                <a class="time" href="2013-10-19#356" target="_self" title="#356">22:49:14</a>
+                <a class="nick" href="2013-10-19/356" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">9am 要到中研院，好像該睡了 orz</span>
+              </li>
+            
+              
+              <li id="357">
+                <a class="time" href="2013-10-19#357" target="_self" title="#357">22:50:56</a>
+                <a class="nick" href="2013-10-19/357" target="_self" title="quote">tuiry</a>
+                <span class="msg wordwrap">? 不是9:30開始嗎</span>
+              </li>
+            
+              
+              <li id="358">
+                <a class="time" href="2013-10-19#358" target="_self" title="#358">22:51:14</a>
+                <a class="nick" href="2013-10-19/358" target="_self" title="quote">Lee1092</a>
+                <span class="msg wordwrap">clkao:  我想經過10/10應該任何場面都無所畏懼了  0.0</span>
+              </li>
+            
+              
+              <li id="359">
+                <a class="time" href="2013-10-19#359" target="_self" title="#359">22:53:30</a>
+                <a class="nick" href="2013-10-19/359" target="_self" title="quote">Swl-test</a>
+                <span class="msg wordwrap">是九點開始還是九點半開始＠＠</span>
+              </li>
+            
+              
+              <li id="360">
+                <a class="time" href="2013-10-19#360" target="_self" title="#360">22:56:00</a>
+                <a class="nick" href="2013-10-19/360" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">這邊寫 9am <a href="http://hack.g0v.tw/g0v-hackath5n/kJy37HkTD6d">http://hack.g0v.tw/g0v-hackath5n/kJy37HkTD6d</a> 不過專案報告 9:40 才開始這樣</span>
+              </li>
+            
+              
+              <li id="361">
+                <a class="time" href="2013-10-19#361" target="_self" title="#361">22:56:02</a>
+                <a class="nick" href="2013-10-19/361" target="_self" title="quote">M00sUltraB0t</a>
+                <span class="msg wordwrap">[ hack.g0v.tw ] - hack.g0v.tw</span>
+              </li>
+            
+              
+              <li id="362">
+                <a class="time" href="2013-10-19#362" target="_self" title="#362">22:56:26</a>
+                <a class="nick" href="2013-10-19/362" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">9:00 報到... 9:30 開場, 9:40 專案報告</span>
+              </li>
+            
+              
+              <li id="363">
+                <a class="time" href="2013-10-19#363" target="_self" title="#363">22:56:40</a>
+                <a class="nick" href="2013-10-19/363" target="_self" title="quote">Swl-test</a>
+                <span class="msg wordwrap">感恩</span>
+              </li>
+            
+              
+              <li id="364">
+                <a class="time" href="2013-10-19#364" target="_self" title="#364">23:06:47</a>
+                <a class="nick" href="2013-10-19/364" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">授權中心要專案報告嗎（抓頭）這應該算是基礎建設…</span>
+              </li>
+            
+              
+              <li id="365">
+                <a class="time" href="2013-10-19#365" target="_self" title="#365">23:09:07</a>
+                <a class="nick" href="2013-10-19/365" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">ETBlue: 授權中心也可以報短講，早上重點要糾人....但我也在想人力資源部要不要講一下</span>
+              </li>
+            
+              
+              <li id="366">
+                <a class="time" href="2013-10-19#366" target="_self" title="#366">23:09:11</a>
+                <a class="nick" href="2013-10-19/366" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">坑坑坑好多坑</span>
+              </li>
+            
+              
+              <li id="367">
+                <a class="time" href="2013-10-19#367" target="_self" title="#367">23:10:10</a>
+                <a class="nick" href="2013-10-19/367" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ipa: 授權中心目前好像不太需要糾人，那我就不登記早上的了</span>
+              </li>
+            
+              
+              <li id="368">
+                <a class="time" href="2013-10-19#368" target="_self" title="#368">23:10:36</a>
+                <a class="nick" href="2013-10-19/368" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">ipa: 人力資源部要糾人吧？</span>
+              </li>
+            
+              
+              <li id="369">
+                <a class="time" href="2013-10-19#369" target="_self" title="#369">23:12:24</a>
+                <a class="nick" href="2013-10-19/369" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">說到人力資源部</span>
+              </li>
+            
+              
+              <li id="370">
+                <a class="time" href="2013-10-19#370" target="_self" title="#370">23:12:59</a>
+                <a class="nick" href="2013-10-19/370" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">個人頁面好像可以有個推薦給我的工作之類的…</span>
+              </li>
+            
+              
+              <li id="371">
+                <a class="time" href="2013-10-19#371" target="_self" title="#371">23:13:51</a>
+                <a class="nick" href="2013-10-19/371" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">……與其說要糾人，目前比較需要的是 mockup 吧我想 = ="</span>
+              </li>
+            
+              
+              <li id="372">
+                <a class="time" href="2013-10-19#372" target="_self" title="#372">23:13:51</a>
+                <a class="nick" href="2013-10-19/372" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">翻譯過來，就是一個「被挖坑」的動作...</span>
+              </li>
+            
+              
+              <li id="373">
+                <a class="time" href="2013-10-19#373" target="_self" title="#373">23:14:42</a>
+                <a class="nick" href="2013-10-19/373" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">tag 越長越多以後好像不太能全部攤開了</span>
+              </li>
+            
+              
+              <li id="374">
+                <a class="time" href="2013-10-19#374" target="_self" title="#374">23:14:55</a>
+                <a class="nick" href="2013-10-19/374" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">#13 需要人修</span>
+              </li>
+            
+              
+              <li id="375">
+                <a class="time" href="2013-10-19#375" target="_self" title="#375">23:15:08</a>
+                <a class="nick" href="2013-10-19/375" target="_self" title="quote">ipa</a>
+                <span class="msg wordwrap">ETBlue: bingo! 剛剛正想畫mockup，但好睏於是作罷 # 人力資源mockup</span>
+              </li>
+            
+              
+              <li id="376">
+                <a class="time" href="2013-10-19#376" target="_self" title="#376">23:15:20</a>
+                <a class="nick" href="2013-10-19/376" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">天下 blog 炸掉了</span>
+              </li>
+            
+              
+              <li id="377">
+                <a class="time" href="2013-10-19#377" target="_self" title="#377">23:15:22</a>
+                <a class="nick" href="2013-10-19/377" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">無法抓圖</span>
+              </li>
+            
+              
+              <li id="378">
+                <a class="time" href="2013-10-19#378" target="_self" title="#378">23:15:36</a>
+                <a class="nick" href="2013-10-19/378" target="_self" title="quote">ETBlue</a>
+                <span class="msg wordwrap">糟糕該真的睡覺了 @@" 洗澡先</span>
+              </li>
+            
+              
+              <li id="379">
+                <a class="time" href="2013-10-19#379" target="_self" title="#379">23:40:01</a>
+                <a class="nick" href="2013-10-19/379" target="_self" title="quote">lanfon72</a>
+                <span class="msg wordwrap">Lee1092: ipa 發生啥事... 剛下班 囧rz</span>
+              </li>
+            
+              
+              <li id="380">
+                <a class="time" href="2013-10-19#380" target="_self" title="#380">23:43:13</a>
+                <a class="nick" href="2013-10-19/380" target="_self" title="quote">hychen</a>
+                <span class="msg wordwrap">該來作簡報了... orz</span>
+              </li>
+            
+              
+              <li id="381">
+                <a class="time" href="2013-10-19#381" target="_self" title="#381">23:52:47</a>
+                <a class="nick" href="2013-10-19/381" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">明早似乎要比平常更早起 orz</span>
+              </li>
+            
+              
+              <li id="382">
+                <a class="time" href="2013-10-19#382" target="_self" title="#382">23:54:56</a>
+                <a class="nick" href="2013-10-19/382" target="_self" title="quote">clkao</a>
+                <span class="msg wordwrap">walkingice: 辛苦了!</span>
+              </li>
+            
+              
+              <li id="383">
+                <a class="time" href="2013-10-19#383" target="_self" title="#383">23:55:25</a>
+                <a class="nick" href="2013-10-19/383" target="_self" title="quote">walkingice</a>
+                <span class="msg wordwrap">clkao: 值得！ :D</span>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="footer">
+  <p>Powered by Logbot 2013 | <a href="https://github.com/g0v/Logbot">GitHub Repo</a></p>
+</div>
+
+    </div>
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script>
+      var channel = "g0v.tw";
+    </script>
+    <script src="/assets/applications.js"></script>
+    
+  </body>
+</html>
