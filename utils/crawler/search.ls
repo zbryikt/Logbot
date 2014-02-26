@@ -17,3 +17,5 @@ for line in lines
 
 for nick of hash =>
   console.log nick, hash[nick]
+
+fs.write-file-sync \quote.json, JSON.stringify(hash)
