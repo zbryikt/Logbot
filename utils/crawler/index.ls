@@ -18,7 +18,7 @@ download = ->
     [year,month,day] = move-on!
     if year==2013 and month==\06 and day==\01 => return
     file = "raw/#year-#month-#day.txt"
-    if fs.stat-sync(file)size < 1000 => fs.unlink-sync file
+    if fs.exists-sync(file) and fs.stat-sync(file)size < 1000 => fs.unlink-sync file
     if not fs.exists-sync(file) => break
     else if first =>
       first := false
@@ -32,5 +32,7 @@ download = ->
       fs.unlink-sync file
       idx := idx - 1
     setTimeout download, 100
+
+if not fs.exists-sync \raw/ => fs.mkdir \raw
 
 download!
